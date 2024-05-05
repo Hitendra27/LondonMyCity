@@ -1,0 +1,34 @@
+London My City App
+
+********************************************************
+3. Gather the content for the app
+Gather the content for your app and write it down on a piece of paper or type it into a document. It's easier to organize the app content before you start coding your app.
+
+Decide which city or region you want to use for the app. We suggest you use your favorite city or the city you live in. You can also choose a wider region that includes multiple cities, if you prefer.
+
+Choose an app name based on the city you selected. Even though this project is called the My City app, you are encouraged to customize the app name to be specific to your city.
+
+Create lists for different categories of recommendations for your city. For example, you can create a list of recommended:
+
+Coffee shops
+Restaurants
+Kid-friendly places
+Parks
+Shopping centers
+Your app should contain several lists of recommendations from different categories. Try to create at least 3 to 5 recommendations for each category so the screen doesn't look too empty.
+
+If you want to add photos to your app, collect the photos at this stage.
+
+****************************************
+
+5. Plan the steps
+Write out the general steps for how to build the app that you sketched.
+
+For example:
+
+Create the data class for a recommended place.
+Create the screen layout for the recommended coffee shops.
+Create the navigation graph for all screens.
+These notes can help you determine the part of the app you want to tackle first.
+
+To become even more organized, you can also number the steps in the order you plan to complete them. If one step requires you to complete another step first, then you need to sequence the steps appropriately.
