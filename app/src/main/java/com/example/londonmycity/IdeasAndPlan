@@ -24,16 +24,7 @@ If you want to add photos to your app, collect the photos at this stage.
 5. Plan the steps
 Write out the general steps for how to build the app that you sketched.
 
-For example:
-
-*****************************************************
-1. Museaums
-2. Thether
-3. Transport
-4. Hotels
-5. Stadiums
-6. Parks
-7. 
+For example: 
 
 Create the data class for a recommended place.
 Create the screen layout for the recommended coffee shops.
@@ -41,3 +32,13 @@ Create the navigation graph for all screens.
 These notes can help you determine the part of the app you want to tackle first.
 
 To become even more organized, you can also number the steps in the order you plan to complete them. If one step requires you to complete another step first, then you need to sequence the steps appropriately.
+
+***********************************************************
+1. Museaums
+2. Thether
+3. Transport
+4. Hotels
+5. Stadiums
+6. Parks
+7. London Attractions
+
