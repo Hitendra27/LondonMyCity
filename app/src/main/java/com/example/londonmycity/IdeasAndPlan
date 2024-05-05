@@ -26,6 +26,15 @@ Write out the general steps for how to build the app that you sketched.
 
 For example:
 
+*****************************************************
+1. Museaums
+2. Thether
+3. Transport
+4. Hotels
+5. Stadiums
+6. Parks
+7. 
+
 Create the data class for a recommended place.
 Create the screen layout for the recommended coffee shops.
 Create the navigation graph for all screens.
