@@ -4,23 +4,95 @@
     <string name="list_fragment_label">Sport</string>
     <string name="detail_fragment_label">Sport Info</string>
 
+    <!-- Category's -->
     <string name="attractions">Attractions</string>
     <string name="transport">Transport</string>
     <string name="museum">Museum</string>
     <string name="sport_stadium">Sports Stadium</string>
     <string name="theatre">Theatre</string>
 
+    <!-- Recommendations -->
+    <string name="warnerbros_studio">Warner Bros. Studio Tour London</string>
+    <string name="the_london_eye">The London Eye</string>
+    <string name="hopon_hopoff">Hop-on Hop-off Bus Tour</string>
+    <string name="tower_of_london">Tower of London</string>
+    <string name="madame_tussauds">Madame Tussauds London</string>
+    <string name="british_museum">British Museum</string>
+
     <!-- Category 1 for London City / London Attractions -->
-    <string name="attraction_warnerbros_studio">Warner Bros. Studio Tour London</string>
-    <string name="attraction_warnerbros_studio_detail">
-      Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.
-      Studio Tour London The Making of Harry Potter. See first-hand the sets, costumes and props used in all the Harry Potter films, and step inside some of the films locations, including the Great Hall, Dumbledore\'s office and Hagrid\'s hut.
-      It\'s the ultimate Harry Potter experience!
+    <string name="attraction_warnerbros_studio_subtitle"> Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.</string>
+    <string name="attraction_warnerbros_studio_detail_text">
+     Discover the magic behind spellbinding special effects, uncover behind-the-scenes secrets and step onto real-life sets from the Harry Potter film series at Warner Bros. Studio Tour London.
+     Watch the magic of the films come to life with original costumes, interactive sets and real props from the Harry Potter film series.
+     \n\n
+     Explore the iconic Great Hall, wander the cobbles of Diagon Alley and board the Hogwarts Express on Platform 9 \¾ to snap a photo with the iconic luggage trolley.
+     This mesmerising studio tour gives you a glimpse into the magical wizarding world that has captivated people from around the world of all ages.
+     Explore the Warner Bros. Studio Tour London – The Making of Harry Potter
+     Walk in the footsteps of Harry and his friends, and experience magic unfolding before your very eyes.
+     \n\n
+     Marvel at breathtaking sets, authentic props and original costumes, as you embark on a journey through the marble towers of Gringotts Wizarding Bank, see where students were taught Herbology lessons with Professor Pomona Sprout, and experience the magic of other iconic scenes.
+     Spot your favourite props from the films and discover how special and visual effects were used to create the Chamber of Secrets door, invisibility cloak, the flying Quidditch scenes and much more.
+     Located within the Studios where all eight films were produced, the Studio Tour showcases the best of British talent, imagination and artistry that went into making the impossible a reality on screen. Relive the magic through the eyes of the filmmakers who brought the Harry Potter film series to life.
+     \n\n
+     Don’t forget to visit the Studio Tour shops and explore the range of exclusive merchandise, replica wands, collectible items and confectionery to complete the memorable day.
+     How to book your Warner Bros. Studio Tour London – The Making of Harry Potter tickets.
+     \n\n
+     Book Studio Tour tickets with return travel now.
+     \n\n
+     Ticket options include entry plus travel from London Victoria or Baker Street; or, if you already have tickets for the Studio Tour, there’s the option to purchase return transport only from central London.
+     Enhance your Studio Tour experience by visiting around Halloween for the Dark Arts spectacle, summer for Return to Azkaban takeover or book tickets during the Christmas period to celebrate the magical festive season with Hogwarts in the Snow.
+     \n\n
+     This content has been supplied by Warner Bros. Studio Tour London - The Making of Harry Potter
     </string>
-    <string name="attraction_the_london_eye">The London Eye</string>
+    
+    <string name="attraction_the_london_eye_subtitle">Climb aboard one of the 32 glass capsules of the London Eye for unforgettable views of some of London\'s most famous landmarks.</string>
     <string name="attraction_the_london_eye_detail">
-     Climb aboard one of the 32 glass capsules of the London Eye for unforgettable views of some of London\'s most famous landmarks. Take in amazing 360-degree views as the capsule slowly rotates over the river Thames.
-    </string>
+    Experience unparalleled 360-degree views over London on the lastminute.com London Eye - the world’s tallest cantilevered observation wheel at 135m (443 ft) high! Wave hello to some of London’s most spectacular landmarks, including Big Ben, Buckingham Palace and St Paul’s Cathedral.
+    Built to celebrate the millennium in 2000, the special engineering achievement has become a symbol of the modern capital and a world-famous icon of architecture.
+    Enjoy the gradual rotation and views of London life as you soar across the skyline during the daytime or after dark.
+    \n\n
+    How long does the London Eye take to go around?
+    A leisurely rotation in one of the 32 high-tech glass pods takes approximately 30 minutes and gives you an ever-changing perspective of London. If you can’t wait to get up in the sky you can skip the queues with a fast-track entry ticket.
+   \n\n
+   How to book London Eye tickets
+   Tickets to the London Eye must be pre-booked online with timed entry.
+   \n\n
+   Do you have to book London Eye tickets in advance?
+   London Eye tickets must be pre-booked online with timed entry.
+   \n\n
+   How many pods are on the London Eye?
+   The London Eye has 32 pods, each representing one of London’s 32 boroughs.
+   \n\n
+   How tall is the London Eye?
+   The London Eye is an impressive 135 meters (443 ft) high.
+   \n\n
+   What can you see from the London Eye?
+   From the London Eye, you will be able to spot some of the capital’s most iconic landmarks and top attractions including Big Ben, St Paul’s Cathedral, the Houses of Parliament and Buckingham Palace. On a clear day, you can see up to 40km (25 miles) to Windsor Castle.
+   \n\n
+   Fun facts about the London Eye
+   1. The London Eye travels at a speed of around 0.6 miles per hour, advancing roughly 26 cm every second.
+   2. There is no 13th capsule as it is believed to be unlucky.
+   3. The London Eye can hold 800 people per revolution, with a maximum capacity of 25 people per pod.
+   4. Since 2000, the London Eye has taken more than 70 million people on a journey across London’s skyline, including celebrities such as Kim Kardashian, Mo Farah, Hugh Jackman and Royal favourites Prince and Princess of Wales Will and Kate.
+   5. The London Eye weighs 2,100 tonnes – that’s as heavy as 1,272 black cabs.
+   6. The London Eye is supported by a frame only on one side, making it the largest cantilevered observation wheel in the world.
+   7. David Marks and Julia Barfield came up with the idea for the London Eye in response to a 1993 competition asking Londoners to design a new landmark celebrating the millennium, and therefore being known as the Millennium Wheel.
+   8. The lights were changed to LED lighting in 2006, so the London Eye can change colours and light up the sky to mark special occasions such as Coronations, movie premiers and London community events.
+   9. On New Year’s Eve, the London Eye is the focal point for the fireworks over the Thames.
+  \n\n
+  What is the best time to visit the London Eye?
+  Boarding the London Eye includes some queuing. The quieter times of the day to visit are usually early morning for first entry or later in the day towards last entry.
+
+  During peak periods such as weekends and school holidays, you may experience longer waiting times. You can upgrade your London Eye tickets to fast-track entry when booking online.
+
+  What is the closest tube station to the London Eye?
+  The London Eye is located on the south bank of the river Thames. London Eye's nearest tube station is Waterloo station (Jubilee, Bakerloo and Northern lines).
+
+  Charing Cross (Bakerloo and Northern lines), Westminster (Circle, District and Jubilee lines) and Embankment (Circle, District, Northern and Bakerloo lines) are also a short walk away.
+
+  Several bus routes stop near the London Eye: 1, 12, 59, 68, 76, 77, 139, 148, 159, 168, 176, 188, 211, 243, 77 and 381, 507, 521.
+</string>
+    
     <string name="attraction_hopon_hopoff">Hop-on hop-off bus tour</string>
     <string name="attraction_hopon_hopoff_detail">
       Make the most of your trip to London with a hop-on hop-off bus tour.
