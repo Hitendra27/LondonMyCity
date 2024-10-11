@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">LondonMyCity</string>
+     <!-- Strings used for fragments for navigation -->
+    <string name="list_fragment_label">Sport</string>
+    <string name="detail_fragment_label">Sport Info</string>
+
+    <string name="attractions">Attractions</string>
+    <string name="transport">Transport</string>
+    <string name="museum">Museum</string>
+    <string name="sport_stadium">Sports Stadium</string>
+    <string name="theatre">Theatre</string>
+    <string name="golf">Golf</string>
+    <string name="running">Running</string>
+    <string name="soccer">Soccer</string>
+    <string name="swimming">Swimming</string>
+    <string name="table_tennis">Table Tennis</string>
+    <string name="tennis">Tennis</string>
 </resources>
