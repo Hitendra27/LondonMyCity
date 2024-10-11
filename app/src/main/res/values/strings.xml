@@ -10,32 +10,51 @@
     <string name="sport_stadium">Sports Stadium</string>
     <string name="theatre">Theatre</string>
 
-    <string name="sports_list_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices congue rutrum.</string>
-    <string name="sport_detail_text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse
-        eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor
-        diam fringilla tellus, eu euismod mauris neque at neque.
-        \n\n
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse
-        eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor
-        diam fringilla tellus, eu euismod mauris neque at neque.
-        \n\n
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse
-        eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor
-        diam fringilla tellus, eu euismod mauris neque at neque.
-        \n\n
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse
-        eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor
-        diam fringilla tellus, eu euismod mauris neque at neque.
-        \n\n
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse
-        eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor
-        diam fringilla tellus, eu euismod mauris neque at neque.
+    <!-- Category 1 for London City / London Attractions -->
+    <string name="attraction_warnerbros_studio">Warner Bros. Studio Tour London</string>
+    <string name="attraction_warnerbros_studio_detail">
+      Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.
+      Studio Tour London The Making of Harry Potter. See first-hand the sets, costumes and props used in all the Harry Potter films, and step inside some of the films locations, including the Great Hall, Dumbledore\'s office and Hagrid\'s hut.
+      It\'s the ultimate Harry Potter experience!
+    </string>
+    <string name="attraction_the_london_eye">The London Eye</string>
+    <string name="attraction_the_london_eye_detail">
+     Climb aboard one of the 32 glass capsules of the London Eye for unforgettable views of some of London\'s most famous landmarks. Take in amazing 360-degree views as the capsule slowly rotates over the river Thames.
+    </string>
+    <string name="attraction_hopon_hopoff">Hop-on hop-off bus tour</string>
+    <string name="attraction_hopon_hopoff_detail">
+      Make the most of your trip to London with a hop-on hop-off bus tour.
+      Spot iconic sites with a live guide (or audio guide) and hop on and off the sightseeing buses as often as you like.
+      Famous attractions you\'ll see en route include Buckingham Palace, the London Eye and St Paul\'s Cathedral.
+    </string>
+    <string name="attraction_tower_of_london">Tower of London</string>
+    <string name="attraction_tower_of_london_detail">
+     Take a tour with one of the Yeoman Warders around the Tower of London, one of the world\'s most famous buildings.
+     Discover its 900-year history as a royal palace, prison and place of execution, arsenal, jewel house and zoo! Gaze up at the White Tower, tiptoe through a medieval king\'s bedchamber and marvel at the Crown Jewels.
+    </string>
+    <string name="attraction_buckingham_palace">Buckingham Palace</string>
+    <string name="attraction_buckingham_palace_detail">
+     Enjoy a glimpse into the life of royalty with a visit to this iconic London palace for a limited time each summer. 
+     Wander through the grand State Rooms, discovering many treasures and artefacts, and marvel at a special exhibition. 
+     Finish your self-guided tour in the quaint gardens, where you can see the famous lake.
+    </string>
+    <string name="attraction_madame_tussauds">Madame Tussauds London</string>
+    <string name="attraction_madame_tussauds_detail">
+     At Madame Tussauds London, you\'ll come face-to-face with some of the world\'s most famous faces. From Shakespeare to Taylor Swift, you\'ll meet influential figures from showbiz, sport, politics and even royalty.
+     Strike a pose with Usain Bolt, get close to Beyonc\é or enjoy the Marvel Universe 4D Experience.
+    </string>
+    <string name="attraction_british_museum">British Museum</string>
+    <string name="attraction_british_museum_detail">
+      See the best of the world\’s history, art and culture on a two-hour British Museum Guided Tour. 
+      Led by an expert guide, highlights include the world-famous Rosetta Stone, the key to deciphering Egyptian hieroglyphics, relics from The Sutton Hoo ship burial and more.
+    </string>
+
+    <!-- Category 2 for London City / Transport for London -->
+    <string name="attraction_warnerbros_studio">Warner Bros. Studio Tour London</string>
+    <string name="attraction_warnerbros_studio_detail">
+      Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.
+      Studio Tour London The Making of Harry Potter. See first-hand the sets, costumes and props used in all the Harry Potter films, and step inside some of the films locations, including the Great Hall, Dumbledore\'s office and Hagrid\'s hut.
+      It\'s the ultimate Harry Potter experience!
     </string>
 
      <string name="back_button">Back</string>
