@@ -293,13 +293,88 @@ What are the British Museum's opening times?
 The British Museum is open daily, from 10am to 5pm.
     </string>
 
-    <!-- Category 2 for London City / Transport for London -->
-    <string name="attraction_warnerbros_studio">Warner Bros. Studio Tour London</string>
+    <!-- Category 2 for London City / Museum -->
+    <string name="attraction_natural_history_museum">Delve into the history of planet Earth in the Natural History Museum’s galleries</string>
+    <string name="attraction_natural_history_museum_detail">
+     Delve into the history of planet Earth in the Natural History Museum’s galleries, which house unique treasures from the museum’s collection of more than 80 million objects spanning 4.5 billion years.
+
+    With its striking Victorian architecture and incredible exhibition spaces, the Natural History Museum in South Kensington is one of the city’s most famous landmarks and best places to visit.
+
+   What is there to do at the museum?
+   Top things to see at the Natural History Museum in South Kensington include Hope, the huge blue whale skeleton in Hintze Hall, fossils in the world-leading Dinosaurs gallery and meteorites from outer space.
+
+    Don't miss the latest exhibitions at the Natural History Museum, including the annual Wildlife Photographer of the Year exhibition, which features stunning photography of the natural world.
+
+   Also keep an eye out for exciting museum events and activities, from yoga and silent discos to dinosaur-themed sleepovers and behind-the-scenes tours, plus family activities during the school holidays.
+
+   Complete your visit with a wander around the museum gardens where you can follow in the footsteps of evolution as you move through the green spaces. Come face-to-face with a full-size bronze cast of a Diplodocus, be inspired by the canyon clad in natural stone, or sit peacefully and connect with nature.
+
+   Book a Natural History Museum Guided Tour to be guided around the museum’s fascinating galleries by an expert guide.
+
+   How long does it take to see the Natural History Museum?
+   With more than 20 galleries and spaces to enjoy, you can easily spend all day here. Relax in the quiet Darwin Centre, browse the shops, or refuel at one of the museum’s cafes, snack bars or picnic spots.
+
+  The museum is split into four zones, so if you’re short on time, pick one of the zones based on your interests.
+
+  Is the Natural History Museum free?
+  The Natural History Museum is free to visit. Some temporary exhibitions and events may require an admission fee and a pre-booked ticket.
+
+  Do you have to book the Natural History Museum?
+  During busy periods, the museum may not always be able to accommodate walk-in entry, so booking a timed entry ticket is recommended. 
+
+  Where is the Natural History Museum?
+  The Natural History Museum is in South Kensington in London, and forms part of the area’s “Museum Quarter” along with the Victoria and Albert Museum and the Science Museum which are both four minutes' walk away.
+
+  How to get to the Natural History Museum
+  The closest Tube station to the Natural History Museum is South Kensington (Circle, District and Piccadilly lines), which is a five-minute walk away. Gloucester Road station (Circle, District and Piccadilly lines) is 12 minutes away.
+
+  Various bus routes stop close to the Natural History Museum.
+
+  There are Santander Cycles docking stations directly outside the museum, at the Exhibition Road entrance.
+
+  This content has been supplied by Natural History Museum
+    </string>
+    <string name="attraction_natural_history_museum">Delve into the history of planet Earth in the Natural History Museum’s galleries</string>
+    <string name="attraction_warnerbros_studio_detail">
+      Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.
+      Studio Tour London The Making of Harry Potter. See first-hand the sets, costumes and props used in all the Harry Potter films, and step inside some of the films locations, including the Great Hall, Dumbledore\'s office and Hagrid\'s hut.
+      It\'s the ultimate Harry Potter experience!
+    </string>
+    <string name="attraction_natural_history_museum">Delve into the history of planet Earth in the Natural History Museum’s galleries</string>
+    <string name="attraction_warnerbros_studio_detail">
+      Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.
+      Studio Tour London The Making of Harry Potter. See first-hand the sets, costumes and props used in all the Harry Potter films, and step inside some of the films locations, including the Great Hall, Dumbledore\'s office and Hagrid\'s hut.
+      It\'s the ultimate Harry Potter experience!
+    </string>
+    <string name="attraction_natural_history_museum">Delve into the history of planet Earth in the Natural History Museum’s galleries</string>
     <string name="attraction_warnerbros_studio_detail">
       Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.
       Studio Tour London The Making of Harry Potter. See first-hand the sets, costumes and props used in all the Harry Potter films, and step inside some of the films locations, including the Great Hall, Dumbledore\'s office and Hagrid\'s hut.
       It\'s the ultimate Harry Potter experience!
     </string>
 
+     <!-- Category 3 for London City / Transport for London -->
+    <string name="attraction_natural_history_museum">Delve into the history of planet Earth in the Natural History Museum’s galleries</string>
+    <string name="attraction_warnerbros_studio_detail">
+      Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.
+      Studio Tour London The Making of Harry Potter. See first-hand the sets, costumes and props used in all the Harry Potter films, and step inside some of the films locations, including the Great Hall, Dumbledore\'s office and Hagrid\'s hut.
+      It\'s the ultimate Harry Potter experience!
+    </string>
+
+     <!-- Category 4 for London City / Theatre -->
+    <string name="attraction_natural_history_museum">Delve into the history of planet Earth in the Natural History Museum’s galleries</string>
+    <string name="attraction_warnerbros_studio_detail">
+      Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.
+      Studio Tour London The Making of Harry Potter. See first-hand the sets, costumes and props used in all the Harry Potter films, and step inside some of the films locations, including the Great Hall, Dumbledore\'s office and Hagrid\'s hut.
+      It\'s the ultimate Harry Potter experience!
+    </string>
+
+     <!-- Category 5 for London City / Sports Venue -->
+    <string name="attraction_natural_history_museum">Delve into the history of planet Earth in the Natural History Museum’s galleries</string>
+    <string name="attraction_warnerbros_studio_detail">
+      Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.
+      Studio Tour London The Making of Harry Potter. See first-hand the sets, costumes and props used in all the Harry Potter films, and step inside some of the films locations, including the Great Hall, Dumbledore\'s office and Hagrid\'s hut.
+      It\'s the ultimate Harry Potter experience!
+    </string>
      <string name="back_button">Back</string>
 </resources>
