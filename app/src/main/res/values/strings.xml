@@ -445,11 +445,61 @@ This content has been supplied by British Library
     </string>
 
      <!-- Category 3 for London City / Transport for London -->
-    <string name="attraction_natural_history_museum">Delve into the history of planet Earth in the Natural History Museum’s galleries</string>
-    <string name="attraction_warnerbros_studio_detail">
-      Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.
-      Studio Tour London The Making of Harry Potter. See first-hand the sets, costumes and props used in all the Harry Potter films, and step inside some of the films locations, including the Great Hall, Dumbledore\'s office and Hagrid\'s hut.
-      It\'s the ultimate Harry Potter experience!
+    <string name="attraction_">The London Underground rail network, also called "the Tube"</string>
+    <string name="attraction_detail">
+        The London Underground rail network, also called "the Tube," is a great way to travel to, from and around central London.
+
+        Greater London is served by 11 Tube lines, along with the Docklands Light Railway (DLR), the London Overground, the Elizabeth line and National Rail services.
+
+London Underground trains generally run between 5am and midnight Monday to Saturday. Operating hours are slightly reduced on Sunday. Night Tube trains run on some lines throughout the night on Fridays and Saturdays.
+
+For more detailed travel information on which stations to use and suggestions for the best route to reach your destination, use Transport for London's Journey Planner.
+
+What are the London Underground zones?
+London's public transport network is divided into nine travel zones. Zone 1 is in central London and zones 6 to 9 are on the outskirts of the city.
+
+The Elizabeth line
+Hop onboard London’s Elizabeth line, which connects London Heathrow Airport and Reading to Shenfield and Abbey Wood via major central London Underground and rail stations, including Paddington, Liverpool Street and Canary Wharf stations. 
+
+What are the London Tube prices?
+Buy a Visitor Oyster card*, Oyster card, Travelcard or use a contactless payment card to get the best value. A Visitor Oyster card is cheaper to purchase than a regular Oyster card and can be sent to your home address before you arrive in London.
+
+If your contactless payment card was issued outside the UK, check with your bank before you travel to see whether you'll incur additional transaction fees or charges.
+
+For more details about London Tube prices, see the Transport for London website.
+
+Various discounts are available for children, students and older travellers on the London Underground.
+
+Check out this guide to cheap travel for more money-saving tips when travelling in London. 
+
+Find out more information about London Oyster cards with these frequently asked questions.
+
+If you plan on travelling around London to do some sightseeing and visit some of London's best attractions, a London Pass* could save you money.
+
+    </string>
+     <string name="attraction_london_bus">London's iconic double-decker buses are a convenient and cheap way to travel around the city</string>
+    <string name="attraction_london_bus_detail">
+        London's iconic double-decker buses are a convenient and cheap way to travel around the city, with plenty of sightseeing opportunities along the way.
+
+        London’s bus route network covers the entire city with a 24-hour service. Read on to find out all you need to know about bus travel in London.
+
+Pay your fare on cash-free London buses
+London buses are card only, so you cannot buy a ticket with cash.
+
+Use a Visitor Oyster card*, an Oyster card, a Travelcard or a contactless payment card to pay your fare. 
+
+Unlike the Tube zone fare system, a single London bus journey costs £1.75 no matter how far you go. You can even take multiple buses within one hour at no extra charge thanks to the Hopper fare. No matter how many buses or trams you take in a day, it will never cost you more than £5.25 total – just make sure you use the same payment card for every journey.
+
+For contactless payment cards issued outside the UK, check with your bank to find out whether transaction fees or other charges apply.
+
+Paying your London bus fare is easy. Simply touch your Oyster card or contactless payment card on the yellow card reader as you board the bus or show the driver your paper Travelcard. To avoid card clash, make sure to only touch one card on the yellow reader and keep your other cards separate. 
+
+If you don’t have enough credit on your Visitor Oyster card or Oyster card, you will be able to make one more journey on a bus before needing to top up.
+
+For more information about London bus fares, see the Transport for London website.
+
+Still not sure which travel ticket you need to buy? Unclear on how to use your Visitor Oyster card? Read our Oyster FAQs section for the answer to these and other Oyster-related questions.
+          
     </string>
 
      <!-- Category 4 for London City / Theatre -->
