@@ -6,7 +6,7 @@ import com.example.londonmycity.model.LondonCategory
 /**
  * London Category for attractions etc
  */
-class LocalCategoryDataProvider {
+object LocalCategoryDataProvider {
     val defaultCategory = getCategoryData()[0]
 
     fun getCategoryData(): List<LondonCategory> {
