@@ -1,7 +1,7 @@
 package com.example.londonmycity.model
 
 /**
- * Data model for each london Attractions
+ * Data model for london Attractions
  */
 data class LondonAttraction(
     val id: Int,

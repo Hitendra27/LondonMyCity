@@ -1,4 +1,4 @@
-package com.example.londonmycity.ui
+package com.example.londonmycity.ui.screens
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable

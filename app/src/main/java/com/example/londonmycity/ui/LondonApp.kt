@@ -21,6 +21,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.londonmycity.R
+import com.example.londonmycity.ui.screens.HomeScreen
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -36,7 +37,7 @@ fun LondonApp() {
         ) {
             //val marsViewModel: MarsViewModel = viewModel()
             HomeScreen(
-               // marsUiState = marsViewModel.marsUiState,
+                // marsUiState = marsViewModel.marsUiState,
                 contentPadding = it
             )
         }

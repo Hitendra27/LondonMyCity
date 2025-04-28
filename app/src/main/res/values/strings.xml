@@ -1,17 +1,26 @@
 <resources>
-    <string name="app_name">LondonMyCity</string>
+    <string name="app_name">London</string>
      <!-- Strings used for fragments for navigation -->
     <string name="list_fragment_label">Sport</string>
     <string name="detail_fragment_label">Sport Info</string>
 
-    <!-- Category's -->
     <string name="app_top_bar">LONDON</string>
 
+    <!-- Category's -->
     <string name="attractions">Attractions</string>
+    <string name="attractions_subtitle">Visit the London Eye, explore the Tower of London, and discover treasures at the British Museum.</string>
+
     <string name="transport">Transport</string>
+    <string name="transport_subtitle">Get around London easily with the Underground, iconic red buses, and black cabs.</string>
+
     <string name="museum">Museum</string>
+    <string name="museum_subtitle">Visit world-class museums like the British Museum and the Natural History Museum, many offering free entry.</string>
+
     <string name="sport_stadium">Sports Stadium</string>
+    <string name="sports_stadium_subtitle">Catch thrilling matches at famous stadiums like Wembley, Emirates, and Stamford Bridge.</string>
+
     <string name="theatre">Theatre</string>
+    <string name="theatre_subtitle">Experience unforgettable performances in London\’s West End, the heart of global theatre.</string>
 
     <!-- Recommendations -->
     <string name="warner_bros_studio">Warner Bros. Studio Tour London</string>
