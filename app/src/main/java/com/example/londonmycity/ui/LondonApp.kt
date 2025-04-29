@@ -2,7 +2,7 @@ package com.example.londonmycity.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.CenterAlignedTopAppBar
@@ -19,12 +19,16 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.londonmycity.R
-import com.example.londonmycity.ui.screens.LondonCategoryPage
+import com.example.londonmycity.data.LocalCategoryDataProvider
+import com.example.londonmycity.ui.screens.LondonCategoryList
+import com.example.londonmycity.ui.theme.LondonMyCityTheme
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -37,17 +41,26 @@ fun LondonApp() {
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
     Scaffold(
         modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
-        topBar = { LondonTopAppBar(scrollBehavior = scrollBehavior) }
+        topBar = { LondonTopAppBar(scrollBehavior = scrollBehavior) },
+
     ) {
-        Surface(
-            modifier = Modifier.fillMaxSize()
-        ) {
-            //val marsViewModel: MarsViewModel = viewModel()
-            LondonCategoryPage(
-                // marsUiState = marsViewModel.marsUiState,
-                contentPadding = it
+            innerPadding ->
+            LondonCategoryList(
+                londonCategories = uiState.londonCategoryList,
+                onClick = {
+                   // viewModel.updateCurrentCategory(it)
+                   // viewModel.navigateToListPage()
+                },
+                contentPadding = innerPadding,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(
+                        top = dimensionResource(R.dimen.padding_medium),
+                        start = dimensionResource(R.dimen.padding_medium),
+                        end = dimensionResource(R.dimen.padding_medium)
+                    )
             )
-        }
+
     }
 }
 
@@ -79,4 +92,18 @@ fun LondonTopAppBar(
         modifier = modifier
     )
 
+}
+
+@Preview
+@Composable
+fun LondonAppPreview() {
+    LondonMyCityTheme {
+        Surface {
+            LondonCategoryList(
+                londonCategories = LocalCategoryDataProvider.getCategoryData(),
+                onClick = {}
+
+            )
+        }
+    }
 }

@@ -17,13 +17,25 @@ val LatoBold = FontFamily(
 val Lato = FontFamily(
     Font(R.font.lato_regular),
     Font(R.font.lato_italic),
-    Font(R.font.lato_lightitalic, FontWeight.Bold)
+    Font(R.font.lato_lightitalic)
 )
 val Typography = Typography(
     displayLarge = TextStyle(
         fontFamily = LatoBold,
         fontWeight = FontWeight.Normal,
         fontSize = 36.sp
+    ),
+
+    displayMedium = TextStyle(
+        fontFamily = Lato,
+        fontWeight = FontWeight.Bold,
+        fontSize = 24.sp
+    ),
+
+    displaySmall = TextStyle(
+        fontFamily = Lato,
+        fontWeight = FontWeight.Normal,
+        fontSize = 18.sp
     ),
 
     bodyLarge = TextStyle(
