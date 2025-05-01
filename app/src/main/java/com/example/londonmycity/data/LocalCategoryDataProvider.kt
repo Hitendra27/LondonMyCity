@@ -75,7 +75,7 @@ object LocalCategoryDataProvider {
                     LondonAttraction(
                         id = 1,
                         titleResourceId = R.string.british_museum,
-                        subtitleResourceId = R.string.british_museum_subtitle,
+                        subtitleResourceId = R.string.british_museum_detail,
                         recommended = true,
                         highlyRecommended = true,
                         imageResourceId = R.drawable.british_museaum,
@@ -84,29 +84,128 @@ object LocalCategoryDataProvider {
                     LondonAttraction(
                         id = 2,
                         titleResourceId = R.string.natural_history_museum,
-                        subtitleResourceId = R.string.natural_history_museum_subtitle,
+                        subtitleResourceId = R.string.natural_history_museum_detail,
                         recommended = true,
                         highlyRecommended = false,
                         imageResourceId = R.drawable.natural_history_musuem,
                         details = R.string.natural_history_museum_detail
-                    )
+                    ),
+                    LondonAttraction(
+                        id = 3,
+                        titleResourceId = R.string.victoria_albert_museum,
+                        subtitleResourceId = R.string.victoria_albert_museum_detail,
+                        recommended = true,
+                        highlyRecommended = false,
+                        imageResourceId = R.drawable.victoria_and_albert,
+                        details = R.string.victoria_albert_museum_detail
+                    ),
+                    LondonAttraction(
+                        id = 4,
+                        titleResourceId = R.string.tate_modern,
+                        subtitleResourceId = R.string.tate_modern_detail,
+                        recommended = true,
+                        highlyRecommended = false,
+                        imageResourceId = R.drawable.tate_modern,
+                        details = R.string.tate_modern_detail
+                    ),
+                    LondonAttraction(
+                        id = 5,
+                        titleResourceId = R.string.science_museum,
+                        subtitleResourceId = R.string.science_museum_detail,
+                        recommended = true,
+                        highlyRecommended = false,
+                        imageResourceId = R.drawable.science_museum,
+                        details = R.string.science_museum_detail
+                    ),
+                    LondonAttraction(
+                        id = 6,
+                        titleResourceId = R.string.national_gallery,
+                        subtitleResourceId = R.string.national_gallery_detail,
+                        recommended = true,
+                        highlyRecommended = false,
+                        imageResourceId = R.drawable.national_gallery,
+                        details = R.string.national_gallery_detail
+                    ),
+                    LondonAttraction(
+                        id = 7,
+                        titleResourceId = R.string.churchill_war_rooms,
+                        subtitleResourceId = R.string.churchill_war_rooms_detail,
+                        recommended = true,
+                        highlyRecommended = false,
+                        imageResourceId = R.drawable.churchill_warrooms,
+                        details = R.string.churchill_war_rooms_detail
+                    ),
                 )
             ),
             LondonCategory(
                 id = 3,
                 title = R.string.transport,
-                subtitle = R.string.theatre_subtitle,
+                subtitle = R.string.transport_subtitle,
                 imageResourceId = R.drawable.transport,
                 attraction = listOf(
                     LondonAttraction(
                         id = 1,
-                        titleResourceId = R.string.warner_bros_studio,
-                        subtitleResourceId = R.string.warner_bros_studio_subtitle,
+                        titleResourceId = R.string.tube,
+                        subtitleResourceId = R.string.tube_detail,
                         recommended = true,
                         highlyRecommended = true,
-                        imageResourceId = R.drawable.warner_bros_studio_our_london,
-                        details = R.string.warner_bros_studio_detail_text
-                    )
+                        imageResourceId = R.drawable.underground,
+                        details = R.string.tube_detail
+                    ),
+                    LondonAttraction(
+                        id = 2,
+                        titleResourceId = R.string.buses,
+                        subtitleResourceId = R.string.buses_detail,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.bus,
+                        details = R.string.buses_detail
+                    ),
+                    LondonAttraction(
+                        id = 3,
+                        titleResourceId = R.string.dlr,
+                        subtitleResourceId = R.string.dlr_detail,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.dlr,
+                        details = R.string.dlr_detail
+                    ),
+                    LondonAttraction(
+                        id = 4,
+                        titleResourceId = R.string.overground,
+                        subtitleResourceId = R.string.overground_detail,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.overground,
+                        details = R.string.overground_detail
+                    ),
+                    LondonAttraction(
+                        id = 5,
+                        titleResourceId = R.string.trams,
+                        subtitleResourceId = R.string.trams_detail,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.trams,
+                        details = R.string.trams_detail
+                    ),
+                    LondonAttraction(
+                        id = 6,
+                        titleResourceId = R.string.national_rail,
+                        subtitleResourceId = R.string.national_rail_detail,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.national_rail,
+                        details = R.string.national_rail_detail
+                    ),
+                    LondonAttraction(
+                        id = 7,
+                        titleResourceId = R.string.river_bus,
+                        subtitleResourceId = R.string.river_bus_detail,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.river_thames,
+                        details = R.string.river_bus_detail
+                    ),
                 )
             ),
             LondonCategory(
@@ -146,9 +245,9 @@ object LocalCategoryDataProvider {
         ),
         LondonCategory(
             id = 6,
-            title = R.string.theatre,
-            subtitle = R.string.theatre_subtitle,
-            imageResourceId = R.drawable.theatre,
+            title = R.string.shopping,
+            subtitle = R.string.shopping_subtitle,
+            imageResourceId = R.drawable.shopping,
             attraction = listOf(
                 LondonAttraction(
                     id = 1,
@@ -163,9 +262,9 @@ object LocalCategoryDataProvider {
         ),
         LondonCategory(
             id = 7,
-            title = R.string.theatre,
-            subtitle = R.string.theatre_subtitle,
-            imageResourceId = R.drawable.theatre,
+            title = R.string.activities,
+            subtitle = R.string.activities_subtitle,
+            imageResourceId = R.drawable.activities,
             attraction = listOf(
                 LondonAttraction(
                     id = 1,
@@ -178,6 +277,57 @@ object LocalCategoryDataProvider {
                 )
             )
            ),
+            LondonCategory(
+                id = 8,
+                title = R.string.parks,
+                subtitle = R.string.parks_subtitle,
+                imageResourceId = R.drawable.parks,
+                attraction = listOf(
+                    LondonAttraction(
+                        id = 1,
+                        titleResourceId = R.string.warner_bros_studio,
+                        subtitleResourceId = R.string.warner_bros_studio_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.warner_bros_studio_our_london,
+                        details = R.string.warner_bros_studio_detail_text
+                    )
+                )
+            ),
+            LondonCategory(
+                id = 9,
+                title = R.string.airport,
+                subtitle = R.string.airport_subtitle,
+                imageResourceId = R.drawable.airport,
+                attraction = listOf(
+                    LondonAttraction(
+                        id = 1,
+                        titleResourceId = R.string.warner_bros_studio,
+                        subtitleResourceId = R.string.warner_bros_studio_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.warner_bros_studio_our_london,
+                        details = R.string.warner_bros_studio_detail_text
+                    )
+                )
+            ),
+            LondonCategory(
+                id = 10,
+                title = R.string.restaurants,
+                subtitle = R.string.restaurants_subtitle,
+                imageResourceId = R.drawable.restaurants,
+                attraction = listOf(
+                    LondonAttraction(
+                        id = 1,
+                        titleResourceId = R.string.warner_bros_studio,
+                        subtitleResourceId = R.string.warner_bros_studio_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.warner_bros_studio_our_london,
+                        details = R.string.warner_bros_studio_detail_text
+                    )
+                )
+            ),
         )
     }
 }

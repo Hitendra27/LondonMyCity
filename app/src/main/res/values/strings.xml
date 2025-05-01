@@ -34,7 +34,7 @@
     <string name="activities">Activities</string>
     <string name="activities_subtitle">Discover a wide range of activities, from walking tours to unique experiences. Don\'t forget to ask!</string>
 
-    <string name="restaurants">Savor London\'s Culinary Delights</string>
+    <string name="restaurants">Restaurants</string>
     <string name="restaurants_subtitle">Discover diverse dining options, from traditional pubs to Michelin-starred restaurants. Don\'t forget to ask!</string>
 
     <!-- Attraction's Recommendations -->
@@ -271,81 +271,137 @@ The White Tower, also called Bloody Tower, served as a prison for more than 800 
     The closest stations are Baker Street Tube Station (Bakerloo, Circle, Jubilee, Metropolitan and Hammersmith &amp; City lines) and Marylebone Station (National Rail).
 </string>
 
+    <!--    Category 2 - Museum-->
+        <!-- 1. British Museum -->
+        <string name="british_museum">The British Museum</string>
+        <string name="british_museum_detail">
+        Founded in 1753, the British Museum is a treasure trove of human history, art, and culture, showcasing artifacts from around the globe. Its vast collection spans two million years of history. It was the world\'s first public museum of its kind. \n\n
+        Highlights include the Rosetta Stone, the Parthenon Sculptures, and Egyptian mummies. The museum\'s diverse exhibits cover everything from ancient civilizations to modern art. There are more than 60 free galleries.  The Great Court is one of the most amazing places. \n\n
+        The British Museum is free to enter, but special exhibitions may require a paid ticket. Booking a timed entry ticket in advance is recommended, although some walk-up tickets are available daily. There are shops and restaurants.  \n\n
+        Plan to spend at least a few hours exploring this incredible collection.  Don\'t forget to pick up a map at the entrance. Don\'t forget to ask!
+    </string>
 
-    // Category 2 Museums
-    <string name="british_museum">British Museum</string>
-    <string name="british_museum_subtitle"> See the best of the world\’s history, art and culture on a two-hour British Museum Guided Tour.</string>
-    <string name="british_museum_detail">
-    Founded in 1753, the British Museum in Bloomsbury has a collection covering two million years of history.\n
-    Showcasing human knowledge in all forms, it was the world’s first public museum of its kind and attracts more than six million visitors each year.\n
+        <!-- 2. Natural History Museum -->
+        <string name="natural_history_museum">The Natural History Museum</string>
+        <string name="natural_history_museum_detail">
+        The Natural History Museum in South Kensington is an iconic London landmark, with its stunning Victorian architecture. It houses a vast collection of over 80 million specimens. Discover the wonders of the natural world, from dinosaurs to meteorites. \n\n
+        Highlights include the awe-inspiring blue whale skeleton, Hope, in Hintze Hall, the world-famous Dinosaurs gallery, and the Earth Galleries. The museum also hosts temporary exhibitions and events.  There are multiple areas to explore, so you can spend hours discovering each of them.\n\n
+        Entry to the Natural History Museum is free, but special exhibitions and events may require a ticket. It\'s recommended to book in advance.  The museum is divided into four zones, so you can focus on the areas that interest you most. There are also shops and restaurants. \n\n
+        Explore the museum gardens for a peaceful escape, complete with a bronze cast of a Diplodocus. Don\'t forget to check the museum\'s website for events. Don\'t forget to ask!
+    </string>
 
-    What is in the British Museum?\n
-    Find cultural treasures, both ancient and modern, all under one roof. Highlights of the British Museum\’s collection include Egyptian mummies and the Parthenon Sculptures.\n
-    Travel from ancient Greece and Egypt, to Africa and China, or from Roman Britain to medieval Europe in more than 60 free galleries centred around the magnificent Great Court.\n
-    Alongside the vast permanent collection, there are regular British Museum exhibitions focused on people, places, stories from the past and key themes for the present and future. Keep an eye out for exciting events based on the exhibitions.\n
+        <!-- 3. Victoria and Albert Museum (V&A) -->
+        <string name="victoria_albert_museum">The Victoria and Albert Museum (V&amp;A)</string>
+        <string name="victoria_albert_museum_detail">
+        The Victoria and Albert Museum, known as the (V&amp;A), is the world\'s leading museum of art, design, and performance. With a collection spanning 5,000 years, it\'s a treasure trove of creativity.  The (V&amp;A) is dedicated to enriching lives through the study of art and design. \n\n
+        The museum\'s collections cover everything from ceramics and fashion to furniture and jewelry, representing cultures from around the world. The Cast Courts, with their plaster casts of famous sculptures, are particularly impressive. You will find paintings, sculptures and much more. \n\n
+        Entry to the (V&amp;A) is free, but special exhibitions often require paid tickets. Be sure to check the museum\'s website for current exhibitions and events. The museum also has a great gift shop and a cafe. You will find a variety of amazing gardens.\n\n
+        Allow plenty of time to wander through the (V&amp;A) diverse collections. Don\'t forget to look up to admire the building\'s intricate details. Don\'t forget to ask!
+    </string>
 
-    What is the most famous item in the British Museum?\n
-    One of the most famous artefacts in the world, and the most visited item in the British Museum, is the Rosetta Stone.\n
-    The stone, once part of a much larger slab called stelae, has a message carved into it in three types of writing which allowed experts to learn how to read hieroglyphs. Thus, opening up a trove of knowledge and a deeper understanding of the ancient Egyptian civilisation.\n
-    Other famous items in the museum include the spectacular Sophilos Vase from ancient Greece, the Roman sculpture Crouching Venus, the brass head of an Ooni (king) of Ife and the bust of Ramesses the Great.\n
+        <!-- 4. Science Museum -->
+        <string name="science_museum">The Science Museum</string>
+        <string name="science_museum_detail">
+        The Science Museum is a fantastic destination for anyone curious about science, technology, engineering, and medicine. It\'s an interactive museum, where visitors can engage with exhibits and learn about the history of science and innovation. The museum have many things to interact with.\n\n
+        The museum is full of hands-on exhibits, making it perfect for families and visitors of all ages. There are sections dedicated to space exploration, transportation, and the human body. The museum is divided in sections, such as the Launchpad, who has many interactive exhibits.  \n\n
+        Entry to the Science Museum is free, but there may be a charge for special exhibitions or the IMAX cinema. Check the museum\'s website for details on current exhibitions and any special events. You can also book online. \n\n
+        Allow ample time to explore the many levels and exhibits.  Don\'t forget to take a photo with the iconic rockets and space crafts. Don\'t forget to ask!
+    </string>
 
-    Is the British Museum free?\n
-    The British Museum is free to enter and includes access to its permanent galleries. Special exhibitions usually require a fee. Although this attraction is free to visit, you must book a timed entry ticket in advance to guarantee entry – some walk-up tickets are available each day, but entry is not guaranteed.\n
+        <!-- 5. National Gallery -->
+        <string name="national_gallery">The National Gallery</string>
+        <string name="national_gallery_detail">
+        The National Gallery, located in Trafalgar Square, houses one of the world\'s greatest collections of European paintings, spanning from the 13th to the 19th century.  It\'s a must-visit for art lovers, offering a comprehensive journey through art history. The gallery shows the evolution of painting. \n\n
+        The collection includes works by masters such as Van Gogh, Leonardo da Vinci, Michelangelo, and Botticelli.  The paintings are displayed chronologically and by school, making it easy to follow the development of art. The National Gallery is divided into four areas. \n\n
+        Entry to the National Gallery is free, but special exhibitions often require a paid ticket.  Be sure to check the gallery\'s website for current exhibition information. There are many tours available. There are also shops and restaurants.  \n\n
+        Spend time getting up close to the masterpieces. Don\'t forget to admire the architecture of the building itself. Don\'t forget to ask!
+    </string>
 
-    How to book tickets to the British Museum?\n
-    Although the British Museum is free to enter you must book a timed entry ticket in advance to guarantee entry. Paid-for British Museum tickets are usually also required for key exhibitions.\n
+        <!-- 6. Tate Modern -->
+        <string name="tate_modern">The Tate Modern</string>
+        <string name="tate_modern_detail">
+        The Tate Modern is Britain\'s national museum of international modern and contemporary art, housed in the former Bankside Power Station. Its iconic Turbine Hall is a must-see. The Tate Modern is a place of experimentation.\n\n
+        The collection includes works by artists such as Picasso, Warhol, and Dalí. The museum\'s vast collection is displayed across multiple levels. The museum often hosts temporary exhibitions. The Tate Modern is one of the most interesting places. \n\n
+        Entry to the Tate Modern is free, but special exhibitions may require a ticket. Be sure to check the museum\'s website for the latest exhibitions and events. The museum have many guided tours. \n\n
+        Take the time to explore the building\'s architecture, as well as the art. Don\'t forget to admire the views of the city from the upper floors. Don\'t forget to ask!
+    </string>
 
-    How long to spend at the British Museum?\n
-    With so much to discover, you could spend a week walking around the British Museum and not see it all!\n
-    Book a two-hour guided British Museum tour to see the highlights and to learn more about the exhibits.\n
-    Make a day of it by stopping off at some of the cafes and restaurants at the British Museum, including afternoon tea at the Great Court Restaurant.\n
-    You can also pick up gifts, books and more at the ground floor Great Court Shop and Collections Shop.\n
+        <!-- 7. Churchill War Rooms -->
+        <string name="churchill_war_rooms">The Churchill War Rooms</string>
+        <string name="churchill_war_rooms_detail">
+        The Churchill War Rooms offer a unique glimpse into life during World War II, housed in the underground bunker that served as the British government\'s headquarters during the Blitz. It is where Churchill and his government managed the Second World War.  This is one of the most interesting museum to visit.\n\n
+        Explore the Cabinet War Rooms, where Churchill and his government strategized and planned during the war.  Visit the Churchill Museum to learn more about Churchill\'s life and leadership. The museum contains many historical artifacts.\n\n
+        Entry to the Churchill War Rooms requires a paid ticket, and it\'s highly recommended to book in advance. This is a very popular attraction, so tickets often sell out. There is a gift shop and a cafe in the museum.\n\n
+        Allow at least a couple of hours to fully explore the War Rooms. Don\'t forget to take the audio guide for a more immersive experience. Don\'t forget to ask!
+    </string>
 
-    Where is the British Museum?\n
-    The British Museum is in Bloomsbury, in central London. It\’s a short walk from Covent Garden, Fitzrovia and Euston.\n
+<!--    Category 3 - Transport-->
+        <!-- 1. The Tube (Underground) -->
+        <string name="tube">The London Underground: The Tube</string>
+        <string name="tube_detail">
+        The London Underground, affectionately known as the \'Tube,\' is the world\'s first underground railway and a vital part of London\'s transport system. With 11 lines and 272 stations, it efficiently connects most of the city and its suburbs. Each line is color-coded and named, making it relatively easy to navigate. The Tube is usually the fastest way to travel across central London, particularly during peak hours when road traffic can be heavy.  \n\n
+        Understanding the Tube\'s zones is crucial for planning your journey and purchasing tickets. Zones 1 and 2 cover central London, while the outer zones extend to the suburbs.  Oyster cards and contactless payments are the most convenient ways to pay for your travel.  Make sure you tap in and tap out at the start and end of your journey. \n\n
+        During rush hour, the Tube can get incredibly crowded, especially on popular lines. Be prepared to stand or squeeze into packed carriages during peak times.  Also, keep an eye out for service updates, as lines can occasionally be closed for maintenance or experience delays. Despite these challenges, the Tube remains an iconic and incredibly efficient way to explore London.\n\n
+        Don\'t forget to download a Tube map app for easy navigation. Remember to mind the gap when entering or exiting the train! It\'s essential to listen for announcements and be aware of your surroundings. Don\'t forget to ask!
+    </string>
 
-    How to get to the British Museum?\n
-    The British Museum is handily located close to four London Tube stations, with Holborn, Tottenham Court Road, Russell Square and Goodge Street all within eight minutes’ walk.\n
-    Various bus routes also run close to the museum, with route 14 stopping directly outside.\n
-    There are Santander Cycles docking stations within two minutes’ walk of the museum, on the corner of Great Russell Street and Montague Street. If you’re using your own bike, make use of the cycle racks at the main entrance.\n
+        <!-- 2. Buses -->
+        <string name="buses">London\'s Iconic Red Buses</string>
+        <string name="buses_detail">
+        London\'s red double-decker buses are an iconic symbol of the city and a fantastic way to see the sights. The bus network is extensive, covering nearly every part of London. There are multiple types of buses and some of them run 24-hours.\n\n
+        Buses are generally slower than the Tube, especially during rush hour. However, they provide a more scenic travel experience, allowing you to see more of the city as you go. You can use the same Oyster card or contactless payment method as the Tube, but be sure to only tap in when you board, not when you exit. Buses can take you to various interesting locations, including museums and galleries.\n\n
+        Night buses are a lifesaver for those out late. Most night buses are marked with the letter \'N\' before their route number, such as N29. Bus stops are marked with a red sign, and each stop has a list of the routes that pass through it. The bus will stop at every bus station unless the passenger press the stop button. \n\n
+        Don\'t forget to download a bus map app to discover all routes! Remember to wave your hand when you see your bus approaching to make sure the driver sees you. Don\'t forget to ask!
+    </string>
 
-    What are the British Museum\'s opening times?\n
-    The British Museum is open daily, from 10am to 5pm.
-</string>
+        <!-- 3. Docklands Light Railway (DLR) -->
+        <string name="dlr">Docklands Light Railway (DLR)</string>
+        <string name="dlr_detail">
+        The Docklands Light Railway (DLR) is an automated light metro system that primarily serves the Docklands area of East London. It connects to the Underground network at several points, providing easy access to Canary Wharf, Greenwich, and London City Airport. The DLR is a great way to travel around the eastern part of the city, especially if you\'re visiting Canary Wharf or Greenwich.\n\n
+        One of the unique features of the DLR is that it\'s driverless. This means you can often sit at the front of the train and enjoy the view as it travels through the city. The DLR also operates within the same fare zones as the Underground and buses, and Oyster and contactless payments are accepted.  Many of the stations are above ground, offering great views of the developing Docklands area.\n\n
+        The DLR can get quite busy during the work week, as many people commute to Canary Wharf. The trains are frequent, however, so you usually won\'t have to wait long. While it\'s a convenient way to navigate the area, be sure to check service updates, especially on weekends, as there may be planned engineering works.\n\n
+        Don\'t forget to plan your journey in advance, especially if you\'re travelling to London City Airport. Remember to tap in and out at the stations to get the correct fare. Don\'t forget to ask!
+    </string>
 
-    <string name="natural_history_museum">Natural History Museum</string>
-    <string name="natural_history_museum_subtitle">Delve into the history of planet Earth in the Natural History Museum’s galleries</string>
-    <string name="natural_history_museum_detail">
-    Delve into the history of planet Earth in the Natural History Museum’s galleries, which house unique treasures from the museum’s collection of more than 80 million objects spanning 4.5 billion years.\n
-    With its striking Victorian architecture and incredible exhibition spaces, the Natural History Museum in South Kensington is one of the city’s most famous landmarks and best places to visit.\n
+        <!-- 4. Overground -->
+        <string name="overground">London Overground</string>
+        <string name="overground_detail">
+        The London Overground is a suburban railway network that circles much of Greater London, providing connections between areas not directly served by the Underground.  With its distinctive orange roundel, the Overground offers a vital link between the city\'s various districts and suburbs. It is a convenient way to reach locations that are further from the center of London. \n\n
+        The Overground connects to the Tube network at numerous stations, making it easy to transfer between the two systems. Oyster cards, contactless payments, and paper tickets are accepted on the Overground, similar to the Tube and buses. Most of the Overground is above ground, giving you an insight into the areas of London outside of the center.\n\n
+        The Overground trains are generally less crowded than the Tube, especially outside of peak hours. Be aware that service frequencies can vary depending on the route and time of day.  It\'s always a good idea to check for any planned engineering works before you travel, especially on weekends.\n\n
+        Don\'t forget to check the Overground map for useful connections to other transportation options. Remember that this system mainly goes above ground, so you can enjoy the views. Don\'t forget to ask!
+    </string>
 
-    What is there to do at the museum?\n
-    Top things to see at the Natural History Museum in South Kensington include Hope, the huge blue whale skeleton in Hintze Hall, fossils in the world-leading Dinosaurs gallery and meteorites from outer space.\n
-    Don\'t miss the latest exhibitions at the Natural History Museum, including the annual Wildlife Photographer of the Year exhibition, which features stunning photography of the natural world.\n
-    Also keep an eye out for exciting museum events and activities, from yoga and silent discos to dinosaur-themed sleepovers and behind-the-scenes tours, plus family activities during the school holidays.\n
-    Complete your visit with a wander around the museum gardens where you can follow in the footsteps of evolution as you move through the green spaces. Come face-to-face with a full-size bronze cast of a Diplodocus, be inspired by the canyon clad in natural stone, or sit peacefully and connect with nature.\n
-    Book a Natural History Museum Guided Tour to be guided around the museum’s fascinating galleries by an expert guide.\n
+        <!-- 5. Trams -->
+        <string name="trams">London\'s Tram Network</string>
+        <string name="trams_detail">
+        London\'s tram network, currently known as Tramlink, primarily serves the South London area, particularly around Croydon.  Trams are a smooth, comfortable, and often less crowded alternative to buses, offering a different way to get around in this part of the city. The trams run on dedicated tracks, so they are not affected by road traffic. \n\n
+        Tramlink connects to the National Rail network at several stations, making it easy to transfer to other parts of London and beyond. The same Oyster cards and contactless payments used on the Tube and buses are valid on the trams. You only need to tap in when you board the tram, not when you exit. Trams are known for being particularly punctual and for having a smooth ride.\n\n
+        The tram network is quite limited compared to the Tube or bus network, focusing primarily on South London. However, it\'s a very useful option if you\'re travelling within the areas it serves. The trams are quite modern and have large windows, so you get a great view of the area. \n\n
+        Don\'t forget to check the tram route map if you\'re travelling in South London. Remember to look at the tram destination to ensure you\'re getting on the correct service. Don\'t forget to ask!
+    </string>
 
-    How long does it take to see the Natural History Museum?\n
-    With more than 20 galleries and spaces to enjoy, you can easily spend all day here. Relax in the quiet Darwin Centre, browse the shops, or refuel at one of the museum’s cafes, snack bars or picnic spots.\n
-    The museum is split into four zones, so if you’re short on time, pick one of the zones based on your interests.\n
+        <!-- 6. National Rail -->
+        <string name="national_rail">National Rail Services</string>
+        <string name="national_rail_detail">
+        National Rail services are the main intercity train lines that connect London to the rest of the UK.  London has numerous major train stations, each serving different parts of the country.  These stations include King\'s Cross, Paddington, Euston, Victoria, and Waterloo, among others. These stations are usually connected to the Tube and buses.\n\n
+        National Rail services are an essential way to reach places outside of London, whether you\'re heading to a coastal town, a historic city, or the countryside.  Trains are generally much faster than buses for long-distance journeys, but ticket prices vary widely depending on the route and the time of travel. It\'s important to plan your journey ahead.\n\n
+        You can often get discounted fares if you book your tickets in advance, especially for long-distance travel.  Make sure to check the departure platform and any potential delays before you travel. Train stations can be very busy, especially during rush hour, so give yourself plenty of time to navigate through them. There are usually many shops and restaurants in the train stations.\n\n
+        Don\'t forget to check your train schedule and departure platform carefully. Remember to be aware of your belongings at all times, especially in busy stations. Don\'t forget to ask!
+    </string>
 
-    Is the Natural History Museum free?\n
-    The Natural History Museum is free to visit. Some temporary exhibitions and events may require an admission fee and a pre-booked ticket.\n
+        <!-- 7. River Bus (Thames Clippers) -->
+        <string name="river_bus">River Bus (Thames Clippers)</string>
+        <string name="river_bus_detail">
+        The River Bus, also known as Thames Clippers, is a unique way to travel around London and offers a different perspective of the city from the River Thames.  The River Bus operates a network of piers between Putney and Wool
+        </string>
 
-    Do you have to book the Natural History Museum?\n
-    During busy periods, the museum may not always be able to accommodate walk-in entry, so booking a timed entry ticket is recommended.\n
 
-    Where is the Natural History Museum?\n
-    The Natural History Museum is in South Kensington in London, and forms part of the area’s “Museum Quarter” along with the Victoria and Albert Museum and the Science Museum which are both four minutes\' walk away.\n
 
-    How to get to the Natural History Museum\n
-    The closest Tube station to the Natural History Museum is South Kensington (Circle, District and Piccadilly lines), which is a five-minute walk away. Gloucester Road station (Circle, District and Piccadilly lines) is 12 minutes away.\n
-    Various bus routes stop close to the Natural History Museum.\n
-    There are Santander Cycles docking stations directly outside the museum, at the Exhibition Road entrance.\n
 
-    This content has been supplied by Natural History Museum
-</string>
+
+
+
 <!--    <string name="attraction_science_museum">The Science Museum is home to award-winning exhibitions, iconic objects and stories of incredible scientific achievement.</string>-->
 <!--    <string name="attraction_science_museum_detail">-->
 <!--    The Science Museum is home to award-winning exhibitions, iconic objects and stories of incredible scientific achievement.\n-->
