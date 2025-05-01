@@ -27,6 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.londonmycity.R
 import com.example.londonmycity.data.LocalCategoryDataProvider
+import com.example.londonmycity.ui.screens.LondonAttractionList
 import com.example.londonmycity.ui.screens.LondonCategoryList
 import com.example.londonmycity.ui.theme.LondonMyCityTheme
 
@@ -43,13 +44,13 @@ fun LondonApp() {
         modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
         topBar = { LondonTopAppBar(scrollBehavior = scrollBehavior) },
 
-    ) {
-            innerPadding ->
+        ) { innerPadding ->
+        if (uiState.isShowingListPage) {
             LondonCategoryList(
                 londonCategories = uiState.londonCategoryList,
                 onClick = {
-                   // viewModel.updateCurrentCategory(it)
-                   // viewModel.navigateToListPage()
+                    viewModel.updateCurrentCategory(it)
+                    viewModel.navigateToAttractionPage()
                 },
                 contentPadding = innerPadding,
                 modifier = Modifier
@@ -60,39 +61,52 @@ fun LondonApp() {
                         end = dimensionResource(R.dimen.padding_medium)
                     )
             )
+        } else {
+            LondonAttractionList(
+                londonAttractions = uiState.currentCategory.attraction,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(
+                        top = dimensionResource(R.dimen.padding_medium),
+                        start = dimensionResource(R.dimen.padding_medium),
+                        end = dimensionResource(R.dimen.padding_medium)
+                    )
+            )
+
+        }
+    }
+    }
+
+    @OptIn(ExperimentalMaterial3Api::class)
+    @Composable
+    fun LondonTopAppBar(
+        modifier: Modifier = Modifier,
+        scrollBehavior: TopAppBarScrollBehavior
+    ) {
+        CenterAlignedTopAppBar(
+            scrollBehavior = scrollBehavior,
+            title = {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Image(
+                        modifier = Modifier
+                            .size(84.dp)
+                            .padding(4.dp),
+                        painter = painterResource(R.drawable.app_top_bar2),
+                        contentDescription = null
+                    )
+                    Text(
+                        text = stringResource(R.string.app_top_bar),
+                        style = MaterialTheme.typography.displayLarge
+                    )
+                }
+            },
+            modifier = modifier
+        )
 
     }
-}
 
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-fun LondonTopAppBar(
-    modifier: Modifier = Modifier,
-    scrollBehavior: TopAppBarScrollBehavior
-) {
-    CenterAlignedTopAppBar(
-        scrollBehavior = scrollBehavior,
-        title = {
-            Row (
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                Image(
-                    modifier = Modifier
-                        .size(84.dp)
-                        .padding(4.dp),
-                    painter = painterResource(R.drawable.app_top_bar2),
-                    contentDescription = null
-                )
-                Text(
-                    text = stringResource(R.string.app_top_bar),
-                    style = MaterialTheme.typography.displayLarge
-                )
-            }
-        },
-        modifier = modifier
-    )
-
-}
 
 @Preview
 @Composable
@@ -106,4 +120,4 @@ fun LondonAppPreview() {
             )
         }
     }
-}
+    }

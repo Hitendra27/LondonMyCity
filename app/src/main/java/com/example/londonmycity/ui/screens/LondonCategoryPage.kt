@@ -6,8 +6,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -46,12 +44,13 @@ fun LondonCategoryPage(
         elevation = CardDefaults.cardElevation(),
         modifier = modifier,
         shape = RoundedCornerShape(dimensionResource(R.dimen.card_corner_radius)),
-        onClick = {}
+        onClick = { onItemClick(londonCategory) }
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .size(dimensionResource(R.dimen.card_image_height))
+                .size(dimensionResource(R.dimen.card_image_height)),
+            verticalAlignment = Alignment.CenterVertically
         ) {
             LondonCategoryListItem(
                 londonCategory = londonCategory,
@@ -118,7 +117,7 @@ fun LondonCategoryListItem(
             painter = painterResource(londonCategory.imageResourceId),
             contentDescription = null,
             alignment = Alignment.Center,
-            contentScale = ContentScale.FillBounds
+            contentScale = ContentScale.Crop
         )
     }
 }
