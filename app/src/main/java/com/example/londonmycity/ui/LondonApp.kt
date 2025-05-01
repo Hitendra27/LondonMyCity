@@ -1,12 +1,19 @@
 package com.example.londonmycity.ui
 
+import android.graphics.drawable.Icon
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
@@ -22,6 +29,7 @@ import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -42,7 +50,10 @@ fun LondonApp() {
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
     Scaffold(
         modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
-        topBar = { LondonTopAppBar(scrollBehavior = scrollBehavior) },
+        topBar = { LondonTopAppBar(
+            isShowingListPage = uiState.isShowingListPage,
+            onBackButtonClick = { viewModel.navigateToListPage() }
+        ) },
 
         ) { innerPadding ->
         if (uiState.isShowingListPage) {
@@ -77,15 +88,17 @@ fun LondonApp() {
     }
     }
 
-    @OptIn(ExperimentalMaterial3Api::class)
-    @Composable
-    fun LondonTopAppBar(
-        modifier: Modifier = Modifier,
-        scrollBehavior: TopAppBarScrollBehavior
-    ) {
-        CenterAlignedTopAppBar(
-            scrollBehavior = scrollBehavior,
-            title = {
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun LondonTopAppBar(
+    onBackButtonClick: () -> Unit = {},
+    isShowingListPage: Boolean = true,
+    modifier: Modifier = Modifier,
+) {
+    CenterAlignedTopAppBar(
+        title = {
+            if (isShowingListPage) {
                 Row(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
@@ -101,11 +114,30 @@ fun LondonApp() {
                         style = MaterialTheme.typography.displayLarge
                     )
                 }
-            },
-            modifier = modifier
-        )
+            } else {
+                Text(
+                    text = "London Attractions",
+                    style = MaterialTheme.typography.displayMedium,
+                    textAlign = TextAlign.Start,
 
-    }
+                )
+            }
+        },
+        navigationIcon = {
+            if (!isShowingListPage) {
+                IconButton(onClick = onBackButtonClick) {
+                        Icon(
+                            imageVector = Icons.Filled.ArrowBack,
+                            contentDescription = "back"
+                        )
+
+                  }
+                }
+        },
+        modifier = modifier
+
+    )
+}
 
 
 @Preview

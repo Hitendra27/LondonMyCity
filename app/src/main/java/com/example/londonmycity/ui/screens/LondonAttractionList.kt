@@ -9,9 +9,12 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -25,6 +28,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.londonmycity.R
 import com.example.londonmycity.model.LondonAttraction
+import com.example.londonmycity.ui.theme.LondonMyCityTheme
 
 @Composable
 fun LondonAttractionList(
@@ -54,27 +58,32 @@ fun ListItem(
     modifier: Modifier = Modifier
 ) {
     Card(
+        elevation = CardDefaults.cardElevation(),
+        shape = RoundedCornerShape(dimensionResource(R.dimen.card_corner_radius)),
         onClick = onClick,
         modifier = modifier
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(dimensionResource(R.dimen.padding_medium)),
+                .size(dimensionResource(R.dimen.card_image_height)),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Image(
                 painter = painterResource(id = image),
                 contentDescription = null,
                 modifier = Modifier
-                    .size(dimensionResource(R.dimen.card_image_height))
-                    .clip(MaterialTheme.shapes.small),
+                    .size(dimensionResource(R.dimen.card_image_height)),
                 contentScale = ContentScale.Crop,
                 alignment = Alignment.Center
             )
             Column(
                 modifier = Modifier
-                    .padding(start = dimensionResource(R.dimen.padding_medium)),
+                    .padding(
+                        vertical = dimensionResource(R.dimen.padding_small),
+                        horizontal = dimensionResource(R.dimen.padding_medium)
+                    )
+                .weight(1f)
 
                 ) {
                 Text(
@@ -87,7 +96,7 @@ fun ListItem(
                 Text(
                     text = subtitle,
                     style = MaterialTheme.typography.labelSmall,
-                    maxLines = 2,
+                    maxLines = 3,
                     overflow = TextOverflow.Ellipsis
                 )
             }
@@ -98,6 +107,14 @@ fun ListItem(
 @Preview
 @Composable
 fun ListItemPreview() {
-    ListItem(
-        title = "Title",
-        subtitle = "Subtitle",}
+    LondonMyCityTheme {
+        Surface {
+            ListItem(
+                title = "Title",
+                subtitle = "Subtitle",
+                image = R.drawable.arsenal_emirates_stadium_tours,
+                onClick = {}
+            )
+        }
+    }
+}
