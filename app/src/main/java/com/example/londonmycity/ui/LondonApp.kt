@@ -4,6 +4,7 @@ import android.graphics.drawable.Icon
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -55,36 +56,35 @@ fun LondonApp() {
         ) },
 
         ) { innerPadding ->
-        if (uiState.isShowingListPage) {
-            LondonCategoryList(
-                londonCategories = uiState.londonCategoryList,
-                onClick = {
-                    viewModel.updateCurrentCategory(it)
-                    viewModel.navigateToAttractionPage()
-                },
-                contentPadding = innerPadding,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(
-                        top = dimensionResource(R.dimen.padding_medium),
-                        start = dimensionResource(R.dimen.padding_medium),
-                        end = dimensionResource(R.dimen.padding_medium)
-                    )
-            )
-        } else {
-            LondonAttractionList(
-                londonAttractions = uiState.currentCategory.attraction,
-                contentPadding = innerPadding,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(
-                        top = dimensionResource(R.dimen.padding_medium),
-                        start = dimensionResource(R.dimen.padding_medium),
-                        end = dimensionResource(R.dimen.padding_medium)
-                    )
-            )
+            if (uiState.isShowingListPage) {
+                LondonCategoryList(
+                    londonCategories = uiState.londonCategoryList,
+                    onClick = {
+                        viewModel.updateCurrentCategory(it)
+                        viewModel.navigateToAttractionPage()
+                    },
+                    contentPadding = innerPadding,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(
+                            top = dimensionResource(R.dimen.padding_medium),
+                            start = dimensionResource(R.dimen.padding_medium),
+                            end = dimensionResource(R.dimen.padding_medium)
+                        )
+                )
+            } else {
+                LondonAttractionList(
+                    londonAttractions = uiState.currentCategory.attraction,
+                    contentPadding = innerPadding,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(
+                            start = dimensionResource(R.dimen.padding_small),
+                            end = dimensionResource(R.dimen.padding_small)
+                        )
+                )
 
-        }
+            }
     }
     }
 
@@ -130,7 +130,6 @@ fun LondonTopAppBar(
                             imageVector = Icons.Filled.ArrowBack,
                             contentDescription = "back"
                         )
-
                   }
                 }
         },

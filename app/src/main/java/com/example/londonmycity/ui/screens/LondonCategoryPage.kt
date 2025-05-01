@@ -22,6 +22,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
@@ -69,14 +70,14 @@ fun LondonCategoryPage(
                 Text(
                     text = stringResource(londonCategory.title),
                     style = MaterialTheme.typography.displayMedium,
-                   // color =
+                    color = Color(0xFFF9E795),
                     modifier = Modifier.padding(bottom = dimensionResource(R.dimen.card_text_vertical_space))
                 )
                 //Spacer(Modifier.weight(1f))
                 Text(
                     text = stringResource(londonCategory.subtitle),
                     style = MaterialTheme.typography.labelSmall,
-                    // color
+                    color = Color(0xFFF8AAAE5),
                     overflow = TextOverflow.Ellipsis,
                     minLines = 3
                 )

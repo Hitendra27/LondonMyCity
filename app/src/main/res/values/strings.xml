@@ -22,13 +22,28 @@
     <string name="theatre">Theatre</string>
     <string name="theatre_subtitle">Experience unforgettable performances in London\’s West End, the heart of global theatre.</string>
 
-    <!-- Recommendations -->
+    <string name="parks">Parks</string>
+    <string name="parks_subtitle">Relax in London\'s green spaces, from royal parks to hidden gardens.</string>
+
+    <string name="shopping">Shopping</string>
+    <string name="shopping_subtitle">Explore London\'s diverse shopping scene, from luxury boutiques to vibrant markets.</string>
+
+    <string name="airport">Airports</string>
+    <string name="airport_subtitle">Easily navigate London\'s major airports and discover convenient transport links. Don\'t forget to ask!</string>
+
+    <string name="activities">Activities</string>
+    <string name="activities_subtitle">Discover a wide range of activities, from walking tours to unique experiences. Don\'t forget to ask!</string>
+
+    <string name="restaurants">Savor London\'s Culinary Delights</string>
+    <string name="restaurants_subtitle">Discover diverse dining options, from traditional pubs to Michelin-starred restaurants. Don\'t forget to ask!</string>
+
+    <!-- Attraction's Recommendations -->
     <string name="warner_bros_studio">Warner Bros. Studio Tour London</string>
     <string name="london_eye">The London Eye</string>
     <string name="hopon_hopoff">Hop-on Hop-off Bus Tour</string>
     <string name="tower_of_london">Tower of London</string>
     <string name="madame_tussauds">Madame Tussauds London</string>
-    <string name="british_museum">British Museum</string>
+    <string name="buckingham_palace">Buckingham Palace</string>
 
     <!-- Category 1 for London City / London Attractions -->
     <string name="warner_bros_studio_subtitle"> Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.</string>
@@ -103,229 +118,234 @@
   Several bus routes stop near the London Eye: 1, 12, 59, 68, 76, 77, 139, 148, 159, 168, 176, 188, 211, 243, 77 and 381, 507, 521.\n
  </string>
 
-<!--    <string name="hopon_hopoff_subtitle">Make the most of your trip to London with a hop-on hop-off bus tour.</string>-->
-<!--    <string name="hopon_hopoff_detail">-->
-<!--    See London\'s iconic landmarks from the comfort of a hop-on hop-off bus tour. Enjoy unlimited travel around London for 24 or 48 hours, with a free river tour included with your bus ticket.\n-->
-<!--    This convenient service allows you to tick off as much sightseeing as you\'d like across one or two days. Simply board the tour bus at any of the designated stops across the city and hop off at the closest stop to the sight you\'re visiting.\n-->
-<!--    Once you\'re done exploring, get back on the bus and make your way to the next spot!\n-->
+    <string name="hopon_hopoff_subtitle">Make the most of your trip to London with a hop-on hop-off bus tour.</string>
+    <string name="hopon_hopoff_detail">
+    See London\'s iconic landmarks from the comfort of a hop-on hop-off bus tour. Enjoy unlimited travel around London for 24 or 48 hours, with a free river tour included with your bus ticket.\n
+    This convenient service allows you to tick off as much sightseeing as you\'d like across one or two days. Simply board the tour bus at any of the designated stops across the city and hop off at the closest stop to the sight you\'re visiting.\n
+    Once you\'re done exploring, get back on the bus and make your way to the next spot!\n
 
-<!--    Your booking also includes access to a free River Thames Boat Ride or a free London walking tour.\n-->
+    Your booking also includes access to a free River Thames Boat Ride or a free London walking tour.\n
 
-<!--    What is the bus tour route?\n-->
-<!--    The buses cover four different routes with more than 60 stops, offering plenty of opportunities to see London\'s most famous places. You can hop on and off as many times as you want, giving you the chance to explore areas and attractions in more detail.\n-->
+    What is the bus tour route?\n
+    The buses cover four different routes with more than 60 stops, offering plenty of opportunities to see London\'s most famous places. You can hop on and off as many times as you want, giving you the chance to explore areas and attractions in more detail.\n
 
-<!--    Classic Tour (Blue route): All central London sights and London\'s Museum Quarter.\n-->
-<!--    Essential Tour (Red route): Includes Madame Tussauds, Kings Cross, Hyde Park, and Regents Park.\n-->
-<!--    Morning and Evening Drop-Off Service (Yellow and Green routes): Available in the morning and late afternoon, this service operates from popular hotel districts to Central London sights.\n-->
+    Classic Tour (Blue route): All central London sights and London\'s Museum Quarter.\n
+    Essential Tour (Red route): Includes Madame Tussauds, Kings Cross, Hyde Park, and Regents Park.\n
+    Morning and Evening Drop-Off Service (Yellow and Green routes): Available in the morning and late afternoon, this service operates from popular hotel districts to Central London sights.\n
 
-<!--    Stopping by all major sights, on this hop-on hop-off tour you\'ll have the opportunity to see iconic landmarks including:\n-->
+    Stopping by all major sights, on this hop-on hop-off tour you\'ll have the opportunity to see iconic landmarks including:\n
 
-<!--    Tower of London\n-->
-<!--    Buckingham Palace\n-->
-<!--    Westminster Abbey\n-->
-<!--    Shakespeare\'s Globe\n-->
-<!--    St Paul\'s Cathedral\n-->
-<!--    Tower Bridge\n-->
-<!--    Trafalgar Square\n-->
+    Tower of London\n
+    Buckingham Palace\n
+    Westminster Abbey\n
+    Shakespeare\'s Globe\n
+    St Paul\'s Cathedral\n
+    Tower Bridge\n
+    Trafalgar Square\n
 
-<!--    Buses generally operate every 15 to 30 minutes, but this varies by time of year and is subject to change. Be sure to check the most up-to-date timetable on the day of travel.\n-->
+    Buses generally operate every 15 to 30 minutes, but this varies by time of year and is subject to change. Be sure to check the most up-to-date timetable on the day of travel.\n
 
-<!--    Look out for the designated Golden Tours Hop on Hop Off/London Tour Bus sign at each stop to ensure you\'re boarding at the right location.\n-->
+    Look out for the designated Golden Tours Hop on Hop Off/London Tour Bus sign at each stop to ensure you\'re boarding at the right location.\n
 
-<!--    Which languages is the tour in?\n-->
-<!--    Live commentary from an onboard guide, or multilingual audio guides in the following languages are available: English, French, German, Spanish, Italian, Portuguese (Brazilian), Arabic, Japanese, Mandarin, Hindi, and Russian. Free WiFi is also available on the bus.\n-->
+    Which languages is the tour in?\n
+    Live commentary from an onboard guide, or multilingual audio guides in the following languages are available: English, French, German, Spanish, Italian, Portuguese (Brazilian), Arabic, Japanese, Mandarin, Hindi, and Russian. Free WiFi is also available on the bus.\n
 
-<!--    What is included in the hop-on hop-off tour?\n-->
-<!--    The hop-on hop-off London bus tour includes your bus ticket, audio guides, unlimited travel to over 60 stops across London, and free Wi-Fi on all open-top buses.-->
-<!--     </string>-->
+    What is included in the hop-on hop-off tour?\n
+    The hop-on hop-off London bus tour includes your bus ticket, audio guides, unlimited travel to over 60 stops across London, and free Wi-Fi on all open-top buses.
+     </string>
 
-<!-- <string name="attraction_tower_of_london">Take a tour with one of the Yeoman Warders around the Tower of London, one of the world\'s most famous buildings.</string>-->
-<!-- <string name="attraction_tower_of_london_detail">-->
-<!-- Discover fascinating stories and see iconic sights at London’s famous castle, the Tower of London, where you can explore nearly 1,000 years of its history as a mighty fortress, royal palace and infamous prison.-->
-<!-- Marvel at the 100 objects and 23,000 precious stones that make up the Crown Jewels and enjoy a spectacular new Crown Jewels exhibition that opened in 2023. Learn gruesome tales in the Bloody Tower, meet the Yeoman Warders, walk among plants and flowers in the Moat this summer, and much more at this UNESCO World Heritage site in London.-->
-<!-- \n\n    -->
-<!-- What is the Tower of London?-->
-<!-- The Tower of London is one of the world’s most famous fortresses with many tales to uncover within the ancient walls.-->
-<!-- \n\n-->
-<!-- Explore the importance of the Crown Jewels to the British monarchy and the role the Tower plays in protecting these treasures. The gleaming objects include the Coronation Regalia from the Coronation Spoon to St Edward’s Crown. which have been used in the coronation ceremonies of monarchs for centuries, including that of King Charles III and Queen Camilla in 2023.-->
-<!-- Be amazed by the White Tower that was initially built to deter invaders but now houses majestic suits of armour and exciting, hands-on activities for families. The Bloody Tower has an altogether more haunting history – discover murderous tales in this infamous former prison, or learn more about the Tower’s role as a place of torture at Lower Wakefield Tower.-->
-<!-- Delve into the history of the Tower as a royal zoo with sculptures of the Royal Beasts and the Royal Beasts exhibition, and explore the Tower’s Mint exhibition and discover where the majority of the country’s coins were made for more than 500 years.-->
-<!--\n\n-->
-<!--How old is the Tower of London?-->
-<!--William the Conqueror built The Tower of London in 1070. Somewhere between 1075-79, the White Tower was built. However, the Tower received editions in the 13th and 14th centuries.-->
-<!-- \n\n-->
-<!--What was the Tower of London used for?-->
-<!--Find out the story behind the Tower of London. Built as a fortress in the 1070s, it was home to many monarchs for more than 500 years.-->
-<!--\n\n-->
-<!--In 1204, the Tower also hosted the royal menagerie for 600 years, providing housing for many exotic animals.-->
-<!--It might surprise you, but the Tower even served as a Royal Mint from the 13th to 18th century and royals kept precious possessions as well as arms and armour there.-->
-<!--The White Tower, also called Bloody Tower, served as a prison for more than 800 years. Marked by extreme political and religious unrest in the 1500s and 1600s, the Tower was well known for using torture on its inmates. The last execution in the Tower was on 15 August 1941.-->
-<!--  </string>-->
-<!--    <string name="attraction_buckingham_palace">Enjoy a glimpse into the life of royalty with a visit to this iconic London palace for a limited time each summer.</string>-->
-<!--    <string name="attraction_buckingham_palace_detail">-->
-<!--    Buckingham Palace is one of the few working royal palaces remaining in the world today. As one of the most iconic and impressive buildings in the world, it\'s a must visit to experience the best of British history and culture.\n-->
-<!--    Witness the grandeur of the British monarchy and on selected dates during the summer and from November to December and at Easter, visitors can tour the 19 State Rooms, which form the heart of the Palace.\n-->
+ <string name="tower_of_london_subtitle">Take a tour with one of the Yeoman Warders around the Tower of London, one of the world\'s most famous buildings.</string>
+ <string name="tower_of_london_detail">
+ Discover fascinating stories and see iconic sights at London’s famous castle, the Tower of London, where you can explore nearly 1,000 years of its history as a mighty fortress, royal palace and infamous prison.
+ Marvel at the 100 objects and 23,000 precious stones that make up the Crown Jewels and enjoy a spectacular new Crown Jewels exhibition that opened in 2023. Learn gruesome tales in the Bloody Tower, meet the Yeoman Warders, walk among plants and flowers in the Moat this summer, and much more at this UNESCO World Heritage site in London.
+ \n\n
+ What is the Tower of London?
+ The Tower of London is one of the world’s most famous fortresses with many tales to uncover within the ancient walls.
+ \n\n
+ Explore the importance of the Crown Jewels to the British monarchy and the role the Tower plays in protecting these treasures. The gleaming objects include the Coronation Regalia from the Coronation Spoon to St Edward’s Crown. which have been used in the coronation ceremonies of monarchs for centuries, including that of King Charles III and Queen Camilla in 2023.
+ Be amazed by the White Tower that was initially built to deter invaders but now houses majestic suits of armour and exciting, hands-on activities for families. The Bloody Tower has an altogether more haunting history – discover murderous tales in this infamous former prison, or learn more about the Tower’s role as a place of torture at Lower Wakefield Tower.
+ Delve into the history of the Tower as a royal zoo with sculptures of the Royal Beasts and the Royal Beasts exhibition, and explore the Tower’s Mint exhibition and discover where the majority of the country’s coins were made for more than 500 years.
+\n\n
+How old is the Tower of London?
+William the Conqueror built The Tower of London in 1070. Somewhere between 1075-79, the White Tower was built. However, the Tower received editions in the 13th and 14th centuries.
+ \n\n
+What was the Tower of London used for?
+Find out the story behind the Tower of London. Built as a fortress in the 1070s, it was home to many monarchs for more than 500 years.
+\n\n
+In 1204, the Tower also hosted the royal menagerie for 600 years, providing housing for many exotic animals.
+It might surprise you, but the Tower even served as a Royal Mint from the 13th to 18th century and royals kept precious possessions as well as arms and armour there.
+The White Tower, also called Bloody Tower, served as a prison for more than 800 years. Marked by extreme political and religious unrest in the 1500s and 1600s, the Tower was well known for using torture on its inmates. The last execution in the Tower was on 15 August 1941.
+  </string>
+    <string name="buckingham_palace_subtitle">Enjoy a glimpse into the life of royalty with a visit to this iconic London palace for a limited time each summer.</string>
+    <string name="buckingham_palace_detail">
+    Buckingham Palace is one of the few working royal palaces remaining in the world today. As one of the most iconic and impressive buildings in the world, it\'s a must visit to experience the best of British history and culture.\n
+    Witness the grandeur of the British monarchy and on selected dates during the summer and from November to December and at Easter, visitors can tour the 19 State Rooms, which form the heart of the Palace.\n
 
-<!--    What is there to see?\n-->
-<!--    These magnificent rooms are decorated with some of the greatest treasures from the Royal Collection, including paintings by Rembrandt, Rubens and Canaletto.\n-->
+    What is there to see?\n
+    These magnificent rooms are decorated with some of the greatest treasures from the Royal Collection, including paintings by Rembrandt, Rubens and Canaletto.\n
 
-<!--    The Royal Mews and The King\'s Gallery are part of the Buckingham Palace site, but have their own visitor entrances and so can be visited separately. Both venues are open for most of the year, including when the palace itself is closed.\n-->
+    The Royal Mews and The King\'s Gallery are part of the Buckingham Palace site, but have their own visitor entrances and so can be visited separately. Both venues are open for most of the year, including when the palace itself is closed.\n
 
-<!--    Try to time your visit to see Changing the Guard, a popular free event which takes place outside Buckingham Palace on certain days from 10.45am and lasts around 45 minutes, with the actual handover taking place at 11am. Be sure to arrive early to secure a spot with a good view.\n-->
-<!--    How can I book tickets for Buckingham Palace?\n-->
-<!--    Tickets for the Buckingham Palace summer tour: summer opening 2025 are currently not available.\n-->
+    Try to time your visit to see Changing the Guard, a popular free event which takes place outside Buckingham Palace on certain days from 10.45am and lasts around 45 minutes, with the actual handover taking place at 11am. Be sure to arrive early to secure a spot with a good view.\n
+    How can I book tickets for Buckingham Palace?\n
+    Tickets for the Buckingham Palace summer tour: summer opening 2025 are currently not available.\n
 
-<!--    Please check back near the time for more information. In the meantime, discover more London royal attractions.\n-->
+    Please check back near the time for more information. In the meantime, discover more London royal attractions.\n
 
-<!--    Tickets to visit Buckingham Palace on a guided tour (on selected dates) must be booked in advance via the Royal Collection Trust\'s website.\n-->
+    Tickets to visit Buckingham Palace on a guided tour (on selected dates) must be booked in advance via the Royal Collection Trust\'s website.\n
 
-<!--    How long is the Buckingham Palace tour?\n-->
-<!--    It takes between two hours and two hours and 30 minutes to explore Buckingham Palace. Guided tour times may differ.\n-->
+    How long is the Buckingham Palace tour?\n
+    It takes between two hours and two hours and 30 minutes to explore Buckingham Palace. Guided tour times may differ.\n
 
-<!--    Where is Buckingham Palace?\n-->
-<!--    Buckingham Palace is located in the City of Westminster in central London.\n-->
-<!--    How to get to Buckingham Palace\n-->
-<!--    The closest Tube stations are Victoria, Green Park and Hyde Park Corner.\n-->
+    Where is Buckingham Palace?\n
+    Buckingham Palace is located in the City of Westminster in central London.\n
+    How to get to Buckingham Palace\n
+    The closest Tube stations are Victoria, Green Park and Hyde Park Corner.\n
 
-<!--    Buses 11, 211, C1 and C10 stop near Buckingham Palace.\n-->
+    Buses 11, 211, C1 and C10 stop near Buckingham Palace.\n
 
-<!--    If you are arriving by coach, Victoria Coach Station is only a 10-minute walk away.\n-->
+    If you are arriving by coach, Victoria Coach Station is only a 10-minute walk away.\n
 
-<!--    Who lives in Buckingham Palace?\n-->
-<!--    Buckingham Palace serves as the official London residence of His Majesty The King.\n-->
+    Who lives in Buckingham Palace?\n
+    Buckingham Palace serves as the official London residence of His Majesty The King.\n
 
-<!--    The monarch often receives members of the Privy Council, foreign and British Ambassadors and High Commissioners, bishops, senior officers of the Armed Services and the Civil Service.\n-->
+    The monarch often receives members of the Privy Council, foreign and British Ambassadors and High Commissioners, bishops, senior officers of the Armed Services and the Civil Service.\n
 
-<!--    Many of the royals also hold private apartments here and use the palace as their London home base.\n-->
-<!--    How many rooms are in Buckingham Palace?\n-->
-<!--    Buckingham Palace has 775 rooms in total. This includes:\n-->
+    Many of the royals also hold private apartments here and use the palace as their London home base.\n
+    How many rooms are in Buckingham Palace?\n
+    Buckingham Palace has 775 rooms in total. This includes:\n
 
-<!--    19 State rooms\n-->
-<!--    52 Royal and guest bedrooms\n-->
-<!--    188 staff bedrooms\n-->
-<!--    92 offices\n-->
-<!--    78 bathrooms\n-->
-<!--    What is the history of Buckingham Palace?\n-->
-<!--    Buckingham Palace is an essential part of England\'s history and culture.\n-->
+    19 State rooms\n
+    52 Royal and guest bedrooms\n
+    188 staff bedrooms\n
+    92 offices\n
+    78 bathrooms\n
+    What is the history of Buckingham Palace?\n
+    Buckingham Palace is an essential part of England\'s history and culture.\n
 
-<!--    Originally known as Buckingham House, the building at the core of today\'s palace was a large townhouse built for the Duke of Buckingham in 1703, on a site that had been in private ownership for at least 150 years. It was then acquired by King George III in 1761 as a private residence for Queen Charlotte and became known as The Queen\'s House.\n-->
+    Originally known as Buckingham House, the building at the core of today\'s palace was a large townhouse built for the Duke of Buckingham in 1703, on a site that had been in private ownership for at least 150 years. It was then acquired by King George III in 1761 as a private residence for Queen Charlotte and became known as The Queen\'s House.\n
 
-<!--    During the 19th century, architects John Nash and Edward Blore constructed three wings around a central courtyard.\n-->
+    During the 19th century, architects John Nash and Edward Blore constructed three wings around a central courtyard.\n
 
-<!--    Buckingham Palace became the official London residence of the British monarch on the accession of Queen Victoria in 1837.\n-->
+    Buckingham Palace became the official London residence of the British monarch on the accession of Queen Victoria in 1837.\n
 
-<!--    Following major structural additions in the late 19th and early 20th centuries, and the King\'s Gallery built on the site of the destroyed palace chapel during the Second World War, it is now a grand palace with 775 lavishly decorated rooms and the largest private garden in London.\n-->
+    Following major structural additions in the late 19th and early 20th centuries, and the King\'s Gallery built on the site of the destroyed palace chapel during the Second World War, it is now a grand palace with 775 lavishly decorated rooms and the largest private garden in London.\n
 
-<!--    When does Buckingham Palace open to the public?\n-->
-<!--    You can explore the lavishly furnished State Rooms and discover some of the Royal Collection\'s greatest treasures at Buckingham Palace for a limited time each summer.\n-->
+    When does Buckingham Palace open to the public?\n
+    You can explore the lavishly furnished State Rooms and discover some of the Royal Collection\'s greatest treasures at Buckingham Palace for a limited time each summer.\n
 
-<!--    In 2025, Buckingham Palace will be open to the public from July to September - exact dates to be confirmed.\n-->
+    In 2025, Buckingham Palace will be open to the public from July to September - exact dates to be confirmed.\n
 
-<!--    How many acres is Buckingham Palace?\n-->
-<!--    The Buckingham Palace grounds span more than 39 acres. The garden grounds play a key part in the busy calendar of royal events, official entertaining and celebratory events. The garden boasts wild-plant species, breeding birds and more than 1,000 trees.-->
-<!--</string>-->
-<!--    <string name="attraction_madame_tussauds"> At Madame Tussauds London, you\'ll come face-to-face with some of the world\'s most famous faces.</string>-->
-<!--    <string name="attraction_madame_tussauds_detail">-->
-<!--    Step through the world-famous doors of Madame Tussauds London and immerse yourself into the world of superstars at the ultimate fame experience.\n-->
-<!--    Get closer than ever to your favourite A-listers by coming face to face with more than 150 unique and incredibly realistic figures across three immersive floors.\n-->
+    How many acres is Buckingham Palace?\n
+    The Buckingham Palace grounds span more than 39 acres. The garden grounds play a key part in the busy calendar of royal events, official entertaining and celebratory events. The garden boasts wild-plant species, breeding birds and more than 1,000 trees.
+</string>
 
-<!--    What\'s inside Madame Tussauds London?\n-->
-<!--    Step through the world-famous doors of Madame Tussauds London and onto the red-carpet where a star-studded experience awaits.\n-->
+    <string name="attraction_madame_tussauds"> At Madame Tussauds London, you\'ll come face-to-face with some of the world\'s most famous faces.</string>
+    <string name="attraction_madame_tussauds_detail">
+    Step through the world-famous doors of Madame Tussauds London and immerse yourself into the world of superstars at the ultimate fame experience.\n
+    Get closer than ever to your favourite A-listers by coming face to face with more than 150 unique and incredibly realistic figures across three immersive floors.\n
 
-<!--    Rub shoulders with Hollywood superstars in the Awards Party, grab the mic and perform with the likes of Drake and Dua Lipa in the Impossible Festival and feel like royalty as you attend a private audience with Their Majesties King Charles III and Queen Camilla in The Royal Palace experience.\n-->
+    What\'s inside Madame Tussauds London?\n
+    Step through the world-famous doors of Madame Tussauds London and onto the red-carpet where a star-studded experience awaits.\n
 
-<!--    All before saving the world with The Avengers in the Marvel Hall of Heroes and wielding the power of the force as you adventure through a galaxy far, far away facing off with legendary Jedi Knights and Sith Lords in Star Wars.\n-->
+    Rub shoulders with Hollywood superstars in the Awards Party, grab the mic and perform with the likes of Drake and Dua Lipa in the Impossible Festival and feel like royalty as you attend a private audience with Their Majesties King Charles III and Queen Camilla in The Royal Palace experience.\n
 
-<!--    Get closer to the action with immersive experiences throughout Madame Tussauds London. Join the Avengers as they assemble to protect the earth from a new threat in the Marvel Universe 4D experience and truly feel the power of the earth’s mightiest heroes.\n-->
+    All before saving the world with The Avengers in the Marvel Hall of Heroes and wielding the power of the force as you adventure through a galaxy far, far away facing off with legendary Jedi Knights and Sith Lords in Star Wars.\n
 
-<!--    Hitch a ride like no other as you hop into an iconic black cab and journey through the capital’s history on the Spirit of London ride. Horror fans rejoice! Enter some of London’s darkest crime scenes of the past 150 years, inside the seriously spine-chilling Chamber of Horrors. At Madame Tussauds London, the fun never stops, with something for the whole family to enjoy.\n-->
+    Get closer to the action with immersive experiences throughout Madame Tussauds London. Join the Avengers as they assemble to protect the earth from a new threat in the Marvel Universe 4D experience and truly feel the power of the earth’s mightiest heroes.\n
 
-<!--    What is Madame Tussauds London?\n-->
-<!--    Madame Tussauds London is an interactive attraction where you can get up close and personal to some of your favourite icons and A-listers.\n-->
+    Hitch a ride like no other as you hop into an iconic black cab and journey through the capital’s history on the Spirit of London ride. Horror fans rejoice! Enter some of London’s darkest crime scenes of the past 150 years, inside the seriously spine-chilling Chamber of Horrors. At Madame Tussauds London, the fun never stops, with something for the whole family to enjoy.\n
 
-<!--    There are also four exciting and immersive experiences at Madame Tussauds London, including a unique ride through the capital\'s history on the Spirit of London Ride, entering some of London’s darkest crime scenes of the past 150 years within the Chamber of Horrors and assembling the avengers to face a new threat in the Marvel Universe 4D Experience.\n-->
+    What is Madame Tussauds London?\n
+    Madame Tussauds London is an interactive attraction where you can get up close and personal to some of your favourite icons and A-listers.\n
 
-<!--    How long does it take to explore Madame Tussauds London?\n-->
-<!--    To fully experience everything that the attraction has to offer, it is recommended you should spend one-and-a-half to two hours during your visit at Madame Tussauds London.\n-->
+    There are also four exciting and immersive experiences at Madame Tussauds London, including a unique ride through the capital\'s history on the Spirit of London Ride, entering some of London’s darkest crime scenes of the past 150 years within the Chamber of Horrors and assembling the avengers to face a new threat in the Marvel Universe 4D Experience.\n
 
-<!--    Where is Madame Tussauds London?\n-->
-<!--    Madame Tussauds London is located on Marylebone Road in Marylebone, north-west London.\n-->
+    How long does it take to explore Madame Tussauds London?\n
+    To fully experience everything that the attraction has to offer, it is recommended you should spend one-and-a-half to two hours during your visit at Madame Tussauds London.\n
 
-<!--    What is the closest tube station to Madame Tussauds London?\n-->
-<!--    The closest stations are Baker Street Tube Station (Bakerloo, Circle, Jubilee, Metropolitan and Hammersmith &amp; City lines) and Marylebone Station (National Rail).-->
-<!--</string>-->
-<!--    <string name="attraction_british_museum"> See the best of the world\’s history, art and culture on a two-hour British Museum Guided Tour.</string>-->
-<!--    <string name="attraction_british_museum_detail">-->
-<!--    Founded in 1753, the British Museum in Bloomsbury has a collection covering two million years of history.\n-->
-<!--    Showcasing human knowledge in all forms, it was the world’s first public museum of its kind and attracts more than six million visitors each year.\n-->
+    Where is Madame Tussauds London?\n
+    Madame Tussauds London is located on Marylebone Road in Marylebone, north-west London.\n
 
-<!--    What is in the British Museum?\n-->
-<!--    Find cultural treasures, both ancient and modern, all under one roof. Highlights of the British Museum’s collection include Egyptian mummies and the Parthenon Sculptures.\n-->
-<!--    Travel from ancient Greece and Egypt, to Africa and China, or from Roman Britain to medieval Europe in more than 60 free galleries centred around the magnificent Great Court.\n-->
-<!--    Alongside the vast permanent collection, there are regular British Museum exhibitions focused on people, places, stories from the past and key themes for the present and future. Keep an eye out for exciting events based on the exhibitions.\n-->
+    What is the closest tube station to Madame Tussauds London?\n
+    The closest stations are Baker Street Tube Station (Bakerloo, Circle, Jubilee, Metropolitan and Hammersmith &amp; City lines) and Marylebone Station (National Rail).
+</string>
 
-<!--    What is the most famous item in the British Museum?\n-->
-<!--    One of the most famous artefacts in the world, and the most visited item in the British Museum, is the Rosetta Stone.\n-->
-<!--    The stone, once part of a much larger slab called stelae, has a message carved into it in three types of writing which allowed experts to learn how to read hieroglyphs. Thus, opening up a trove of knowledge and a deeper understanding of the ancient Egyptian civilisation.\n-->
-<!--    Other famous items in the museum include the spectacular Sophilos Vase from ancient Greece, the Roman sculpture Crouching Venus, the brass head of an Ooni (king) of Ife and the bust of Ramesses the Great.\n-->
 
-<!--    Is the British Museum free?\n-->
-<!--    The British Museum is free to enter and includes access to its permanent galleries. Special exhibitions usually require a fee. Although this attraction is free to visit, you must book a timed entry ticket in advance to guarantee entry – some walk-up tickets are available each day, but entry is not guaranteed.\n-->
+    // Category 2 Museums
+    <string name="british_museum">British Museum</string>
+    <string name="british_museum_subtitle"> See the best of the world\’s history, art and culture on a two-hour British Museum Guided Tour.</string>
+    <string name="british_museum_detail">
+    Founded in 1753, the British Museum in Bloomsbury has a collection covering two million years of history.\n
+    Showcasing human knowledge in all forms, it was the world’s first public museum of its kind and attracts more than six million visitors each year.\n
 
-<!--    How to book tickets to the British Museum?\n-->
-<!--    Although the British Museum is free to enter you must book a timed entry ticket in advance to guarantee entry. Paid-for British Museum tickets are usually also required for key exhibitions.\n-->
+    What is in the British Museum?\n
+    Find cultural treasures, both ancient and modern, all under one roof. Highlights of the British Museum\’s collection include Egyptian mummies and the Parthenon Sculptures.\n
+    Travel from ancient Greece and Egypt, to Africa and China, or from Roman Britain to medieval Europe in more than 60 free galleries centred around the magnificent Great Court.\n
+    Alongside the vast permanent collection, there are regular British Museum exhibitions focused on people, places, stories from the past and key themes for the present and future. Keep an eye out for exciting events based on the exhibitions.\n
 
-<!--    How long to spend at the British Museum?\n-->
-<!--    With so much to discover, you could spend a week walking around the British Museum and not see it all!\n-->
-<!--    Book a two-hour guided British Museum tour to see the highlights and to learn more about the exhibits.\n-->
-<!--    Make a day of it by stopping off at some of the cafes and restaurants at the British Museum, including afternoon tea at the Great Court Restaurant.\n-->
-<!--    You can also pick up gifts, books and more at the ground floor Great Court Shop and Collections Shop.\n-->
+    What is the most famous item in the British Museum?\n
+    One of the most famous artefacts in the world, and the most visited item in the British Museum, is the Rosetta Stone.\n
+    The stone, once part of a much larger slab called stelae, has a message carved into it in three types of writing which allowed experts to learn how to read hieroglyphs. Thus, opening up a trove of knowledge and a deeper understanding of the ancient Egyptian civilisation.\n
+    Other famous items in the museum include the spectacular Sophilos Vase from ancient Greece, the Roman sculpture Crouching Venus, the brass head of an Ooni (king) of Ife and the bust of Ramesses the Great.\n
 
-<!--    Where is the British Museum?\n-->
-<!--    The British Museum is in Bloomsbury, in central London. It’s a short walk from Covent Garden, Fitzrovia and Euston.\n-->
+    Is the British Museum free?\n
+    The British Museum is free to enter and includes access to its permanent galleries. Special exhibitions usually require a fee. Although this attraction is free to visit, you must book a timed entry ticket in advance to guarantee entry – some walk-up tickets are available each day, but entry is not guaranteed.\n
 
-<!--    How to get to the British Museum?\n-->
-<!--    The British Museum is handily located close to four London Tube stations, with Holborn, Tottenham Court Road, Russell Square and Goodge Street all within eight minutes’ walk.\n-->
-<!--    Various bus routes also run close to the museum, with route 14 stopping directly outside.\n-->
-<!--    There are Santander Cycles docking stations within two minutes’ walk of the museum, on the corner of Great Russell Street and Montague Street. If you’re using your own bike, make use of the cycle racks at the main entrance.\n-->
+    How to book tickets to the British Museum?\n
+    Although the British Museum is free to enter you must book a timed entry ticket in advance to guarantee entry. Paid-for British Museum tickets are usually also required for key exhibitions.\n
 
-<!--    What are the British Museum\'s opening times?\n-->
-<!--    The British Museum is open daily, from 10am to 5pm.-->
-<!--</string>-->
+    How long to spend at the British Museum?\n
+    With so much to discover, you could spend a week walking around the British Museum and not see it all!\n
+    Book a two-hour guided British Museum tour to see the highlights and to learn more about the exhibits.\n
+    Make a day of it by stopping off at some of the cafes and restaurants at the British Museum, including afternoon tea at the Great Court Restaurant.\n
+    You can also pick up gifts, books and more at the ground floor Great Court Shop and Collections Shop.\n
 
-<!--    &lt;!&ndash; Category 2 for London City / Museum &ndash;&gt;-->
-<!--    <string name="attraction_natural_history_museum">Delve into the history of planet Earth in the Natural History Museum’s galleries</string>-->
-<!--    <string name="attraction_natural_history_museum_detail">-->
-<!--    Delve into the history of planet Earth in the Natural History Museum’s galleries, which house unique treasures from the museum’s collection of more than 80 million objects spanning 4.5 billion years.\n-->
-<!--    With its striking Victorian architecture and incredible exhibition spaces, the Natural History Museum in South Kensington is one of the city’s most famous landmarks and best places to visit.\n-->
+    Where is the British Museum?\n
+    The British Museum is in Bloomsbury, in central London. It\’s a short walk from Covent Garden, Fitzrovia and Euston.\n
 
-<!--    What is there to do at the museum?\n-->
-<!--    Top things to see at the Natural History Museum in South Kensington include Hope, the huge blue whale skeleton in Hintze Hall, fossils in the world-leading Dinosaurs gallery and meteorites from outer space.\n-->
-<!--    Don\'t miss the latest exhibitions at the Natural History Museum, including the annual Wildlife Photographer of the Year exhibition, which features stunning photography of the natural world.\n-->
-<!--    Also keep an eye out for exciting museum events and activities, from yoga and silent discos to dinosaur-themed sleepovers and behind-the-scenes tours, plus family activities during the school holidays.\n-->
-<!--    Complete your visit with a wander around the museum gardens where you can follow in the footsteps of evolution as you move through the green spaces. Come face-to-face with a full-size bronze cast of a Diplodocus, be inspired by the canyon clad in natural stone, or sit peacefully and connect with nature.\n-->
-<!--    Book a Natural History Museum Guided Tour to be guided around the museum’s fascinating galleries by an expert guide.\n-->
+    How to get to the British Museum?\n
+    The British Museum is handily located close to four London Tube stations, with Holborn, Tottenham Court Road, Russell Square and Goodge Street all within eight minutes’ walk.\n
+    Various bus routes also run close to the museum, with route 14 stopping directly outside.\n
+    There are Santander Cycles docking stations within two minutes’ walk of the museum, on the corner of Great Russell Street and Montague Street. If you’re using your own bike, make use of the cycle racks at the main entrance.\n
 
-<!--    How long does it take to see the Natural History Museum?\n-->
-<!--    With more than 20 galleries and spaces to enjoy, you can easily spend all day here. Relax in the quiet Darwin Centre, browse the shops, or refuel at one of the museum’s cafes, snack bars or picnic spots.\n-->
-<!--    The museum is split into four zones, so if you’re short on time, pick one of the zones based on your interests.\n-->
+    What are the British Museum\'s opening times?\n
+    The British Museum is open daily, from 10am to 5pm.
+</string>
 
-<!--    Is the Natural History Museum free?\n-->
-<!--    The Natural History Museum is free to visit. Some temporary exhibitions and events may require an admission fee and a pre-booked ticket.\n-->
+    <string name="natural_history_museum">Natural History Museum</string>
+    <string name="natural_history_museum_subtitle">Delve into the history of planet Earth in the Natural History Museum’s galleries</string>
+    <string name="natural_history_museum_detail">
+    Delve into the history of planet Earth in the Natural History Museum’s galleries, which house unique treasures from the museum’s collection of more than 80 million objects spanning 4.5 billion years.\n
+    With its striking Victorian architecture and incredible exhibition spaces, the Natural History Museum in South Kensington is one of the city’s most famous landmarks and best places to visit.\n
 
-<!--    Do you have to book the Natural History Museum?\n-->
-<!--    During busy periods, the museum may not always be able to accommodate walk-in entry, so booking a timed entry ticket is recommended.\n-->
+    What is there to do at the museum?\n
+    Top things to see at the Natural History Museum in South Kensington include Hope, the huge blue whale skeleton in Hintze Hall, fossils in the world-leading Dinosaurs gallery and meteorites from outer space.\n
+    Don\'t miss the latest exhibitions at the Natural History Museum, including the annual Wildlife Photographer of the Year exhibition, which features stunning photography of the natural world.\n
+    Also keep an eye out for exciting museum events and activities, from yoga and silent discos to dinosaur-themed sleepovers and behind-the-scenes tours, plus family activities during the school holidays.\n
+    Complete your visit with a wander around the museum gardens where you can follow in the footsteps of evolution as you move through the green spaces. Come face-to-face with a full-size bronze cast of a Diplodocus, be inspired by the canyon clad in natural stone, or sit peacefully and connect with nature.\n
+    Book a Natural History Museum Guided Tour to be guided around the museum’s fascinating galleries by an expert guide.\n
 
-<!--    Where is the Natural History Museum?\n-->
-<!--    The Natural History Museum is in South Kensington in London, and forms part of the area’s “Museum Quarter” along with the Victoria and Albert Museum and the Science Museum which are both four minutes\' walk away.\n-->
+    How long does it take to see the Natural History Museum?\n
+    With more than 20 galleries and spaces to enjoy, you can easily spend all day here. Relax in the quiet Darwin Centre, browse the shops, or refuel at one of the museum’s cafes, snack bars or picnic spots.\n
+    The museum is split into four zones, so if you’re short on time, pick one of the zones based on your interests.\n
 
-<!--    How to get to the Natural History Museum\n-->
-<!--    The closest Tube station to the Natural History Museum is South Kensington (Circle, District and Piccadilly lines), which is a five-minute walk away. Gloucester Road station (Circle, District and Piccadilly lines) is 12 minutes away.\n-->
-<!--    Various bus routes stop close to the Natural History Museum.\n-->
-<!--    There are Santander Cycles docking stations directly outside the museum, at the Exhibition Road entrance.\n-->
+    Is the Natural History Museum free?\n
+    The Natural History Museum is free to visit. Some temporary exhibitions and events may require an admission fee and a pre-booked ticket.\n
 
-<!--    This content has been supplied by Natural History Museum-->
-<!--</string>-->
+    Do you have to book the Natural History Museum?\n
+    During busy periods, the museum may not always be able to accommodate walk-in entry, so booking a timed entry ticket is recommended.\n
+
+    Where is the Natural History Museum?\n
+    The Natural History Museum is in South Kensington in London, and forms part of the area’s “Museum Quarter” along with the Victoria and Albert Museum and the Science Museum which are both four minutes\' walk away.\n
+
+    How to get to the Natural History Museum\n
+    The closest Tube station to the Natural History Museum is South Kensington (Circle, District and Piccadilly lines), which is a five-minute walk away. Gloucester Road station (Circle, District and Piccadilly lines) is 12 minutes away.\n
+    Various bus routes stop close to the Natural History Museum.\n
+    There are Santander Cycles docking stations directly outside the museum, at the Exhibition Road entrance.\n
+
+    This content has been supplied by Natural History Museum
+</string>
 <!--    <string name="attraction_science_museum">The Science Museum is home to award-winning exhibitions, iconic objects and stories of incredible scientific achievement.</string>-->
 <!--    <string name="attraction_science_museum_detail">-->
 <!--    The Science Museum is home to award-winning exhibitions, iconic objects and stories of incredible scientific achievement.\n-->

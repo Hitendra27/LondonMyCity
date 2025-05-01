@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -22,6 +23,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
@@ -30,6 +32,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.londonmycity.R
+import com.example.londonmycity.data.LocalCategoryDataProvider
 import com.example.londonmycity.model.LondonAttraction
 import com.example.londonmycity.ui.theme.LondonMyCityTheme
 
@@ -42,7 +45,9 @@ fun LondonAttractionList(
     LazyColumn(
         contentPadding = contentPadding,
         verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.padding_medium)),
-        modifier = modifier) {
+        modifier = modifier
+            .fillMaxSize()
+    ) {
         items(londonAttractions) { attraction ->
             ListItem(
                 title = stringResource(id = attraction.titleResourceId),
@@ -69,6 +74,7 @@ fun ListItem(
         shape = RoundedCornerShape(dimensionResource(R.dimen.card_corner_radius)),
         onClick = onClick,
         modifier = modifier
+            .fillMaxWidth()
     ) {
         Row(
             modifier = Modifier
@@ -96,6 +102,7 @@ fun ListItem(
                 Text(
                     text = title,
                     style = MaterialTheme.typography.displayMedium,
+                    color = Color(0xFFF9E795),
                     modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_small)),
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis
@@ -103,6 +110,7 @@ fun ListItem(
                 Text(
                     text = subtitle,
                     style = MaterialTheme.typography.labelSmall,
+                    color = Color(0xFFF8AAAE5),
                     maxLines = 3,
                     overflow = TextOverflow.Ellipsis
                 )
@@ -121,6 +129,18 @@ fun ListItemPreview() {
                 subtitle = "Subtitle",
                 image = R.drawable.arsenal_emirates_stadium_tours,
                 onClick = {}
+            )
+        }
+    }
+}
+
+@Preview("List item")
+@Composable
+fun LondonAttractionListPreview() {
+    LondonMyCityTheme {
+        Surface {
+            LondonAttractionList(
+                londonAttractions = LocalCategoryDataProvider.getCategoryData()[0].attraction,
             )
         }
     }
