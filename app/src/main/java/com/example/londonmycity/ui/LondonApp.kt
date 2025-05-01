@@ -26,6 +26,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
@@ -111,6 +112,7 @@ fun LondonTopAppBar(
                     )
                     Text(
                         text = stringResource(R.string.app_top_bar),
+                        color = Color(0xFFF32B2B),
                         style = MaterialTheme.typography.displayLarge
                     )
                 }
@@ -118,6 +120,7 @@ fun LondonTopAppBar(
                 Text(
                     text = "London Attractions",
                     style = MaterialTheme.typography.displayMedium,
+                    color = Color(0xFFF32B2B),
                     textAlign = TextAlign.Start,
 
                 )

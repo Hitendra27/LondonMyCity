@@ -25,45 +25,98 @@ object LocalCategoryDataProvider {
                         recommended = true,
                         highlyRecommended = true,
                         imageResourceId = R.drawable.warner_bros_studio_our_london,
-                        details = R.string.warner_bros_studio_detail_text
+                        details = R.string.warner_bros_studio_detail
                     ),
                     LondonAttraction(
                         id = 2,
                         titleResourceId = R.string.london_eye,
                         subtitleResourceId = R.string.london_eye_subtitle,
                         recommended = true,
-                        highlyRecommended = false,
+                        highlyRecommended = true,
                         imageResourceId = R.drawable.the_london_eye,
                         details = R.string.london_eye_detail
-
                     ),
                     LondonAttraction(
                         id = 3,
-                        titleResourceId = R.string.hopon_hopoff,
-                        subtitleResourceId = R.string.hopon_hopoff_subtitle,
+                        titleResourceId = R.string.madame_tussauds,
+                        subtitleResourceId = R.string.madame_tussauds_subtitle,
                         recommended = true,
-                        highlyRecommended = false,
-                        imageResourceId = R.drawable.hop_on_hop_off,
-                        details = R.string.hopon_hopoff_detail
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.madame_tussauds,
+                        details = R.string.madame_tussauds_detail
                     ),
                     LondonAttraction(
                         id = 4,
                         titleResourceId = R.string.tower_of_london,
                         subtitleResourceId = R.string.tower_of_london_subtitle,
                         recommended = true,
-                        highlyRecommended = false,
+                        highlyRecommended = true,
                         imageResourceId = R.drawable.tower_of_london,
                         details = R.string.tower_of_london_detail
                     ),
                     LondonAttraction(
                         id = 5,
+                        titleResourceId = R.string.hopon_hopoff,
+                        subtitleResourceId = R.string.hopon_hopoff_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.hop_on_hop_off,
+                        details = R.string.hopon_hopoff_detail
+                    ),
+                    LondonAttraction(
+                        id = 6,
                         titleResourceId = R.string.buckingham_palace,
                         subtitleResourceId = R.string.buckingham_palace_subtitle,
                         recommended = true,
-                        highlyRecommended = false,
+                        highlyRecommended = true,
                         imageResourceId = R.drawable.buckingham_palace,
                         details = R.string.buckingham_palace_detail
-                    )
+                    ),
+                    LondonAttraction(
+                        id = 7,
+                        titleResourceId = R.string.st_pauls_cathedral,
+                        subtitleResourceId = R.string.st_pauls_cathedral_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.st_paul,
+                        details = R.string.st_pauls_cathedral_detail
+                    ),
+                    LondonAttraction(
+                        id = 8,
+                        titleResourceId = R.string.tower_bridge,
+                        subtitleResourceId = R.string.tower_bridge_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.tower_bridge,
+                        details = R.string.tower_bridge_detail
+                    ),
+                    LondonAttraction(
+                        id = 9,
+                        titleResourceId = R.string.sky_garden,
+                        subtitleResourceId = R.string.sky_garden_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.sky_garden,
+                        details = R.string.sky_garden_detail
+                    ),
+                    LondonAttraction(
+                        id = 10,
+                        titleResourceId = R.string.borough_market,
+                        subtitleResourceId = R.string.borough_market_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.borough_market,
+                        details = R.string.british_museum_detail
+                    ),
+                    LondonAttraction(
+                        id = 11,
+                        titleResourceId = R.string.camden_town,
+                        subtitleResourceId = R.string.camden_town_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.camden_town,
+                        details = R.string.british_museum_detail
+                    ),
                 )
             ),
             LondonCategory(
@@ -216,12 +269,12 @@ object LocalCategoryDataProvider {
                 attraction = listOf(
                     LondonAttraction(
                         id = 1,
-                        titleResourceId = R.string.warner_bros_studio,
-                        subtitleResourceId = R.string.warner_bros_studio_subtitle,
+                        titleResourceId = R.string.british_museum,
+                        subtitleResourceId = R.string.british_museum_detail,
                         recommended = true,
                         highlyRecommended = true,
                         imageResourceId = R.drawable.warner_bros_studio_our_london,
-                        details = R.string.warner_bros_studio_detail_text
+                        details = R.string.british_museum_detail
                     )
                 )
             ),
@@ -233,12 +286,12 @@ object LocalCategoryDataProvider {
                 attraction = listOf(
                     LondonAttraction(
                         id = 1,
-                        titleResourceId = R.string.warner_bros_studio,
-                        subtitleResourceId = R.string.warner_bros_studio_subtitle,
+                        titleResourceId = R.string.british_museum,
+                        subtitleResourceId = R.string.british_museum_detail,
                         recommended = true,
                         highlyRecommended = true,
                         imageResourceId = R.drawable.warner_bros_studio_our_london,
-                        details = R.string.warner_bros_studio_detail_text
+                        details = R.string.british_museum_detail
                     )
                 )
 
@@ -251,12 +304,12 @@ object LocalCategoryDataProvider {
             attraction = listOf(
                 LondonAttraction(
                     id = 1,
-                    titleResourceId = R.string.warner_bros_studio,
-                    subtitleResourceId = R.string.warner_bros_studio_subtitle,
+                    titleResourceId = R.string.british_museum,
+                    subtitleResourceId = R.string.british_museum_detail,
                     recommended = true,
                     highlyRecommended = true,
                     imageResourceId = R.drawable.warner_bros_studio_our_london,
-                    details = R.string.warner_bros_studio_detail_text
+                    details = R.string.british_museum_detail
                 )
             )
         ),
@@ -268,12 +321,12 @@ object LocalCategoryDataProvider {
             attraction = listOf(
                 LondonAttraction(
                     id = 1,
-                    titleResourceId = R.string.warner_bros_studio,
-                    subtitleResourceId = R.string.warner_bros_studio_subtitle,
+                    titleResourceId = R.string.british_museum,
+                    subtitleResourceId = R.string.british_museum_detail,
                     recommended = true,
                     highlyRecommended = true,
                     imageResourceId = R.drawable.warner_bros_studio_our_london,
-                    details = R.string.warner_bros_studio_detail_text
+                    details = R.string.british_museum_detail
                 )
             )
            ),
@@ -285,12 +338,12 @@ object LocalCategoryDataProvider {
                 attraction = listOf(
                     LondonAttraction(
                         id = 1,
-                        titleResourceId = R.string.warner_bros_studio,
-                        subtitleResourceId = R.string.warner_bros_studio_subtitle,
+                        titleResourceId = R.string.british_museum,
+                        subtitleResourceId = R.string.british_museum_detail,
                         recommended = true,
                         highlyRecommended = true,
                         imageResourceId = R.drawable.warner_bros_studio_our_london,
-                        details = R.string.warner_bros_studio_detail_text
+                        details = R.string.british_museum_detail
                     )
                 )
             ),
@@ -302,12 +355,12 @@ object LocalCategoryDataProvider {
                 attraction = listOf(
                     LondonAttraction(
                         id = 1,
-                        titleResourceId = R.string.warner_bros_studio,
-                        subtitleResourceId = R.string.warner_bros_studio_subtitle,
+                        titleResourceId = R.string.british_museum,
+                        subtitleResourceId = R.string.british_museum_detail,
                         recommended = true,
                         highlyRecommended = true,
                         imageResourceId = R.drawable.warner_bros_studio_our_london,
-                        details = R.string.warner_bros_studio_detail_text
+                        details = R.string.british_museum_detail
                     )
                 )
             ),
@@ -319,12 +372,12 @@ object LocalCategoryDataProvider {
                 attraction = listOf(
                     LondonAttraction(
                         id = 1,
-                        titleResourceId = R.string.warner_bros_studio,
-                        subtitleResourceId = R.string.warner_bros_studio_subtitle,
+                        titleResourceId = R.string.british_museum,
+                        subtitleResourceId = R.string.british_museum_detail,
                         recommended = true,
                         highlyRecommended = true,
                         imageResourceId = R.drawable.warner_bros_studio_our_london,
-                        details = R.string.warner_bros_studio_detail_text
+                        details = R.string.british_museum_detail
                     )
                 )
             ),

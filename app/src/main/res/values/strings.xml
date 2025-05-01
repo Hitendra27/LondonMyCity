@@ -37,239 +37,116 @@
     <string name="restaurants">Restaurants</string>
     <string name="restaurants_subtitle">Discover diverse dining options, from traditional pubs to Michelin-starred restaurants. Don\'t forget to ask!</string>
 
-    <!-- Attraction's Recommendations -->
-    <string name="warner_bros_studio">Warner Bros. Studio Tour London</string>
-    <string name="london_eye">The London Eye</string>
-    <string name="hopon_hopoff">Hop-on Hop-off Bus Tour</string>
-    <string name="tower_of_london">Tower of London</string>
-    <string name="madame_tussauds">Madame Tussauds London</string>
-    <string name="buckingham_palace">Buckingham Palace</string>
 
-    <!-- Category 1 for London City / London Attractions -->
-    <string name="warner_bros_studio_subtitle"> Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.</string>
-    <string name="warner_bros_studio_detail_text">
-     Discover the magic behind spellbinding special effects, uncover behind-the-scenes secrets and step onto real-life sets from the Harry Potter film series at Warner Bros. Studio Tour London.
-     Watch the magic of the films come to life with original costumes, interactive sets and real props from the Harry Potter film series.
-     \n\n
-     Explore the iconic Great Hall, wander the cobbles of Diagon Alley and board the Hogwarts Express on Platform 9 \¾ to snap a photo with the iconic luggage trolley.
-     This mesmerising studio tour gives you a glimpse into the magical wizarding world that has captivated people from around the world of all ages.
-     Explore the Warner Bros. Studio Tour London – The Making of Harry Potter
-     Walk in the footsteps of Harry and his friends, and experience magic unfolding before your very eyes.
-     \n\n
-     Marvel at breathtaking sets, authentic props and original costumes, as you embark on a journey through the marble towers of Gringotts Wizarding Bank, see where students were taught Herbology lessons with Professor Pomona Sprout, and experience the magic of other iconic scenes.
-     Spot your favourite props from the films and discover how special and visual effects were used to create the Chamber of Secrets door, invisibility cloak, the flying Quidditch scenes and much more.
-     Located within the Studios where all eight films were produced, the Studio Tour showcases the best of British talent, imagination and artistry that went into making the impossible a reality on screen. Relive the magic through the eyes of the filmmakers who brought the Harry Potter film series to life.
-     \n\n
-     Don’t forget to visit the Studio Tour shops and explore the range of exclusive merchandise, replica wands, collectible items and confectionery to complete the memorable day.
-     How to book your Warner Bros. Studio Tour London – The Making of Harry Potter tickets.
-     \n\n
-     Book Studio Tour tickets with return travel now.
-     \n\n
-     Ticket options include entry plus travel from London Victoria or Baker Street; or, if you already have tickets for the Studio Tour, there’s the option to purchase return transport only from central London.
-     Enhance your Studio Tour experience by visiting around Halloween for the Dark Arts spectacle, summer for Return to Azkaban takeover or book tickets during the Christmas period to celebrate the magical festive season with Hogwarts in the Snow.
-     \n\n
-     This content has been supplied by Warner Bros. Studio Tour London - The Making of Harry Potter
+    <!-- 1. Warner Bros. Studio Tour London -->
+    <string name="warner_bros_studio">Warner Bros. Studio Tour London</string>
+    <string name="warner_bros_studio_subtitle">The Making of Harry Potter</string>
+    <string name="warner_bros_studio_detail">
+        Step into the magical world of Harry Potter at Warner Bros. Studio Tour London – The Making of Harry Potter. This incredible attraction invites you to explore the authentic sets, discover behind-the-scenes secrets, and marvel at the intricate props and costumes from the beloved film series.  Walk through iconic locations like the Great Hall, Diagon Alley, and the Forbidden Forest. This is a must-visit place for Harry Potter fans.\n\n
+        You\'ll have the chance to see how special effects and animatronics were brought to life in the films, and you can even try your hand at riding a broomstick!  The studio tour is a journey through the creativity and craftsmanship that went into making the magical world of Harry Potter a reality. There are also many shops and restaurants.\n\n
+        Tickets for the Warner Bros. Studio Tour must be booked in advance, as this is a very popular attraction.  The studio is located just outside of London, but there are easy transportation options to get there.  Allow yourself at least 3 to 4 hours to fully enjoy the tour and all it has to offer. This is one of the best activities to do.\n\n
+        Don\'t forget to try some Butterbeer, a delicious treat from the wizarding world. Remember to take your camera to capture all the magic. Don\'t forget to ask!
     </string>
 
-    <string name="london_eye_subtitle">Climb aboard one of the 32 glass capsules of the London Eye for unforgettable views of some of London\'s most famous landmarks.</string>
+    <!-- 2. The London Eye -->
+    <string name="london_eye">The London Eye</string>
+    <string name="london_eye_subtitle">Panoramic Views of London</string>
     <string name="london_eye_detail">
-  Experience unparalleled 360-degree views over London on the lastminute.com London Eye - the world’s tallest cantilevered observation wheel at 135m (443 ft) high! Wave hello to some of London\’s most spectacular landmarks, including Big Ben, Buckingham Palace and St Paul’s Cathedral.\n
-  Built to celebrate the millennium in 2000, this special engineering achievement has become a symbol of the modern capital and a world-famous icon of architecture.\n
-  Enjoy the gradual rotation and views of London life as you soar across the skyline during the daytime or after dark.\n
-  \n
-  How long does the London Eye take to go around?\n
-  A leisurely rotation in one of the 32 high-tech glass pods takes approximately 30 minutes and gives you an ever-changing perspective of London. If you can\’t wait to get up in the sky, you can skip the queues with a fast-track entry ticket.\n
-  \n
-  How to book London Eye tickets?\n
-  Tickets to the London Eye must be pre-booked online with timed entry.\n
-  \n
-  Do you have to book London Eye tickets in advance?\n
-  London Eye tickets must be pre-booked online with timed entry.\n
-  \n
-  How many pods are on the London Eye?\n
-  The London Eye has 32 pods, each representing one of London’s 32 boroughs.\n
-  \n
-  How tall is the London Eye?\n
-  The London Eye is an impressive 135 meters (443 ft) high.\n
-  \n
-  What can you see from the London Eye?\n
-  From the London Eye, you will be able to spot some of the capital’s most iconic landmarks and top attractions including Big Ben, St Paul’s Cathedral, the Houses of Parliament, and Buckingham Palace. On a clear day, you can see up to 40km (25 miles) to Windsor Castle.\n
-  \n
-  Fun facts about the London Eye!\n
-  1. The London Eye travels at a speed of around 0.6 miles per hour, advancing roughly 26 cm every second.\n
-  2. There is no 13th capsule as it is believed to be unlucky.\n
-  3. The London Eye can hold 800 people per revolution, with a maximum capacity of 25 people per pod.\n
-  4. Since 2000, the London Eye has taken more than 70 million people on a journey across London’s skyline, including celebrities such as Kim Kardashian, Mo Farah, Hugh Jackman, and Royal favorites Prince and Princess of Wales Will and Kate.\n
-  5. The London Eye weighs 2,100 tonnes – that’s as heavy as 1,272 black cabs.\n
-  6. The London Eye is supported by a frame only on one side, making it the largest cantilevered observation wheel in the world.\n
-  7. David Marks and Julia Barfield came up with the idea for the London Eye in response to a 1993 competition asking Londoners to design a new landmark celebrating the millennium, and therefore being known as the Millennium Wheel.\n
-  8. The lights were changed to LED lighting in 2006, so the London Eye can change colors and light up the sky to mark special occasions such as Coronations, movie premiers, and London community events.\n
-  9. On New Year’s Eve, the London Eye is the focal point for the fireworks over the Thames.\n
-  \n
-  What is the best time to visit the London Eye?\n
-  Boarding the London Eye includes some queuing. The quieter times of the day to visit are usually early morning for first entry or later in the day towards last entry.\n
-  \n
-  During peak periods such as weekends and school holidays, you may experience longer waiting times. You can upgrade your London Eye tickets to fast-track entry when booking online.\n
-  \n
-  What is the closest tube station to the London Eye?\n
-  The London Eye is located on the south bank of the river Thames. London Eye\'s nearest tube station is Waterloo station (Jubilee, Bakerloo, and Northern lines).\n
-  Charing Cross (Bakerloo and Northern lines), Westminster (Circle, District, and Jubilee lines), and Embankment (Circle, District, Northern, and Bakerloo lines) are also a short walk away.\n
-  \n
-  Several bus routes stop near the London Eye: 1, 12, 59, 68, 76, 77, 139, 148, 159, 168, 176, 188, 211, 243, 77 and 381, 507, 521.\n
- </string>
+        The London Eye is an iconic observation wheel located on the South Bank of the River Thames.  It offers breathtaking 360-degree views of London\'s skyline, providing a unique perspective on the city\'s famous landmarks. The London Eye is one of the most visited tourist place. \n\n
+        As you slowly rotate in one of the Eye\'s capsules, you\'ll be able to spot landmarks such as the Houses of Parliament, Big Ben, Buckingham Palace, and St. Paul\'s Cathedral. On a clear day, you can see up to 40 kilometers away. There are also many shops and restaurants near the London Eye.\n\n
+        Tickets for the London Eye can be booked in advance online, which is highly recommended to avoid long queues. The ride in each capsule lasts about 30 minutes. You can also get fast-track tickets for shorter queue times. There are usually restaurants around.\n\n
+        Don\'t forget to check the weather forecast before your visit to make sure you have clear views. Remember to take photos from the top. Don\'t forget to ask!
+    </string>
 
-    <string name="hopon_hopoff_subtitle">Make the most of your trip to London with a hop-on hop-off bus tour.</string>
+    <!-- 3. Hop-On Hop-Off Bus Tour -->
+    <string name="hopon_hopoff">Hop-On Hop-Off Bus Tour</string>
+    <string name="hopon_hopoff_subtitle">Explore London at Your Own Pace</string>
     <string name="hopon_hopoff_detail">
-    See London\'s iconic landmarks from the comfort of a hop-on hop-off bus tour. Enjoy unlimited travel around London for 24 or 48 hours, with a free river tour included with your bus ticket.\n
-    This convenient service allows you to tick off as much sightseeing as you\'d like across one or two days. Simply board the tour bus at any of the designated stops across the city and hop off at the closest stop to the sight you\'re visiting.\n
-    Once you\'re done exploring, get back on the bus and make your way to the next spot!\n
+        A Hop-On Hop-Off bus tour is a fantastic way to explore London\'s major attractions at your own pace.  These open-top, double-decker buses stop at key locations throughout the city, allowing you to get off and explore whenever and wherever you want. There are multiple companies that offers this service. \n\n
+        With a Hop-On Hop-Off ticket, you can hop on and off the bus as many times as you like within the ticket\'s validity period.  Audio commentary is provided on board, giving you interesting information about the landmarks you pass. There are multiple routes available. \n\n
+        A Hop-On Hop-Off bus tour is a great way to get an overview of the city and decide which attractions you want to explore in more detail. They go past most of the iconic locations.  You can purchase tickets online or from kiosks near the bus stops. This is one of the most popular attractions.\n\n
+        Don\'t forget to plan which stops you want to visit before you start your tour. Remember to bring sunscreen and water on sunny days. Don\'t forget to ask!
+    </string>
 
-    Your booking also includes access to a free River Thames Boat Ride or a free London walking tour.\n
+    <!-- 4. Tower of London -->
+    <string name="tower_of_london">The Tower of London</string>
+    <string name="tower_of_london_subtitle">History and Crown Jewels</string>
+    <string name="tower_of_london_detail">
+        The Tower of London is one of London\'s most iconic landmarks, steeped in over 900 years of history.  This historic castle has served as a royal palace, prison, armoury, and even a zoo! It is one of the most popular tourist attractions in the United Kingdom. \n\n
+        Highlights of a visit to the Tower include seeing the Crown Jewels, meeting the Yeoman Warders (Beefeaters), and exploring the White Tower.  You\'ll learn about the Tower\'s history as a place of both royalty and imprisonment. You will discover the legend of the ravens and why they must stay in the Tower.\n\n
+        Tickets for the Tower of London can be purchased online or at the entrance, but it\'s often cheaper and quicker to book in advance. There are usually a lot of visitors.  Allow at least 3 hours to explore the Tower fully. The Tower is huge and it has many stories. \n\n
+        Don\'t forget to take a guided tour with a Yeoman Warder to hear fascinating stories about the Tower. Remember to bring comfortable shoes, as you\'ll be doing a lot of walking. Don\'t forget to ask!
+    </string>
 
-    What is the bus tour route?\n
-    The buses cover four different routes with more than 60 stops, offering plenty of opportunities to see London\'s most famous places. You can hop on and off as many times as you want, giving you the chance to explore areas and attractions in more detail.\n
-
-    Classic Tour (Blue route): All central London sights and London\'s Museum Quarter.\n
-    Essential Tour (Red route): Includes Madame Tussauds, Kings Cross, Hyde Park, and Regents Park.\n
-    Morning and Evening Drop-Off Service (Yellow and Green routes): Available in the morning and late afternoon, this service operates from popular hotel districts to Central London sights.\n
-
-    Stopping by all major sights, on this hop-on hop-off tour you\'ll have the opportunity to see iconic landmarks including:\n
-
-    Tower of London\n
-    Buckingham Palace\n
-    Westminster Abbey\n
-    Shakespeare\'s Globe\n
-    St Paul\'s Cathedral\n
-    Tower Bridge\n
-    Trafalgar Square\n
-
-    Buses generally operate every 15 to 30 minutes, but this varies by time of year and is subject to change. Be sure to check the most up-to-date timetable on the day of travel.\n
-
-    Look out for the designated Golden Tours Hop on Hop Off/London Tour Bus sign at each stop to ensure you\'re boarding at the right location.\n
-
-    Which languages is the tour in?\n
-    Live commentary from an onboard guide, or multilingual audio guides in the following languages are available: English, French, German, Spanish, Italian, Portuguese (Brazilian), Arabic, Japanese, Mandarin, Hindi, and Russian. Free WiFi is also available on the bus.\n
-
-    What is included in the hop-on hop-off tour?\n
-    The hop-on hop-off London bus tour includes your bus ticket, audio guides, unlimited travel to over 60 stops across London, and free Wi-Fi on all open-top buses.
-     </string>
-
- <string name="tower_of_london_subtitle">Take a tour with one of the Yeoman Warders around the Tower of London, one of the world\'s most famous buildings.</string>
- <string name="tower_of_london_detail">
- Discover fascinating stories and see iconic sights at London’s famous castle, the Tower of London, where you can explore nearly 1,000 years of its history as a mighty fortress, royal palace and infamous prison.
- Marvel at the 100 objects and 23,000 precious stones that make up the Crown Jewels and enjoy a spectacular new Crown Jewels exhibition that opened in 2023. Learn gruesome tales in the Bloody Tower, meet the Yeoman Warders, walk among plants and flowers in the Moat this summer, and much more at this UNESCO World Heritage site in London.
- \n\n
- What is the Tower of London?
- The Tower of London is one of the world’s most famous fortresses with many tales to uncover within the ancient walls.
- \n\n
- Explore the importance of the Crown Jewels to the British monarchy and the role the Tower plays in protecting these treasures. The gleaming objects include the Coronation Regalia from the Coronation Spoon to St Edward’s Crown. which have been used in the coronation ceremonies of monarchs for centuries, including that of King Charles III and Queen Camilla in 2023.
- Be amazed by the White Tower that was initially built to deter invaders but now houses majestic suits of armour and exciting, hands-on activities for families. The Bloody Tower has an altogether more haunting history – discover murderous tales in this infamous former prison, or learn more about the Tower’s role as a place of torture at Lower Wakefield Tower.
- Delve into the history of the Tower as a royal zoo with sculptures of the Royal Beasts and the Royal Beasts exhibition, and explore the Tower’s Mint exhibition and discover where the majority of the country’s coins were made for more than 500 years.
-\n\n
-How old is the Tower of London?
-William the Conqueror built The Tower of London in 1070. Somewhere between 1075-79, the White Tower was built. However, the Tower received editions in the 13th and 14th centuries.
- \n\n
-What was the Tower of London used for?
-Find out the story behind the Tower of London. Built as a fortress in the 1070s, it was home to many monarchs for more than 500 years.
-\n\n
-In 1204, the Tower also hosted the royal menagerie for 600 years, providing housing for many exotic animals.
-It might surprise you, but the Tower even served as a Royal Mint from the 13th to 18th century and royals kept precious possessions as well as arms and armour there.
-The White Tower, also called Bloody Tower, served as a prison for more than 800 years. Marked by extreme political and religious unrest in the 1500s and 1600s, the Tower was well known for using torture on its inmates. The last execution in the Tower was on 15 August 1941.
-  </string>
-    <string name="buckingham_palace_subtitle">Enjoy a glimpse into the life of royalty with a visit to this iconic London palace for a limited time each summer.</string>
+    <!-- 5. Buckingham Palace -->
+    <string name="buckingham_palace">Buckingham Palace</string>
+    <string name="buckingham_palace_subtitle">Royal Residence</string>
     <string name="buckingham_palace_detail">
-    Buckingham Palace is one of the few working royal palaces remaining in the world today. As one of the most iconic and impressive buildings in the world, it\'s a must visit to experience the best of British history and culture.\n
-    Witness the grandeur of the British monarchy and on selected dates during the summer and from November to December and at Easter, visitors can tour the 19 State Rooms, which form the heart of the Palace.\n
+        Buckingham Palace is the official London residence of the British monarch and a symbol of the UK.  It\'s a must-see attraction for anyone visiting London, especially for those interested in royal history and pageantry. It is located in Westminster.\n\n
+        The most famous event at Buckingham Palace is the Changing of the Guard ceremony, which takes place daily during the summer months and on alternate days in winter.  During the summer, you can also tour the State Rooms within the Palace. It is a unique experience. \n\n
+        Tickets to tour the State Rooms need to be booked in advance, as they are only open for a limited time each year.  The Royal Mews and the Queen\'s Gallery are other parts of Buckingham Palace that are open to the public. There are also shops and restaurants around.\n\n
+        Don\'t forget to check the schedule for the Changing of the Guard ceremony. Remember to take photos of the palace and the guards. Don\'t forget to ask!
+    </string>
 
-    What is there to see?\n
-    These magnificent rooms are decorated with some of the greatest treasures from the Royal Collection, including paintings by Rembrandt, Rubens and Canaletto.\n
+    <!-- 6. St. Paul's Cathedral -->
+    <string name="st_pauls_cathedral">St. Paul\'s Cathedral</string>
+    <string name="st_pauls_cathedral_subtitle">Wren\'s Masterpiece</string>
+    <string name="st_pauls_cathedral_detail">
+        St. Paul\'s Cathedral is an iconic part of the London skyline and a masterpiece designed by Sir Christopher Wren. This magnificent cathedral has been a symbol of resilience and hope for over 300 years, surviving the Great Fire of London and the Blitz. It is one of the most famous and beautiful churches.\n\n
+        Visitors can climb to the top of the Dome for breathtaking views of London, visit the Whispering Gallery, and explore the vast crypt. The cathedral\'s architecture and stunning mosaics are a sight to behold. You will find shops and restaurants around the cathedral.\n\n
+        Tickets to St. Paul\'s Cathedral can be purchased online or at the door, but booking online in advance is often recommended, especially during peak tourist seasons. Allow at least 2 to 3 hours to fully explore the cathedral and its grounds. \n\n
+        Don\'t forget to check the cathedral\'s website for any special services or events. Remember to take your time admiring the intricate details of the architecture. Don\'t forget to ask!
+    </string>
 
-    The Royal Mews and The King\'s Gallery are part of the Buckingham Palace site, but have their own visitor entrances and so can be visited separately. Both venues are open for most of the year, including when the palace itself is closed.\n
+    <!-- 7. Madame Tussauds London -->
+    <string name="madame_tussauds">Madame Tussauds London</string>
+    <string name="madame_tussauds_subtitle">Meet the Stars</string>
+    <string name="madame_tussauds_detail">
+        Madame Tussauds London is a world-famous wax museum, where you can come face-to-face with incredibly lifelike wax figures of your favorite celebrities, historical icons, and sports stars. It\'s a unique opportunity to get up close and personal with some of the most famous people in the world.\n\n
+        Explore the various themed areas, including the Royal Family, Marvel Super Heroes, Star Wars, and the World Leaders zone. You can take photos with your favorite figures, and learn about the history of Madame Tussauds. It is one of the most fun places to go. \n\n
+        Tickets for Madame Tussauds are best booked online in advance, especially during peak tourist seasons. Allow at least 2 to 3 hours to explore the various exhibits. There are usually shops and restaurants inside. \n\n
+        Don\'t forget to check the website for any special events or new figure launches. Remember to charge your phone or camera, as you will take a lot of photos. Don\'t forget to ask!
+    </string>
 
-    Try to time your visit to see Changing the Guard, a popular free event which takes place outside Buckingham Palace on certain days from 10.45am and lasts around 45 minutes, with the actual handover taking place at 11am. Be sure to arrive early to secure a spot with a good view.\n
-    How can I book tickets for Buckingham Palace?\n
-    Tickets for the Buckingham Palace summer tour: summer opening 2025 are currently not available.\n
+    <!-- 8. Borough Market -->
+    <string name="borough_market">Borough Market</string>
+    <string name="borough_market_subtitle">London\'s Foodie Haven</string>
+    <string name="borough_market_detail">
+        Borough Market is one of London\'s oldest and most renowned food markets, offering an incredible array of fresh produce, artisanal goods, and delicious street food from around the world. It\'s a paradise for food lovers, with something to tempt every palate. It is located close to London Bridge.\n\n
+        Wander through the stalls, sample cheeses, meats, and baked goods, or grab a bite from one of the many street food vendors. The atmosphere is vibrant and bustling, making it a great place to soak up the local culture. There are multiple restaurants around the area. \n\n
+        Borough Market is open most days, but it\'s particularly lively on weekends. Be prepared for large crowds, especially during peak times. Don\'t forget to bring an appetite. You will have a great experience. \n\n
+        Don\'t forget to try some of the local specialties. Remember to explore all areas of the market, as there\'s something new to discover around every corner. Don\'t forget to ask!
+    </string>
 
-    Please check back near the time for more information. In the meantime, discover more London royal attractions.\n
+    <!-- 9. Tower Bridge -->
+    <string name="tower_bridge">Tower Bridge</string>
+    <string name="tower_bridge_subtitle">Iconic Victorian Engineering</string>
+    <string name="tower_bridge_detail">
+        Tower Bridge is one of London\'s most iconic landmarks, a masterpiece of Victorian engineering that spans the River Thames. More than just a bridge, it\'s a unique attraction that offers stunning views and a fascinating history. It is one of the most famous places.\n\n
+        Walk across the high-level walkways, with their glass floors, and enjoy panoramic views of London. Visit the Victorian Engine Rooms to see how the bridge was originally operated. You can learn about the construction of the bridge and its role in London\'s history. You will also discover the most beautiful views.\n\n
+        Tickets can be purchased online or at the entrance, but booking in advance is recommended. Allow at least 1 to 2 hours to fully explore Tower Bridge. There are usually shops and restaurants around the area.\n\n
+        Don\'t forget to check the lift schedule to see the bridge open. Remember to take plenty of photos from the walkways and by the river. Don\'t forget to ask!
+    </string>
 
-    Tickets to visit Buckingham Palace on a guided tour (on selected dates) must be booked in advance via the Royal Collection Trust\'s website.\n
+    <!-- 10. Sky Garden -->
+    <string name="sky_garden">Sky Garden</string>
+    <string name="sky_garden_subtitle">London\'s Highest Public Garden</string>
+    <string name="sky_garden_detail">
+        The Sky Garden is a unique public space located at the top of 20 Fenchurch Street, also known as the \'Walkie Talkie\' building. It offers breathtaking 360-degree views of London\'s skyline, along with beautifully landscaped gardens, observation decks, and restaurants. It is a unique way to see the city.\n\n
+        Explore the various gardens, take in the spectacular views, or enjoy a meal or a drink at one of the restaurants or bars. The Sky Garden is free to enter, but you must book your tickets in advance. There are many great options to have lunch and dinner.\n\n
+        Tickets are released several weeks in advance, so plan ahead. It is recommended to visit during the day and night for a different experience. This is one of the best views in the city.\n\n
+        Don\'t forget to bring your camera, as the views are truly incredible. Remember to check their website for any special events or opening times. Don\'t forget to ask!
+    </string>
 
-    How long is the Buckingham Palace tour?\n
-    It takes between two hours and two hours and 30 minutes to explore Buckingham Palace. Guided tour times may differ.\n
-
-    Where is Buckingham Palace?\n
-    Buckingham Palace is located in the City of Westminster in central London.\n
-    How to get to Buckingham Palace\n
-    The closest Tube stations are Victoria, Green Park and Hyde Park Corner.\n
-
-    Buses 11, 211, C1 and C10 stop near Buckingham Palace.\n
-
-    If you are arriving by coach, Victoria Coach Station is only a 10-minute walk away.\n
-
-    Who lives in Buckingham Palace?\n
-    Buckingham Palace serves as the official London residence of His Majesty The King.\n
-
-    The monarch often receives members of the Privy Council, foreign and British Ambassadors and High Commissioners, bishops, senior officers of the Armed Services and the Civil Service.\n
-
-    Many of the royals also hold private apartments here and use the palace as their London home base.\n
-    How many rooms are in Buckingham Palace?\n
-    Buckingham Palace has 775 rooms in total. This includes:\n
-
-    19 State rooms\n
-    52 Royal and guest bedrooms\n
-    188 staff bedrooms\n
-    92 offices\n
-    78 bathrooms\n
-    What is the history of Buckingham Palace?\n
-    Buckingham Palace is an essential part of England\'s history and culture.\n
-
-    Originally known as Buckingham House, the building at the core of today\'s palace was a large townhouse built for the Duke of Buckingham in 1703, on a site that had been in private ownership for at least 150 years. It was then acquired by King George III in 1761 as a private residence for Queen Charlotte and became known as The Queen\'s House.\n
-
-    During the 19th century, architects John Nash and Edward Blore constructed three wings around a central courtyard.\n
-
-    Buckingham Palace became the official London residence of the British monarch on the accession of Queen Victoria in 1837.\n
-
-    Following major structural additions in the late 19th and early 20th centuries, and the King\'s Gallery built on the site of the destroyed palace chapel during the Second World War, it is now a grand palace with 775 lavishly decorated rooms and the largest private garden in London.\n
-
-    When does Buckingham Palace open to the public?\n
-    You can explore the lavishly furnished State Rooms and discover some of the Royal Collection\'s greatest treasures at Buckingham Palace for a limited time each summer.\n
-
-    In 2025, Buckingham Palace will be open to the public from July to September - exact dates to be confirmed.\n
-
-    How many acres is Buckingham Palace?\n
-    The Buckingham Palace grounds span more than 39 acres. The garden grounds play a key part in the busy calendar of royal events, official entertaining and celebratory events. The garden boasts wild-plant species, breeding birds and more than 1,000 trees.
-</string>
-
-    <string name="attraction_madame_tussauds"> At Madame Tussauds London, you\'ll come face-to-face with some of the world\'s most famous faces.</string>
-    <string name="attraction_madame_tussauds_detail">
-    Step through the world-famous doors of Madame Tussauds London and immerse yourself into the world of superstars at the ultimate fame experience.\n
-    Get closer than ever to your favourite A-listers by coming face to face with more than 150 unique and incredibly realistic figures across three immersive floors.\n
-
-    What\'s inside Madame Tussauds London?\n
-    Step through the world-famous doors of Madame Tussauds London and onto the red-carpet where a star-studded experience awaits.\n
-
-    Rub shoulders with Hollywood superstars in the Awards Party, grab the mic and perform with the likes of Drake and Dua Lipa in the Impossible Festival and feel like royalty as you attend a private audience with Their Majesties King Charles III and Queen Camilla in The Royal Palace experience.\n
-
-    All before saving the world with The Avengers in the Marvel Hall of Heroes and wielding the power of the force as you adventure through a galaxy far, far away facing off with legendary Jedi Knights and Sith Lords in Star Wars.\n
-
-    Get closer to the action with immersive experiences throughout Madame Tussauds London. Join the Avengers as they assemble to protect the earth from a new threat in the Marvel Universe 4D experience and truly feel the power of the earth’s mightiest heroes.\n
-
-    Hitch a ride like no other as you hop into an iconic black cab and journey through the capital’s history on the Spirit of London ride. Horror fans rejoice! Enter some of London’s darkest crime scenes of the past 150 years, inside the seriously spine-chilling Chamber of Horrors. At Madame Tussauds London, the fun never stops, with something for the whole family to enjoy.\n
-
-    What is Madame Tussauds London?\n
-    Madame Tussauds London is an interactive attraction where you can get up close and personal to some of your favourite icons and A-listers.\n
-
-    There are also four exciting and immersive experiences at Madame Tussauds London, including a unique ride through the capital\'s history on the Spirit of London Ride, entering some of London’s darkest crime scenes of the past 150 years within the Chamber of Horrors and assembling the avengers to face a new threat in the Marvel Universe 4D Experience.\n
-
-    How long does it take to explore Madame Tussauds London?\n
-    To fully experience everything that the attraction has to offer, it is recommended you should spend one-and-a-half to two hours during your visit at Madame Tussauds London.\n
-
-    Where is Madame Tussauds London?\n
-    Madame Tussauds London is located on Marylebone Road in Marylebone, north-west London.\n
-
-    What is the closest tube station to Madame Tussauds London?\n
-    The closest stations are Baker Street Tube Station (Bakerloo, Circle, Jubilee, Metropolitan and Hammersmith &amp; City lines) and Marylebone Station (National Rail).
-</string>
+    <!-- 11. Camden Town -->
+    <string name="camden_town">Camden Town</string>
+    <string name="camden_town_subtitle">Alternative and Vibrant Hub</string>
+    <string name="camden_town_detail">
+        Camden Town is a unique and vibrant district in North London, famous for its alternative culture, markets, and music scene.  It\'s a place where you can find everything from vintage clothing and handmade crafts to delicious street food and live music venues. Camden is one of the most famous places.\n\n
+        Wander through the many markets, browse the eclectic shops, or explore the Regent\'s Canal area.  Camden is also home to a wide range of pubs, bars, and clubs, making it a popular spot for nightlife. There are usually events in the area.\n\n
+        Camden is easily accessible by public transport, with its own Underground station. Be prepared for large crowds, especially on weekends.  You can spend a whole day exploring Camden, as there is so much to see and do.\n\n
+        Don\'t forget to try some of the diverse street food options. Remember to explore the canal area for a more peaceful escape from the crowds. Don\'t forget to ask!
+    </string>
 
     <!--    Category 2 - Museum-->
         <!-- 1. British Museum -->
