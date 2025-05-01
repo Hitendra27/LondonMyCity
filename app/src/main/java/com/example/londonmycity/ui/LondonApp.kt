@@ -49,7 +49,6 @@ fun LondonApp() {
 
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
     Scaffold(
-        modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
         topBar = { LondonTopAppBar(
             isShowingListPage = uiState.isShowingListPage,
             onBackButtonClick = { viewModel.navigateToListPage() }
@@ -75,6 +74,7 @@ fun LondonApp() {
         } else {
             LondonAttractionList(
                 londonAttractions = uiState.currentCategory.attraction,
+                contentPadding = innerPadding,
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(

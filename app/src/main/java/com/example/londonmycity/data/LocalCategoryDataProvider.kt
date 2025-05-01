@@ -106,7 +106,42 @@ object LocalCategoryDataProvider {
                         details = R.string.warner_bros_studio_detail_text
                     )
                 )
+
+        ),
+        LondonCategory(
+            id = 6,
+            title = R.string.theatre,
+            subtitle = R.string.theatre_subtitle,
+            imageResourceId = R.drawable.theatre,
+            attraction = listOf(
+                LondonAttraction(
+                    id = 1,
+                    titleResourceId = R.string.warner_bros_studio,
+                    subtitleResourceId = R.string.warner_bros_studio_subtitle,
+                    recommended = true,
+                    highlyRecommended = true,
+                    imageResourceId = R.drawable.warner_bros_studio_our_london,
+                    details = R.string.warner_bros_studio_detail_text
+                )
             )
+        ),
+        LondonCategory(
+            id = 7,
+            title = R.string.theatre,
+            subtitle = R.string.theatre_subtitle,
+            imageResourceId = R.drawable.theatre,
+            attraction = listOf(
+                LondonAttraction(
+                    id = 1,
+                    titleResourceId = R.string.warner_bros_studio,
+                    subtitleResourceId = R.string.warner_bros_studio_subtitle,
+                    recommended = true,
+                    highlyRecommended = true,
+                    imageResourceId = R.drawable.warner_bros_studio_our_london,
+                    details = R.string.warner_bros_studio_detail_text
+                )
+            )
+           )
         )
     }
 }

@@ -2,7 +2,9 @@ package com.example.londonmycity.ui.screens
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -26,6 +28,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import com.example.londonmycity.R
 import com.example.londonmycity.model.LondonAttraction
 import com.example.londonmycity.ui.theme.LondonMyCityTheme
@@ -33,9 +36,13 @@ import com.example.londonmycity.ui.theme.LondonMyCityTheme
 @Composable
 fun LondonAttractionList(
     londonAttractions: List<LondonAttraction>,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    contentPadding: PaddingValues = PaddingValues(0.dp),
 ) {
-    LazyColumn(modifier = modifier) {
+    LazyColumn(
+        contentPadding = contentPadding,
+        verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.padding_medium)),
+        modifier = modifier) {
         items(londonAttractions) { attraction ->
             ListItem(
                 title = stringResource(id = attraction.titleResourceId),
