@@ -269,13 +269,67 @@ object LocalCategoryDataProvider {
                 attraction = listOf(
                     LondonAttraction(
                         id = 1,
-                        titleResourceId = R.string.british_museum,
-                        subtitleResourceId = R.string.british_museum_detail,
+                        titleResourceId = R.string.arsenal_emirates_stadium,
+                        subtitleResourceId = R.string.arsenal_emirates_stadium_subtitle,
                         recommended = true,
                         highlyRecommended = true,
-                        imageResourceId = R.drawable.warner_bros_studio_our_london,
-                        details = R.string.british_museum_detail
-                    )
+                        imageResourceId = R.drawable.emirates,
+                        details = R.string.arsenal_emirates_stadium_detail
+                    ),
+                    LondonAttraction(
+                        id = 2,
+                        titleResourceId = R.string.lords_cricket_ground,
+                        subtitleResourceId = R.string.lords_cricket_ground_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.lords,
+                        details = R.string.lords_cricket_ground_detail
+                    ),
+                    LondonAttraction(
+                        id = 3,
+                        titleResourceId = R.string.the_oval,
+                        subtitleResourceId = R.string.the_oval_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.kia_oval,
+                        details = R.string.the_oval_detail
+                    ),
+                    LondonAttraction(
+                        id = 4,
+                        titleResourceId = R.string.twickenham_stadium,
+                        subtitleResourceId = R.string.twickenham_stadium_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.twickenham_stadium,
+                        details = R.string.twickenham_stadium_detail
+                    ),
+                    LondonAttraction(
+                        id = 5,
+                        titleResourceId = R.string.wembley_stadium,
+                        subtitleResourceId = R.string.wembley_stadium_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.wembley_stadium,
+                        details = R.string.wembley_stadium_detail
+                    ),
+                    LondonAttraction(
+                        id = 6,
+                        titleResourceId = R.string.tottenham_hotspur_stadium,
+                        subtitleResourceId = R.string.tottenham_hotspur_stadium_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.tottenham_hotspur_stadium,
+                        details = R.string.tottenham_hotspur_stadium_detail
+                    ),
+                    LondonAttraction(
+                        id = 7,
+                        titleResourceId = R.string.wimbledon,
+                        subtitleResourceId = R.string.wimbledon_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.wimbledon,
+                        details = R.string.wimbledon_detail
+                    ),
                 )
             ),
             LondonCategory(
@@ -286,13 +340,67 @@ object LocalCategoryDataProvider {
                 attraction = listOf(
                     LondonAttraction(
                         id = 1,
-                        titleResourceId = R.string.british_museum,
-                        subtitleResourceId = R.string.british_museum_detail,
+                        titleResourceId = R.string.the_national_theatre,
+                        subtitleResourceId = R.string.the_national_theatre_subtitle,
                         recommended = true,
                         highlyRecommended = true,
-                        imageResourceId = R.drawable.warner_bros_studio_our_london,
-                        details = R.string.british_museum_detail
-                    )
+                        imageResourceId = R.drawable.national_theatre,
+                        details = R.string.the_national_theatre_detail
+                    ),
+                    LondonAttraction(
+                        id = 2,
+                        titleResourceId = R.string.shakespeares_globe,
+                        subtitleResourceId = R.string.shakespeares_globe_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.shakespeare_globe,
+                        details = R.string.shakespeares_globe_detail
+                    ),
+                    LondonAttraction(
+                        id = 3,
+                        titleResourceId = R.string.royal_opera_house,
+                        subtitleResourceId = R.string.royal_opera_house_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.royal_opera,
+                        details = R.string.royal_opera_house_detail
+                    ),
+                    LondonAttraction(
+                        id = 4,
+                        titleResourceId = R.string.theatre_royal_drury_lane,
+                        subtitleResourceId = R.string.theatre_royal_drury_lane_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.royal_drury_lane,
+                        details = R.string.theatre_royal_drury_lane_detail
+                    ),
+                    LondonAttraction(
+                        id = 5,
+                        titleResourceId = R.string.london_palladium,
+                        subtitleResourceId = R.string.london_palladium_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.london_palladium,
+                        details = R.string.london_palladium_detail
+                    ),
+                    LondonAttraction(
+                        id = 6,
+                        titleResourceId = R.string.old_vic_theatre,
+                        subtitleResourceId = R.string.old_vic_theatre_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.old_vic,
+                        details = R.string.old_vic_theatre_detail
+                    ),
+                    LondonAttraction(
+                        id = 7,
+                        titleResourceId = R.string.the_apollo_theatre,
+                        subtitleResourceId = R.string.the_apollo_theatre_subtitle,
+                        recommended = true,
+                        highlyRecommended = true,
+                        imageResourceId = R.drawable.apollo_theatre,
+                        details = R.string.the_apollo_theatre_detail
+                    ),
                 )
 
         ),
@@ -304,13 +412,67 @@ object LocalCategoryDataProvider {
             attraction = listOf(
                 LondonAttraction(
                     id = 1,
-                    titleResourceId = R.string.british_museum,
-                    subtitleResourceId = R.string.british_museum_detail,
+                    titleResourceId = R.string.oxford_street,
+                    subtitleResourceId = R.string.oxford_street_subtitle,
                     recommended = true,
                     highlyRecommended = true,
-                    imageResourceId = R.drawable.warner_bros_studio_our_london,
-                    details = R.string.british_museum_detail
-                )
+                    imageResourceId = R.drawable.oxford_st,
+                    details = R.string.oxford_street_detail
+                ),
+                LondonAttraction(
+                    id = 2,
+                    titleResourceId = R.string.covent_garden,
+                    subtitleResourceId = R.string.covent_garden_subtitle,
+                    recommended = true,
+                    highlyRecommended = true,
+                    imageResourceId = R.drawable.covent_garden,
+                    details = R.string.covent_garden_detail
+                ),
+                LondonAttraction(
+                    id = 3,
+                    titleResourceId = R.string.regent_street,
+                    subtitleResourceId = R.string.regent_street_subtitle,
+                    recommended = true,
+                    highlyRecommended = true,
+                    imageResourceId = R.drawable.regents_st,
+                    details = R.string.regent_street_detail
+                ),
+                LondonAttraction(
+                    id = 4,
+                    titleResourceId = R.string.bond_street,
+                    subtitleResourceId = R.string.bond_street_subtitle,
+                    recommended = true,
+                    highlyRecommended = true,
+                    imageResourceId = R.drawable.bond_st,
+                    details = R.string.bond_street_detail
+                ),
+                LondonAttraction(
+                    id = 5,
+                    titleResourceId = R.string.carnaby_street,
+                    subtitleResourceId = R.string.carnaby_street_subtitle,
+                    recommended = true,
+                    highlyRecommended = true,
+                    imageResourceId = R.drawable.carnaby_st,
+                    details = R.string.carnaby_street_detail
+                ),
+                LondonAttraction(
+                    id = 6,
+                    titleResourceId = R.string.westfield_london,
+                    subtitleResourceId = R.string.westfield_london_subtitle,
+                    recommended = true,
+                    highlyRecommended = true,
+                    imageResourceId = R.drawable.westfield,
+                    details = R.string.westfield_london_detail
+                ),
+                LondonAttraction(
+                    id = 7,
+                    titleResourceId = R.string.harrods,
+                    subtitleResourceId = R.string.harrods_subtitle,
+                    recommended = true,
+                    highlyRecommended = true,
+                    imageResourceId = R.drawable.harrods,
+                    details = R.string.harrods_detail
+                ),
             )
         ),
         LondonCategory(

@@ -102,7 +102,7 @@ fun ListItem(
                 Text(
                     text = title,
                     style = MaterialTheme.typography.displayMedium,
-                    color = Color(0xFFF9E795),
+                    color = Color(0xFFFFBB00),
                     modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_small)),
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis
@@ -110,7 +110,7 @@ fun ListItem(
                 Text(
                     text = subtitle,
                     style = MaterialTheme.typography.labelSmall,
-                    color = Color(0xFFF8AAAE5),
+                    color = Color(0xFF7094D4),
                     maxLines = 3,
                     overflow = TextOverflow.Ellipsis
                 )
@@ -127,7 +127,7 @@ fun ListItemPreview() {
             ListItem(
                 title = "Title",
                 subtitle = "Subtitle",
-                image = R.drawable.arsenal_emirates_stadium_tours,
+                image = R.drawable.emirates,
                 onClick = {}
             )
         }

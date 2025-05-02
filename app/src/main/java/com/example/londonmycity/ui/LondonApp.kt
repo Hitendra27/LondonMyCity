@@ -37,6 +37,8 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.londonmycity.R
 import com.example.londonmycity.data.LocalCategoryDataProvider
+import com.example.londonmycity.model.LondonAttraction
+import com.example.londonmycity.model.LondonCategory
 import com.example.londonmycity.ui.screens.LondonAttractionList
 import com.example.londonmycity.ui.screens.LondonCategoryList
 import com.example.londonmycity.ui.theme.LondonMyCityTheme
@@ -52,8 +54,10 @@ fun LondonApp() {
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
     Scaffold(
         topBar = { LondonTopAppBar(
+            londonCategory =  uiState.currentCategory,
             isShowingListPage = uiState.isShowingListPage,
-            onBackButtonClick = { viewModel.navigateToListPage() }
+            onBackButtonClick = { viewModel.navigateToListPage()
+            }
         ) },
 
         ) { innerPadding ->
@@ -93,6 +97,7 @@ fun LondonApp() {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LondonTopAppBar(
+    londonCategory: LondonCategory,
     onBackButtonClick: () -> Unit = {},
     isShowingListPage: Boolean = true,
     modifier: Modifier = Modifier,
@@ -112,15 +117,15 @@ fun LondonTopAppBar(
                     )
                     Text(
                         text = stringResource(R.string.app_top_bar),
-                        color = Color(0xFFF32B2B),
+                        color = Color(0xFFFFB6542),
                         style = MaterialTheme.typography.displayLarge
                     )
                 }
             } else {
                 Text(
-                    text = "London Attractions",
+                    text = "London ${stringResource(londonCategory.title)} ",
                     style = MaterialTheme.typography.displayMedium,
-                    color = Color(0xFFF32B2B),
+                    color = Color(0xFFFFB6542),
                     textAlign = TextAlign.Start,
 
                 )

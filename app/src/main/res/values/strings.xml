@@ -273,154 +273,222 @@
         The River Bus, also known as Thames Clippers, is a unique way to travel around London and offers a different perspective of the city from the River Thames.  The River Bus operates a network of piers between Putney and Wool
         </string>
 
+    <!-- Category 4 - Sports Stadium-->
+
+        <!-- 1. Arsenal Emirates Stadium -->
+        <string name="arsenal_emirates_stadium">Arsenal Emirates Stadium</string>
+        <string name="arsenal_emirates_stadium_subtitle">Home of the Gunners</string>
+        <string name="arsenal_emirates_stadium_detail">
+        The Emirates Stadium is the home of Arsenal Football Club, one of the most successful and popular football clubs in England. It\'s a modern, state-of-the-art stadium that provides an incredible experience for football fans.  It replaced Highbury, which was Arsenal\'s home for 93 years.\n\n
+        Visitors can take a stadium tour to explore behind the scenes, including the dressing rooms, the players\' tunnel, and the Arsenal Museum. On match days, the atmosphere is electric, with passionate fans cheering on the Gunners. There are multiple restaurants and shops around the area.\n\n
+        Tickets for matches and tours can be booked online in advance.  The stadium is easily accessible by public transport, with its own tube station.  Allow at least 2 to 3 hours to enjoy the museum and the tour. \n\n
+        Don\'t forget to visit the Arsenal Museum to learn more about the club\'s rich history. Remember to wear red and white if you\'re attending a match! Don\'t forget to ask!
+    </string>
+
+        <!-- 2. Lord's Cricket Ground -->
+        <string name="lords_cricket_ground">Lord\'s Cricket Ground</string>
+        <string name="lords_cricket_ground_subtitle">The Home of Cricket</string>
+        <string name="lords_cricket_ground_detail">
+        Lord\'s Cricket Ground, often referred to as the "Home of Cricket," is one of the most famous and historic cricket grounds in the world.  It\'s a must-visit for any cricket enthusiast, and offers a unique glimpse into the history of this great sport. The first international match was held in 1884.\n\n
+        Visitors can take a tour of the ground to see the famous Long Room, the MCC Museum, and the Real Tennis Court.  On match days, you can experience the excitement of Test matches, One Day Internationals, and other cricket events. You can also find restaurants and shops in the area.\n\n
+        Tickets for matches and tours can be booked online in advance.  Lord\'s is easily accessible by public transport.  Allow at least 2 to 3 hours for a tour of the museum and the ground.  It also hosts other events, including conferences.\n\n
+        Don\'t forget to visit the MCC Museum to see the Ashes Urn and other cricket memorabilia. Remember to take photos of this iconic venue. Don\'t forget to ask!
+    </string>
+
+        <!-- 3. The Oval -->
+        <string name="the_oval">The Oval</string>
+        <string name="the_oval_subtitle">Historic Cricket Venue</string>
+        <string name="the_oval_detail">
+        The Oval, officially known as the Kia Oval, is another of London\'s iconic cricket grounds.  It has a rich history and has hosted many memorable cricket matches, including the first-ever Test match in England. There are also many shops and restaurants in the area.\n\n
+        Visitors can take a tour of the ground to learn about its history and explore behind-the-scenes areas.  On match days, you can experience the thrill of international and county cricket. It is located in the Kennington area.\n\n
+        Tickets for matches and tours can be booked online in advance. The Oval is easily accessible by public transport, with its own tube station. Allow at least 2 hours to tour the ground and museum. \n\n
+        Don\'t forget to check the schedule for upcoming matches and events. Remember to enjoy the atmosphere of this historic sporting venue. Don\'t forget to ask!
+    </string>
+
+        <!-- 4. Twickenham Stadium -->
+        <string name="twickenham_stadium">Twickenham Stadium</string>
+        <string name="twickenham_stadium_subtitle">Home of England Rugby</string>
+        <string name="twickenham_stadium_detail">
+        Twickenham Stadium is the home of England Rugby and one of the largest rugby stadiums in the world. It hosts numerous international matches, including Six Nations matches, and is known for its passionate and vibrant atmosphere on match days. You will find multiple shops and restaurants in the area.\n\n
+        Visitors can take a stadium tour to explore the dressing rooms, the Royal Box, and the World Rugby Museum.  On match days, the stadium comes alive with thousands of fans cheering on the England team. It is the largest dedicated rugby union venue in the world.\n\n
+        Tickets for matches and tours can be booked online in advance.  Twickenham is easily accessible by public transport.  Allow at least 2 to 3 hours to tour the stadium and the museum. \n\n
+        Don\'t forget to visit the World Rugby Museum to learn about the history of the sport. Remember to sing "Swing Low, Sweet Chariot" if you\'re attending a match! Don\'t forget to ask!
+    </string>
+
+        <!-- 5. Wembley Stadium -->
+        <string name="wembley_stadium">Wembley Stadium</string>
+        <string name="wembley_stadium_subtitle">Iconic Football Venue</string>
+        <string name="wembley_stadium_detail">
+        Wembley Stadium is one of the most iconic football stadiums in the world, and it is the largest stadium in the UK. It is known as the "Home of Football." It hosts major football matches, including FA Cup finals, England international games, and UEFA Champions League finals. It also hosts many concerts.\n\n
+        Visitors can take a stadium tour to explore the dressing rooms, the Royal Box, and the players\' tunnel.  On match days, the atmosphere is unforgettable, with passionate fans creating a spectacular scene. It has hosted numerous high-profile sports events.\n\n
+        Tickets for matches and tours can be booked online in advance. Wembley is easily accessible by public transport, with its own tube station. Allow at least 2 hours to fully explore the stadium. There are also many shops and restaurants around the area.\n\n
+        Don\'t forget to take photos of the stadium\'s iconic arch. Remember to join in the singing if you\'re at a match! Don\'t forget to ask!
+    </string>
+
+        <!-- 6. Tottenham Hotspur Stadium -->
+        <string name="tottenham_hotspur_stadium">Tottenham Hotspur Stadium</string>
+        <string name="tottenham_hotspur_stadium_subtitle">Home of the Spurs</string>
+        <string name="tottenham_hotspur_stadium_detail">
+        The Tottenham Hotspur Stadium is the new home of Tottenham Hotspur Football Club, and it is one of the most technologically advanced stadiums in the world.  It offers a unique and immersive experience for football fans. It is known for its retractable pitch.\n\n
+        Visitors can take a stadium tour to explore the behind-the-scenes areas, including the dressing rooms and the players\' tunnel.  On match days, the atmosphere is electric, with passionate fans cheering on the Spurs. It also hosts many concerts and events.\n\n
+        Tickets for matches and tours can be booked online in advance.  The stadium is easily accessible by public transport.  Allow at least 2 to 3 hours to enjoy the museum and the tour. There are also shops and restaurants.\n\n
+        Don\'t forget to try some of the food and drink options available at the stadium. Remember to wear navy blue and white if you\'re attending a match! Don\'t forget to ask!
+    </string>
+
+    <!-- 26. Wimbledon -->
+    <string name="wimbledon">Wimbledon</string>
+    <string name="wimbledon_subtitle">The Championships</string>
+    <string name="wimbledon_detail">
+        Wimbledon is the oldest tennis tournament in the world and is considered the most prestigious. It is held at the All England Lawn Tennis and Croquet Club in Wimbledon, London. It is the only Grand Slam tournament still played on grass. It is one of the most important events in tennis.\n\n
+        Visitors can take a tour of the grounds, including Centre Court and the Wimbledon Lawn Tennis Museum. During the tournament, you can witness some of the world\'s best tennis players competing for the coveted title. The area has many restaurants and shops.\n\n
+        Tickets for the tournament are in high demand and are usually distributed through a public ballot.  Tours of the grounds are available throughout the year and can be booked in advance. Wimbledon is accessible by public transport, with its own tube station. Allow at least 2 to 3 hours to explore.\n\n
+        Don\'t forget to try some strawberries and cream, a traditional Wimbledon treat. Remember to take photos of the beautiful grounds. Don\'t forget to ask!
+    </string>
+
+<!--    Category 5 - Theatre-->
+        <!-- 1. The National Theatre -->
+        <string name="the_national_theatre">The National Theatre</string>
+        <string name="the_national_theatre_subtitle">South Bank Landmark</string>
+        <string name="the_national_theatre_detail">
+        The National Theatre is one of the United Kingdom\'s most prominent publicly funded performing arts venues.  Located on the South Bank of the River Thames, it\'s renowned for its diverse and high-quality productions, ranging from Shakespeare to contemporary plays. There are three theatres.\n\n
+        Visitors can watch a wide range of performances, from classic plays to new works.  The theatre also offers backstage tours, giving you a behind-the-scenes glimpse into the world of theatre. There are multiple restaurants and shops around the theatre.\n\n
+        Tickets for performances and tours can be booked online in advance. The National Theatre is easily accessible by public transport.  Allow at least 2 to 3 hours to explore the building and attend a performance. This is a famous and beautiful place.\n\n
+        Don\'t forget to take a stroll along the South Bank before or after your visit. Remember to check the theatre\'s website for the current schedule. Don\'t forget to ask!
+    </string>
+
+        <!-- 2. Shakespeare's Globe -->
+        <string name="shakespeares_globe">Shakespeare\'s Globe</string>
+        <string name="shakespeares_globe_subtitle">The Bard\'s Theatre</string>
+        <string name="shakespeares_globe_detail">
+        Shakespeare\'s Globe is a reconstruction of the original Elizabethan playhouse where many of Shakespeare\'s plays were first performed.  It offers a unique theatrical experience, celebrating the work of England\'s greatest playwright. You will find shops and restaurants nearby.\n\n
+        Visitors can attend performances in the open-air theatre, often in a traditional Elizabethan style. You can also take a tour of the Globe and learn about the history of Shakespeare and the original theatre. It is located by the River Thames.\n\n
+        Tickets for performances and tours can be booked online in advance. The Globe is easily accessible by public transport. Allow at least 2 to 3 hours to tour the theatre and attend a performance. You will have a great experience.\n\n
+        Don\'t forget to check the schedule for any special events or workshops. Remember to experience a play in the atmospheric surroundings. Don\'t forget to ask!
+    </string>
+
+        <!-- 3. Royal Opera House -->
+        <string name="royal_opera_house">Royal Opera House</string>
+        <string name="royal_opera_house_subtitle">Opera and Ballet Venue</string>
+        <string name="royal_opera_house_detail">
+        The Royal Opera House is one of the world\'s leading opera and ballet venues, located in Covent Garden. It\'s home to The Royal Opera and The Royal Ballet, and it hosts a wide range of world-class performances throughout the year. This is one of the most beautiful places.\n\n
+        Visitors can attend performances of opera and ballet, often featuring some of the world\'s greatest performers.  The Royal Opera House also offers tours, giving you a chance to explore behind the scenes. You will find shops and restaurants in the area.\n\n
+        Tickets for performances and tours can be booked online in advance.  The Royal Opera House is easily accessible by public transport. Allow at least 2 to 3 hours to enjoy a performance or take a tour. \n\n
+        Don\'t forget to dress up for a special evening at the opera or ballet. Remember to check the website for the latest performance schedule. Don\'t forget to ask!
+    </string>
+
+        <!-- 4. Theatre Royal Drury Lane -->
+        <string name="theatre_royal_drury_lane">Theatre Royal Drury Lane</string>
+        <string name="theatre_royal_drury_lane_subtitle">Historic West End Theatre</string>
+        <string name="theatre_royal_drury_lane_detail">
+        The Theatre Royal Drury Lane is one of London\'s oldest and most historic theatres, located in the heart of the West End.  It has hosted a wide range of performances over the centuries, from plays and musicals to opera and ballet. It is also known as the Lane.\n\n
+        Visitors can attend performances of popular musicals and plays, often featuring top West End talent.  The theatre also offers guided tours, allowing you to learn about its rich history. The theatre is surrounded by shops and restaurants. \n\n
+        Tickets for performances and tours can be booked online in advance. The theatre is easily accessible by public transport.  Allow at least 2 to 3 hours to enjoy a performance or tour. \n\n
+        Don\'t forget to check the schedule for any special events or productions. Remember to admire the theatre\'s beautiful interior. Don\'t forget to ask!
+    </string>
+
+        <!-- 5. London Palladium -->
+        <string name="london_palladium">London Palladium</string>
+        <string name="london_palladium_subtitle">Variety and Musical Theatre</string>
+        <string name="london_palladium_detail">
+        The London Palladium is one of the most famous theatres in the West End, known for its variety of shows, musicals, and concerts.  It has hosted some of the biggest names in show business over the years and continues to be a popular venue. \n\n
+        Visitors can attend performances of musicals, plays, concerts, and variety shows, often featuring well-known performers.  The theatre\'s interior is a beautiful example of Edwardian architecture. You will find many restaurants and shops around.\n\n
+        Tickets for performances can be booked online in advance. The London Palladium is easily accessible by public transport. Allow at least 2 to 3 hours to enjoy a performance. This is a great place to go.\n\n
+        Don\'t forget to check the schedule for upcoming shows and concerts. Remember to take in the atmosphere of this historic venue. Don\'t forget to ask!
+    </string>
+
+        <!-- 6. Old Vic Theatre -->
+        <string name="old_vic_theatre">Old Vic Theatre</string>
+        <string name="old_vic_theatre_subtitle">Iconic London Theatre</string>
+        <string name="old_vic_theatre_detail">
+        The Old Vic Theatre is a historic theatre located in Waterloo, known for its innovative and often experimental productions. It has been a hub of theatrical creativity for over 200 years. It has hosted some of the biggest names in theatre.\n\n
+        Visitors can attend performances of a wide range of plays, often featuring well-known actors and directors.  The theatre also offers workshops and events. The area is surrounded by shops and restaurants. \n\n
+        Tickets for performances can be booked online in advance. The Old Vic is easily accessible by public transport.  Allow at least 2 to 3 hours to enjoy a performance. This is a beautiful theatre. \n\n
+        Don\'t forget to explore the Waterloo area before or after your visit. Remember to check the theatre\'s website for upcoming productions. Don\'t forget to ask!
+    </string>
+
+        <!-- 7. The Apollo Theatre -->
+        <string name="the_apollo_theatre">The Apollo Theatre</string>
+        <string name="the_apollo_theatre_subtitle">West End Classic</string>
+        <string name="the_apollo_theatre_detail">
+        The Apollo Theatre is a beautiful, Grade II listed West End theatre, known for hosting a wide variety of shows, musicals, and plays. It is one of the most beautiful theatre in London. It has been a popular destination for theatregoers for over a century.\n\n
+        Visitors can attend a wide range of performances, from musicals and plays to concerts and comedy shows.  The theatre\'s elegant interior is a treat in itself.  The surrounding area offers a multitude of dining and shopping options.\n\n
+        Tickets for performances can be booked online in advance. The Apollo Theatre is easily accessible by public transport.  Allow at least 2 to 3 hours to enjoy a performance. \n\n
+        Don\'t forget to take in the beautiful details of the theatre\'s design. Remember to check the theatre\'s website for their latest schedule. Don\'t forget to ask!
+    </string>
+
+<!--    Category - 6 Shopping in London-->
+
+        <!-- 34. Oxford Street -->
+        <string name="oxford_street">Oxford Street</string>
+        <string name="oxford_street_subtitle">London\'s Shopping Heart</string>
+        <string name="oxford_street_detail">
+        Oxford Street is one of London\'s most famous and busiest shopping streets, home to over 300 shops, from major department stores to high-street fashion brands and international retailers. It\'s a must-visit destination for any shopping enthusiast. It is very popular during the Christmas period. \n\n
+        Visitors can find everything from clothing and accessories to electronics, homeware, and souvenirs. The street is also home to flagship stores of many popular brands. There are multiple restaurants around the area. \n\n
+        Oxford Street is easily accessible by public transport, with several tube stations along the street.  Be prepared for large crowds, especially during peak times.  Allow at least a few hours to explore the various shops. It is a great place to go.\n\n
+        Don\'t forget to check out the side streets for smaller boutiques and unique finds. Remember to visit during the week if you want to avoid the busiest crowds. Don\'t forget to ask!
+    </string>
+
+        <!-- 35. Covent Garden -->
+        <string name="covent_garden">Covent Garden</string>
+        <string name="covent_garden_subtitle">Shopping, Culture, and Entertainment</string>
+        <string name="covent_garden_detail">
+        Covent Garden is a vibrant area in London that combines shopping, culture, and entertainment.  It\'s known for its historic market building, street performers, and diverse range of shops, from high-end brands to unique boutiques.  It\'s a great place to spend an afternoon or evening. \n\n
+        Visitors can explore the Apple Market, which features handmade crafts, art, and unique gifts.  The surrounding streets are home to a variety of shops, restaurants, and theatres. There is also the famous Royal Opera House. \n\n
+        Covent Garden is easily accessible by public transport. Be sure to check out the street performers in the Piazza. Allow a few hours to explore the area. There is a great atmosphere. \n\n
+        Don\'t forget to browse the independent shops for unique items. Remember to take in the lively atmosphere and watch the street performers. Don\'t forget to ask!
+    </string>
+
+        <!-- 36. Regent Street -->
+        <string name="regent_street">Regent Street</string>
+        <string name="regent_street_subtitle">Elegant Shopping and Architecture</string>
+        <string name="regent_street_detail">
+        Regent Street is known for its elegant architecture and high-end shops, including iconic toy store Hamleys and the historic Liberty London department store.  It\'s a beautiful street to stroll down, even if you\'re not planning on shopping. The architecture is amazing.\n\n
+        Visitors can find a wide range of luxury brands, department stores, and flagship stores.  The street is also known for its beautiful Christmas lights during the holiday season. There are restaurants in the area. \n\n
+        Regent Street is easily accessible by public transport. Allow at least a few hours to explore the various shops and take in the atmosphere. It is a beautiful place to visit. \n\n
+        Don\'t forget to take photos of the street\'s stunning architecture. Remember to explore the side streets for more unique shops and boutiques. Don\'t forget to ask!
+    </string>
+
+        <!-- 37. Bond Street -->
+        <string name="bond_street">Bond Street</string>
+        <string name="bond_street_subtitle">Luxury Shopping in Mayfair</string>
+        <string name="bond_street_detail">
+        Bond Street, located in the affluent Mayfair district, is synonymous with luxury shopping.  It\'s home to some of the world\'s most exclusive fashion brands, jewelry stores, and art galleries.  It\'s a destination for those looking for high-end goods and designer labels. \n\n
+        Visitors can find designer clothing, luxury watches, fine jewelry, and high-end art.  The street is also lined with elegant buildings and exclusive restaurants. It is close to the Royal Academy of Arts.\n\n
+        Bond Street is easily accessible by public transport. Allow a few hours to explore the various shops and galleries.  It is a very luxurious area.\n\n
+        Don\'t forget to window-shop, even if you\'re not planning on making a purchase. Remember to take in the atmosphere of this luxurious area. Don\'t forget to ask!
+    </string>
+
+        <!-- 38. Carnaby Street -->
+        <string name="carnaby_street">Carnaby Street</string>
+        <string name="carnaby_street_subtitle">Independent and Boutique Shopping</string>
+        <string name="carnaby_street_detail">
+        Carnaby Street is a vibrant and pedestrianized shopping area in Soho, known for its independent boutiques, fashion brands, and unique atmosphere.  It\'s a great place to find something different from the mainstream, with a strong emphasis on fashion and lifestyle. \n\n
+        Visitors can explore a wide range of independent shops, fashion boutiques, and lifestyle stores.  The area is also home to numerous restaurants, bars, and cafes. It is one of the best areas to shop. \n\n
+        Carnaby Street is easily accessible by public transport. Allow at least a few hours to explore the various shops and soak up the atmosphere.  It is very vibrant.\n\n
+        Don\'t forget to check out the side streets and courtyards for more hidden gems. Remember to browse the independent boutiques for unique items. Don\'t forget to ask!
+    </string>
+
+        <!-- 39. Westfield London -->
+        <string name="westfield_london">Westfield London</string>
+        <string name="westfield_london_subtitle">Modern Shopping Mall</string>
+        <string name="westfield_london_detail">
+        Westfield London is one of the largest urban shopping centres in Europe, offering a vast range of shops, restaurants, and entertainment options. It\'s a modern and convenient shopping destination, with something for everyone. It is located in White City.\n\n
+        Visitors can find major department stores, high-street fashion brands, luxury retailers, and a wide range of restaurants and cafes.  The mall also has a cinema and other entertainment facilities.  It is easily accessible by public transport. \n\n
+        Westfield London is easily accessible by public transport.  You can easily spend a whole day exploring the mall. It has one of the best choice of shops.\n\n
+        Don\'t forget to check the mall\'s website for any special events or promotions. Remember to wear comfortable shoes, as you\'ll be doing a lot of walking. Don\'t forget to ask!
+    </string>
+
+        <!-- 40. Harrods -->
+        <string name="harrods">Harrods</string>
+        <string name="harrods_subtitle">Luxury Department Store</string>
+        <string name="harrods_detail">
+        Harrods is one of the world\'s most famous department stores, known for its luxury goods, iconic food halls, and opulent interior.  It\'s a London landmark and a must-visit for those interested in high-end shopping and a unique retail experience. It is located in Knightsbridge.\n\n
+        Visitors can explore a vast range of departments, from fashion and accessories to homeware, food, and beauty.  The Food Halls are particularly famous and are a destination in themselves. It is one of the most beautiful places.\n\n
+        Harrods is easily accessible by public transport.  Allow at least a few hours to explore the various departments and food halls. It has an amazing atmosphere. \n\n
+        Don\'t forget to visit the Food Halls, even if you\'re not planning on buying anything. Remember to take in the grand and opulent atmosphere of the store. Don\'t forget to ask!
+    </string>
 
 
 
 
-
-
-<!--    <string name="attraction_science_museum">The Science Museum is home to award-winning exhibitions, iconic objects and stories of incredible scientific achievement.</string>-->
-<!--    <string name="attraction_science_museum_detail">-->
-<!--    The Science Museum is home to award-winning exhibitions, iconic objects and stories of incredible scientific achievement.\n-->
-<!--    The Museum’s interactive galleries bring science to life, where you can see lightning strike before your eyes, play with forces on giant slides or travel through space under a canopy of stars.\n-->
-
-<!--    What kind of exhibitions can you see at the Science Museum?\n-->
-<!--    There are four floors of educational and interactive exhibits, including the Soyuz TMA-19M descent module – the spacecraft that took astronaut Tim Peake back to Earth from the International Space Station, and a real piece of the Moon.\n-->
-
-<!--    What can I explore at the Science Museum?\n-->
-<!--    You can explore the free galleries of the Science Museum, by walking beneath real rockets in Exploring Space; visiting the largest medical galleries in the world in Medicine: The Wellcome Galleries; diving into the role of mathematics in our lives in Mathematics: The Winton Gallery; or discovering some of the most iconic items that have shaped our society in Making the Modern World, from the Apollo 10 capsule module to Crick and Watson’s DNA model.\n-->
-<!--    Budding scientists can be amazed by live science shows and enjoy demonstrations led by a talented team of Explainers in Wonderlab, while teenagers can discover an interactive world of STEM careers in Technicians: The David Sainsbury Gallery.\n-->
-<!--    Plus, you can immerse yourself in the hands-on gaming experience Power Up, watch a 3D documentary on a screen taller than four double-decker buses in IMAX: The Ronson Theatre, visit the museum after-hours during adults-only Lates, or spend the night at the museum for Astronights, enchanting children sleepovers.\n-->
-
-<!--    How long does the Science Museum take?\n-->
-<!--    You are welcome to explore the museum for as long as you would like, but an average visit takes around two hours.\n-->
-
-<!--    Is it free to enter the Science Museum London?\n-->
-<!--    Entry to the museum is free, but pre-booking is required.\n-->
-<!--    Charges apply for Wonderlab, Power Up, movies at IMAX: The Ronson Theatre and some special exhibitions and events. Family discounts and concessions are also available.\n-->
-
-<!--    Do I need to book tickets to the Science Museum?\n-->
-<!--    All visitors are required to pre-book a free ticket to the Science Museum for their visit. You can book these tickets online. If you’re unable to book via the website, you can do so by calling the Science Museum Contact Centre on 033 0058 0058 or emailing them at info@ScienceMuseumGroup.ac.uk.\n-->
-
-<!--    When is the Science Museum open?\n-->
-<!--    The Science Museum is open daily from 10am to 6pm. Last entry is 5.15pm. Galleries start to close 30 minutes before the museum closes.\n-->
-<!--    Over the Christmas period, the museum is closed from December 24 to December 26.\n-->
-
-<!--    Where is the Science Museum in London?\n-->
-<!--    The Science Museum is located on Exhibition Road, in South Kensington, in London, and only a couple minutes’ walk from its neighbouring museums, the Victoria and Albert Museum and the National History Museum.\n-->
-
-<!--    How to get to the Science Museum in London\n-->
-<!--    You can get to the Science Museum by Tube, bus, bike and car.\n-->
-<!--    Tube – The South Kensington station, running on the District, Circle and Piccadilly lines, is approximately a five-minute walk from the Museum. Gloucester Road Station running on the District, Circle and Piccadilly lines, is within 14 minutes’ walk from the Museum. Please note that there is very limited step-free access across these stations. The nearest step free station is Earl’s Court station, which is within a 25-minute walk from the museum.\n-->
-<!--    Buses – The South Kensington Underground Station serving bus routes 14, 49, 70, 74, 345, 360, 414, 430 and C1, which are all close to the Science Museum.\n-->
-<!--    Bus routes 9, 10, 52, 452 and 70 stop outside the Royal Albert Hall on Kensington Gore.\n-->
-<!--    Bike – Santander Cycle docking stations are available on Exhibition Road, just outside the V&amp;A South Kensington and the National History Museum (next door to the Science Museum), and on Thurloe Place near South Kensington Tube station.\n-->
-<!--    Car and parking – There is pay and display car parking near the Museum on Prince Consort Road and Queen’s Gate. Please note that visitor parking is not available on Exhibition Road and local parking sites are also very limited. There are a few accessible parking spaces available on Exhibition Road. Blue badge holders can park in these spaces for four hours between 8.30am and 6.30pm. Royal Borough of Kensington and Chelsea have more information about parking near the museum.\n-->
-
-<!--    Can I get food at the Science Museum?\n-->
-<!--    There are several cafés and picnic areas located in the Science Museum. You can pre-order your lunch and collect your order from the designated collection point in the Energy Café during your visit.\n-->
-<!--    You are welcome to bring your own food and drink, which you can enjoy in one of the dedicated picnic areas. These can be found on level -1 and level 3.\n-->
-<!--    On arrival, please speak to a member of staff to find out which cafés are open during your visit.\n-->
-
-<!--    Is the Science Museum suitable for kids?\n-->
-<!--    The Science Museum has interactive, multi-sensory areas for children to discover science through play. Teenagers can enjoy hands on exhibits while events aimed at kids of all ages are held regularly at the Museum.\n-->
-
-<!--    This content has been supplied by Science Museum-->
-<!--</string>-->
-<!--    <string name="attraction_london_transport_museum">Delve into the history of planet Earth in the Natural History Museum’s galleries</string>-->
-<!--    <string name="attraction_london_transport_museum_detail">-->
-<!--    Discover the story of London\'s transport past and present at the London Transport Museum.\n-->
-<!--    Explore the showcase of transport icons and their groundbreaking design, from the iconic red London bus, first ever Tube map design and the world\'s first underground steam train.\n-->
-<!--    See how London’s growth, culture and society have been intertwined with its transport system, from 1800 to the present day.\n-->
-
-<!--    What is there to see at the London Transport Museum?\n-->
-<!--    Follow the evolution of iconic vehicles, spot the world\'s first underground steam train and examine the padded cell, a train carriage dating back to the 1890s.\n-->
-<!--    Design lovers can marvel at the Design for Travel gallery, featuring pioneering advertising posters and artworks. Spot Harry Beck\'s original design for his groundbreaking London Underground map and chart the development of the world-famous roundel transport logo.\n-->
-<!--    Get hands-on at interactive galleries, where you can step aboard real buses and trains and have a go on a Tube driving simulator.\n-->
-<!--    If you’re keen to see more of the collection, visit the London Transport Museum Depot in Acton on one of its open days.\n-->
-
-<!--    How can I book tickets?\n-->
-<!--    Tickets must be booked in advance – book London Transport Museum tickets now.\n-->
-<!--    Make sure to leave enough time to browse the London Transport Museum shop and refuel in the Canteen cafe, both of which are free to enter without a ticket.\n-->
-<!--    Full of London transport-themed gifts and souvenirs, the shop is a great place to pick up something unique. Find vintage Underground posters, furnishings inspired by classic designs and Transport for London branded items.\n-->
-<!--    The Canteen overlooks Covent Garden Piazza and serves Insta-worthy coffees, sandwiches, soups and salads.\n-->
-
-<!--    How long does it take to walk around the museum?\n-->
-<!--    With so many fascinating exhibits, you can easily spend at least two hours walking around the London Transport Museum.\n-->
-
-<!--    Where is the London Transport Museum?\n-->
-<!--    The London Transport Museum is in Covent Garden Piazza, directly opposite the main Covent Garden Market building.\n-->
-
-<!--    How to get to the London Transport Museum\n-->
-<!--    The London Transport Museum is in Covent Garden.\n-->
-
-<!--    How to get there:\n-->
-<!--    Underground – The nearest tube station is Covent Garden (Piccadilly line). Leicester Square (Piccadilly and Northern lines), Holborn (Central and Piccadilly lines), Charing Cross (Bakerloo and Northern lines) and Embankment (Bakerloo, Northern and Circle and District lines) are all within a 10 minute walk.\n-->
-<!--    Bus – The closest bus stops are Savoy Street, Southampton Street/Covent Garden, Lancaster Place and Aldwych.\n-->
-<!--    Cycling – Hire a Santander Cycles bike and head to the London Transport Museum. The nearest Santander Cycles docking station is Tavistock Street.\n-->
-<!--    This content has been supplied by London Transport Museum-->
-<!--</string>-->
-<!--    <string name="attraction_british_library">The British Library is the UK\'s national library.</string>-->
-<!--    <string name="attraction_british_library_detail">-->
-<!--    The British Library is the UK\'s national library. It\'s home to over 170 million collection items covering every age of written civilisation, from Magna Carta, to Jane Austen\'s notebooks, to lyrics handwritten by the Beatles. The Library is currently closed, but we\'re always open online with digital events, collections and exhibitions that you can explore wherever you are.\n-->
-<!--    Every year the British Library hosts a range of free and ticketed exhibitions. All year round, you can visit the Treasures Gallery - \'the holy grail for history buffs\' (Time Out). Discover iconic items such as Leonardo da Vinci\'s manuscripts and letters by Ada Lovelace. Or visit the Sound Gallery, a free immersive experience where you can listen to some of the 7 million sounds in the Library\'s collection, handpicked by curators.\n-->
-<!--    The Library also hosts a lively, ever-changing programme of talks, courses, Lates and family events inspired by both its exhibitions and diverse collection. Top off your visit by stopping for a bite to eat in one of the cafes or the restaurant. And pick up the perfect keepsake at the Shop, stocked with gifts for the curious and literary minded.\n-->
-<!--    This content has been supplied by British Library-->
-<!--</string>-->
-
-<!--     &lt;!&ndash; Category 3 for London City / Transport for London &ndash;&gt;-->
-<!--    <string name="attraction_">The London Underground rail network, also called "the Tube"</string>-->
-<!--    <string name="attraction_detail">-->
-<!--    The London Underground rail network, also called "the Tube," is a great way to travel to, from and around central London.\n-->
-<!--    Greater London is served by 11 Tube lines, along with the Docklands Light Railway (DLR), the London Overground, the Elizabeth line and National Rail services.\n-->
-<!--    London Underground trains generally run between 5am and midnight Monday to Saturday. Operating hours are slightly reduced on Sunday. Night Tube trains run on some lines throughout the night on Fridays and Saturdays.\n-->
-<!--    For more detailed travel information on which stations to use and suggestions for the best route to reach your destination, use Transport for London\'s Journey Planner.\n-->
-
-<!--    What are the London Underground zones?\n-->
-<!--    London\'s public transport network is divided into nine travel zones. Zone 1 is in central London and zones 6 to 9 are on the outskirts of the city.\n-->
-
-<!--    The Elizabeth line\n-->
-<!--    Hop onboard London’s Elizabeth line, which connects London Heathrow Airport and Reading to Shenfield and Abbey Wood via major central London Underground and rail stations, including Paddington, Liverpool Street and Canary Wharf stations.\n-->
-
-<!--    What are the London Tube prices?\n-->
-<!--    Buy a Visitor Oyster card*, Oyster card, Travelcard or use a contactless payment card to get the best value. A Visitor Oyster card is cheaper to purchase than a regular Oyster card and can be sent to your home address before you arrive in London.\n-->
-<!--    If your contactless payment card was issued outside the UK, check with your bank before you travel to see whether you\'ll incur additional transaction fees or charges.\n-->
-<!--    For more details about London Tube prices, see the Transport for London website.\n-->
-<!--    Various discounts are available for children, students and older travellers on the London Underground.\n-->
-<!--    Check out this guide to cheap travel for more money-saving tips when travelling in London.\n-->
-<!--    Find out more information about London Oyster cards with these frequently asked questions.\n-->
-<!--    If you plan on travelling around London to do some sightseeing and visit some of London\'s best attractions, a London Pass* could save you money.\n-->
-<!--</string>-->
-<!--    <string name="attraction_london_bus">London\'s iconic double-decker buses are a convenient and cheap way to travel around the city</string>-->
-<!--    <string name="attraction_london_bus_detail">-->
-<!--    London\'s iconic double-decker buses are a convenient and cheap way to travel around the city, with plenty of sightseeing opportunities along the way.\n-->
-<!--    London’s bus route network covers the entire city with a 24-hour service. Read on to find out all you need to know about bus travel in London.\n-->
-
-<!--    Pay your fare on cash-free London buses\n-->
-<!--    London buses are card only, so you cannot buy a ticket with cash.\n-->
-<!--    Use a Visitor Oyster card*, an Oyster card, a Travelcard or a contactless payment card to pay your fare.\n-->
-<!--    Unlike the Tube zone fare system, a single London bus journey costs £1.75 no matter how far you go. You can even take multiple buses within one hour at no extra charge thanks to the Hopper fare. No matter how many buses or trams you take in a day, it will never cost you more than £5.25 total – just make sure you use the same payment card for every journey.\n-->
-<!--    For contactless payment cards issued outside the UK, check with your bank to find out whether transaction fees or other charges apply.\n-->
-<!--    Paying your London bus fare is easy. Simply touch your Oyster card or contactless payment card on the yellow card reader as you board the bus or show the driver your paper Travelcard. To avoid card clash, make sure to only touch one card on the yellow reader and keep your other cards separate.\n-->
-<!--    If you don’t have enough credit on your Visitor Oyster card or Oyster card, you will be able to make one more journey on a bus before needing to top up.\n-->
-<!--    For more information about London bus fares, see the Transport for London website.\n-->
-<!--    Still not sure which travel ticket you need to buy? Unclear on how to use your Visitor Oyster card? Read our Oyster FAQs section for the answer to these and other Oyster-related questions.\n-->
-<!--</string>-->
-
-     <!-- Category 4 for London City / Theatre -->
-<!--    <string name="attraction_natural_history_museum">Delve into the history of planet Earth in the Natural History Museum’s galleries</string>-->
-<!--    <string name="attraction_warnerbros_studio_detail">-->
-<!--      Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.-->
-<!--      Studio Tour London The Making of Harry Potter. See first-hand the sets, costumes and props used in all the Harry Potter films, and step inside some of the films locations, including the Great Hall, Dumbledore\'s office and Hagrid\'s hut.-->
-<!--      It\'s the ultimate Harry Potter experience!-->
-<!--    </string>-->
-
-<!--     &lt;!&ndash; Category 5 for London City / Sports Venue &ndash;&gt;-->
-<!--    <string name="attraction_natural_history_museum">Delve into the history of planet Earth in the Natural History Museum’s galleries</string>-->
-<!--    <string name="attraction_warnerbros_studio_detail">-->
-<!--      Have a magical day out with a behind-the-scenes tour of the Harry Potter films at Warner Bros.-->
-<!--      Studio Tour London The Making of Harry Potter. See first-hand the sets, costumes and props used in all the Harry Potter films, and step inside some of the films locations, including the Great Hall, Dumbledore\'s office and Hagrid\'s hut.-->
-<!--      It\'s the ultimate Harry Potter experience!-->
-<!--    </string>-->
-<!--     <string name="back_button">Back</string>-->
 </resources>

@@ -70,14 +70,14 @@ fun LondonCategoryPage(
                 Text(
                     text = stringResource(londonCategory.title),
                     style = MaterialTheme.typography.displayMedium,
-                    color = Color(0xFFF9E795),
+                    color = Color(0xFFFFBB00),
                     modifier = Modifier.padding(bottom = dimensionResource(R.dimen.card_text_vertical_space))
                 )
                 //Spacer(Modifier.weight(1f))
                 Text(
                     text = stringResource(londonCategory.subtitle),
                     style = MaterialTheme.typography.labelSmall,
-                    color = Color(0xFFF8AAAE5),
+                    color = Color(0xFF7094D4),
                     overflow = TextOverflow.Ellipsis,
                     minLines = 3
                 )
