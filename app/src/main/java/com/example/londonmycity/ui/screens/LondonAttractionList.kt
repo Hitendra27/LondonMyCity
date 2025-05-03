@@ -39,6 +39,7 @@ import com.example.londonmycity.ui.theme.LondonMyCityTheme
 @Composable
 fun LondonAttractionList(
     londonAttractions: List<LondonAttraction>,
+    onItemClick: (LondonAttraction) -> Unit,
     modifier: Modifier = Modifier,
     contentPadding: PaddingValues = PaddingValues(0.dp),
 ) {
@@ -53,7 +54,7 @@ fun LondonAttractionList(
                 title = stringResource(id = attraction.titleResourceId),
                 subtitle = stringResource(id = attraction.subtitleResourceId),
                 image = attraction.imageResourceId,
-                onClick = { },
+                onClick = { onItemClick(attraction) },
                 modifier = modifier
             )
         }
@@ -141,6 +142,7 @@ fun LondonAttractionListPreview() {
         Surface {
             LondonAttractionList(
                 londonAttractions = LocalCategoryDataProvider.getCategoryData()[0].attraction,
+                onItemClick = {},
             )
         }
     }

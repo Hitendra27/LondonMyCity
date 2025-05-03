@@ -41,6 +41,7 @@ import com.example.londonmycity.model.LondonAttraction
 import com.example.londonmycity.model.LondonCategory
 import com.example.londonmycity.ui.screens.LondonAttractionList
 import com.example.londonmycity.ui.screens.LondonCategoryList
+import com.example.londonmycity.ui.screens.LondonDetail
 import com.example.londonmycity.ui.theme.LondonMyCityTheme
 
 
@@ -56,42 +57,62 @@ fun LondonApp() {
         topBar = { LondonTopAppBar(
             londonCategory =  uiState.currentCategory,
             isShowingListPage = uiState.isShowingListPage,
-            onBackButtonClick = { viewModel.navigateToListPage()
+            onBackButtonClick = {
+                if (uiState.isShowingDetailPage) {
+                    viewModel.navigateToAttractionList()
+                } else {
+                    viewModel.navigateToListPage()
+                }
             }
         ) },
 
         ) { innerPadding ->
-            if (uiState.isShowingListPage) {
-                LondonCategoryList(
-                    londonCategories = uiState.londonCategoryList,
-                    onClick = {
-                        viewModel.updateCurrentCategory(it)
-                        viewModel.navigateToAttractionPage()
-                    },
+        if (uiState.isShowingDetailPage) { //check this first
+            val selectedAttraction = uiState.selectedAttraction
+            if (selectedAttraction != null) {
+                LondonDetail(
+                    selectedAttraction = selectedAttraction,
+                    onBackButtonClick = { viewModel.navigateToListPage() },
                     contentPadding = innerPadding,
                     modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(
-                            top = dimensionResource(R.dimen.padding_medium),
-                            start = dimensionResource(R.dimen.padding_medium),
-                            end = dimensionResource(R.dimen.padding_medium)
-                        )
+                        .fillMaxSize()
                 )
-            } else {
-                LondonAttractionList(
-                    londonAttractions = uiState.currentCategory.attraction,
-                    contentPadding = innerPadding,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(
-                            start = dimensionResource(R.dimen.padding_small),
-                            end = dimensionResource(R.dimen.padding_small)
-                        )
-                )
-
             }
+        } else if (uiState.isShowingListPage) { //check this after
+            LondonCategoryList(
+                londonCategories = uiState.londonCategoryList,
+                onClick = {
+                    viewModel.updateCurrentCategory(it)
+                    viewModel.navigateToAttractionPage()
+                },
+                contentPadding = innerPadding,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(
+                        top = dimensionResource(R.dimen.padding_medium),
+                        start = dimensionResource(R.dimen.padding_medium),
+                        end = dimensionResource(R.dimen.padding_medium)
+                    )
+            )
+        }
+        else { //the last one
+            LondonAttractionList(
+                londonAttractions = uiState.currentCategory.attraction,
+                contentPadding = innerPadding,
+                onItemClick = {
+                    viewModel.navigateToDetailPage(it)
+                },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(
+                        start = dimensionResource(R.dimen.padding_small),
+                        end = dimensionResource(R.dimen.padding_small)
+                    )
+            )
+
+        }
     }
-    }
+}
 
 
 @OptIn(ExperimentalMaterial3Api::class)
